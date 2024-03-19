@@ -1,0 +1,127 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+)
+
+type CompFramework struct {
+	Framework string
+	Provider  string
+	Standards Standard
+}
+
+// Standard represents a compliance standard within the framework
+type Standard struct {
+	Name       string
+	Checks     map[string][]string
+	Section    string
+	SubSection string
+}
+var provider = "AWS"
+	var framework = "NIST-800-53-Revision-4"
+file.WriteString(fmt.Sprintf("\t\tProvider: \"%s\",\n", provider))
+		file.WriteString(fmt.Sprintf("\t\tFramework: \"%s\",\n", framework))
+// Custom unmarshal function for CompFramework
+func (c *CompFramework) UnmarshalJSON(data []byte) error {
+	var temp struct {
+		Framework   string `json:"Framework"`
+		Provider    string `json:"Provider"`
+		Requirements []struct {
+			Id          string `json:"Id"`
+			Name        string `json:"Name"`
+			Description string `json:"Description"`
+			Attributes  []struct {
+				ItemId     string `json:"ItemId"`
+				Section    string `json:"Section"`
+				SubSection string `json:"SubSection,omitempty"`
+				Service    string `json:"Service"`
+			} `json:"Attributes"`
+			Checks []string `json:"Checks"`
+		} `json:"Requirements"`
+	}
+
+	if err := json.Unmarshal(data, &temp); err != nil {
+		return err
+	}
+
+	c.Framework = temp.Framework
+	c.Provider = temp.Provider
+	c.Standards.Checks = make(map[string][]string)
+
+	for _, req := range temp.Requirements {
+		c.Standards.Name = req.Name
+		c.Standards.Section = req.Attributes[0].Section
+		c.Standards.SubSection = req.Attributes[0].SubSection
+
+		checks := make([]string, len(req.Checks))
+		copy(checks, req.Checks)
+
+		c.Standards.Checks[req.Id] = checks
+	}
+
+	return nil
+}
+
+func main() {
+	// JSON data
+	jsonData := `{
+		"Framework": "NIST-800-53-Revision-4",
+		"Provider": "AWS",
+		"Requirements": [
+			{
+				"Id": "ac_2_1",
+				"Name": "AC-2(1) Automated System Account Management",
+				"Description": "Access control policies...",
+				"Attributes": [
+					{
+						"ItemId": "ac_2_1",
+						"Section": "Access Control (AC)",
+						"SubSection": "Account Management (AC-2)",
+						"Service": "aws"
+					}
+				],
+				"Checks": [
+					"guardduty_is_enabled",
+					"iam_password_policy_reuse_24"
+				]
+			},
+			{
+				"Id": "ac_2_3",
+				"Name": "AC-2(3) Disable Inactive Accounts",
+				"Description": "The information system automatically disables inactive accounts after 90 days for user accounts.",
+				"Attributes": [
+					{
+						"ItemId": "ac_2_3",
+						"Section": "Access Control (AC)",
+						"SubSection": "Account Management (AC-2)",
+						"Service": "aws"
+					}
+				],
+				"Checks": [
+					"iam_user_accesskey_unused",
+					"iam_user_console_access_unused"
+				]
+			}
+		]
+	}`
+
+	// Unmarshal JSON data into CompFramework
+	var compFramework CompFramework
+	err := json.Unmarshal([]byte(jsonData), &compFramework)
+	if err != nil {
+		fmt.Println("Error:", err)
+		return
+	}
+
+	// Print the unmarshalled data
+	fmt.Printf("Framework: %s\n", compFramework.Framework)
+	fmt.Printf("Provider: %s\n", compFramework.Provider)
+	fmt.Printf("Standard Name: %s\n", compFramework.Standards.Name)
+	fmt.Printf("Section: %s\n", compFramework.Standards.Section)
+	fmt.Printf("SubSection: %s\n", compFramework.Standards.SubSection)
+	fmt.Println("Checks:")
+	for id, checks := range compFramework.Standards.Checks {
+		fmt.Printf("  %s: %v\n", id, checks)
+	}
+}

@@ -1,0 +1,174 @@
+{
+    "Iops": null,
+    "DBName": "dev",
+    "Engine": "postgres",
+    "MultiAZ": false,
+    "TagList": [
+      {
+        "Key": "env_type",
+        "Value": "tenant"
+      },
+      {
+        "Key": "terraform",
+        "Value": "true"
+      },
+      {
+        "Key": "Name",
+        "Value": "mit-acme-stage"
+      }
+    ],
+    "Endpoint": {
+      "Port": 5432,
+      "Address": "mit-acme-stage-20240213093151102200000001.c7tubtqy0i7a.us-west-2.rds.amazonaws.com",
+      "HostedZoneId": "Z1PVIF0B656C1W"
+    },
+    "KmsKeyId": "arn:aws:kms:us-west-2:495462907305:key/16a00e97-d48d-4609-8651-617c5d7d3a7d",
+    "Timezone": null,
+    "DBSystemId": null,
+    "MultiTenant": null,
+    "NetworkType": "DUAL",
+    "ReplicaMode": "",
+    "StatusInfos": null,
+    "StorageType": "gp2",
+    "BackupTarget": "region",
+    "LicenseModel": "postgresql-license",
+    "DBInstanceArn": "arn:aws:rds:us-west-2:495462907305:db:mit-acme-stage-20240213093151102200000001",
+    "DBSubnetGroup": {
+      "VpcId": "vpc-0cf5bc2396740adad",
+      "Subnets": [
+        {
+          "SubnetStatus": "Active",
+          "SubnetOutpost": {
+            "Arn": null
+          },
+          "SubnetIdentifier": "subnet-043a91caa8ea004c8",
+          "SubnetAvailabilityZone": {
+            "Name": "us-west-2b"
+          }
+        },
+        {
+          "SubnetStatus": "Active",
+          "SubnetOutpost": {
+            "Arn": null
+          },
+          "SubnetIdentifier": "subnet-00bff6fc35c5075ef",
+          "SubnetAvailabilityZone": {
+            "Name": "us-west-2a"
+          }
+        }
+      ],
+      "DBSubnetGroupArn": null,
+      "DBSubnetGroupName": "mit-acme-stage",
+      "SubnetGroupStatus": "Complete",
+      "SupportedNetworkTypes": null,
+      "DBSubnetGroupDescription": "Database subnet group for mit-acme-stage"
+    },
+    "DbiResourceId": "db-MJAW3TDZHRZJZ5GONZEBNNNWW4",
+    "EngineVersion": "14.10",
+    "PromotionTier": null,
+    "AutomationMode": "",
+    "DbInstancePort": 0,
+    "MasterUsername": "manifestTenantacmestage",
+    "AssociatedRoles": [],
+    "DBInstanceClass": "db.t4g.micro",
+    "PercentProgress": null,
+    "AllocatedStorage": 20,
+    "AvailabilityZone": "us-west-2b",
+    "CharacterSetName": null,
+    "DBInstanceStatus": "available",
+    "DBSecurityGroups": [],
+    "ListenerEndpoint": null,
+    "MasterUserSecret": null,
+    "StorageEncrypted": true,
+    "TdeCredentialArn": null,
+    "DBParameterGroups": [
+      {
+        "DBParameterGroupName": "default.postgres14",
+        "ParameterApplyStatus": "in-sync"
+      }
+    ],
+    "DomainMemberships": [],
+    "MonitoringRoleArn": null,
+    "ProcessorFeatures": null,
+    "StorageThroughput": 0,
+    "VpcSecurityGroups": [
+      {
+        "Status": "active",
+        "VpcSecurityGroupId": "sg-0b6b9d243216b14f2"
+      }
+    ],
+    "ActivityStreamMode": "",
+    "CertificateDetails": {
+      "ValidTill": "2025-02-12T09:33:42Z",
+      "CAIdentifier": "rds-ca-rsa2048-g1"
+    },
+    "CopyTagsToSnapshot": false,
+    "DedicatedLogVolume": false,
+    "DeletionProtection": false,
+    "InstanceCreateTime": "2024-02-13T09:35:02.592Z",
+    "MonitoringInterval": 0,
+    "PubliclyAccessible": false,
+    "DBClusterIdentifier": null,
+    "MaxAllocatedStorage": null,
+    "ActivityStreamStatus": "stopped",
+    "AutomaticRestartTime": null,
+    "DBInstanceIdentifier": "mit-acme-stage-20240213093151102200000001",
+    "LatestRestorableTime": "2024-03-05T13:34:32Z",
+    "BackupRetentionPeriod": 2,
+    "NcharCharacterSetName": null,
+    "PendingModifiedValues": {
+      "Iops": null,
+      "Port": null,
+      "Engine": null,
+      "MultiAZ": null,
+      "MultiTenant": null,
+      "StorageType": null,
+      "LicenseModel": null,
+      "EngineVersion": null,
+      "AutomationMode": "",
+      "DBInstanceClass": null,
+      "AllocatedStorage": null,
+      "DBSubnetGroupName": null,
+      "ProcessorFeatures": null,
+      "StorageThroughput": null,
+      "DedicatedLogVolume": null,
+      "MasterUserPassword": null,
+      "DBInstanceIdentifier": null,
+      "BackupRetentionPeriod": null,
+      "CACertificateIdentifier": null,
+      "PendingCloudwatchLogsExports": null,
+      "ResumeFullAutomationModeTime": null,
+      "IAMDatabaseAuthenticationEnabled": null
+    },
+    "PreferredBackupWindow": "03:00-06:00",
+    "ActivityStreamKmsKeyId": null,
+    "CustomerOwnedIpEnabled": false,
+    "OptionGroupMemberships": [
+      {
+        "Status": "in-sync",
+        "OptionGroupName": "default:postgres-14"
+      }
+    ],
+    "AutoMinorVersionUpgrade": true,
+    "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+    "CustomIamInstanceProfile": null,
+    "AwsBackupRecoveryPointArn": null,
+    "SecondaryAvailabilityZone": null,
+    "ActivityStreamPolicyStatus": "",
+    "PerformanceInsightsEnabled": false,
+    "PreferredMaintenanceWindow": "mon:00:00-mon:03:00",
+    "PerformanceInsightsKMSKeyId": null,
+    "EnabledCloudwatchLogsExports": null,
+    "ResumeFullAutomationModeTime": null,
+    "EnhancedMonitoringResourceArn": null,
+    "ActivityStreamKinesisStreamName": null,
+    "IsStorageConfigUpgradeAvailable": false,
+    "ReadReplicaDBClusterIdentifiers": null,
+    "IAMDatabaseAuthenticationEnabled": false,
+    "ReadReplicaDBInstanceIdentifiers": [],
+    "PerformanceInsightsRetentionPeriod": null,
+    "ReadReplicaSourceDBClusterIdentifier": null,
+    "ReadReplicaSourceDBInstanceIdentifier": null,
+    "DBInstanceAutomatedBackupsReplications": null,
+    "ActivityStreamEngineNativeAuditFieldsIncluded": null
+  }
