@@ -1,0 +1,206 @@
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+	"strings"
+)
+
+type CFramework struct {
+	Framework    string  `json:"Framework"`
+	Version      string  `json:"Version"`
+	Provider     string  `json:"Provider"`
+	Description  string  `json:"Description"`
+	Requirements []check `json:"Requirements"`
+}
+
+type check struct {
+	Id          string `json:"Id"`
+	Description string `json:"Description"`
+	Attributes  []struct {
+		ItemId                    string `json:"ItemId"`
+		WellArchitectedQuestionId string `json:"WellArchitectedQuestionId"`
+		WellArchitectedPracticeId string `json:"WellArchitectedPracticeId"`
+		Section                   string `json:"Section"`
+		SubSection                string `json:"SubSection"`
+		LevelOfRisk               string `json:"LevelOfRisk"`
+		AssessmentMethod          string `json:"AssessmentMethod"`
+
+		ImplementationGuidanceUrl string `json:"ImplementationGuidanceUrl"`
+	} `json:"Attributes"`
+	Checks []string `json:"Checks"`
+}
+
+func main() {
+	// JSON data
+	jsonData := `{
+		"Framework": "AWS-Well-Architected-Framework-Reliability-Pillar",
+		"Version": "",
+		"Provider": "AWS",
+		"Description": "Best Practices for the AWS Well-Architected Framework Reliability Pillar encompasses the ability of a workload to perform its intended function correctly and consistently when it’s expected to. This includes the ability to operate and test the workload through its total lifecycle.",
+		"Requirements": [
+		  {
+			"Id": "REL09-BP03",
+			"Description": "Configure backups to be taken automatically based on a periodic schedule informed by the Recovery Point Objective (RPO), or by changes in the dataset. Critical datasets with low data loss requirements need to be backed up automatically on a frequent basis, whereas less critical data where some loss is acceptable can be backed up less frequently.",
+			"Attributes": [
+			  {
+				"Name": "REL09-BP03 Perform data backup automatically",
+				"WellArchitectedQuestionId": "backing-up-data",
+				"WellArchitectedPracticeId": "rel_backing_up_data_automated_backups_data",
+				"Section": "Failure management",
+				"SubSection": "Backup up data",
+				"LevelOfRisk": "High",
+				"AssessmentMethod": "Automated",
+				"Description": "Configure backups to be taken automatically based on a periodic schedule informed by the Recovery Point Objective (RPO), or by changes in the dataset. Critical datasets with low data loss requirements need to be backed up automatically on a frequent basis, whereas less critical data where some loss is acceptable can be backed up less frequently.",
+				"ImplementationGuidanceUrl": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_backing_up_data_automated_backups_data.html#implementation-guidance"
+			  }
+			],
+			"Checks": [
+			  "cloudformation_stacks_termination_protection_enabled",
+			  "rds_instance_backup_enabled",
+			  "rds_instance_deletion_protection",
+			  "dynamodb_tables_pitr_enabled"
+			]
+		  },
+		  {
+			"Id": "REL06-BP01",
+			"Description": "Monitor components and services of AWS workload effectifely, using tools like Amazon CloudWatch and AWS Health Dashboard. Define relevant metrics, set thresholds, and analyze metrics and logs for early detection of issues.",
+			"Attributes": [
+			  {
+				"Name": "REL06-BP01 Monitor all components for the workload (Generation)",
+				"WellArchitectedQuestionId": "monitor-aws-resources",
+				"WellArchitectedPracticeId": "rel_monitor_aws_resources_monitor_resources",
+				"Section": "Change management",
+				"SubSection": "Monitor workload resources",
+				"LevelOfRisk": "High",
+				"AssessmentMethod": "Automated",
+				"Description": "Monitor components and services of AWS workload effectifely, using tools like Amazon CloudWatch and AWS Health Dashboard. Define relevant metrics, set thresholds, and analyze metrics and logs for early detection of issues.",
+				"ImplementationGuidanceUrl": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_monitor_aws_resources_monitor_resources.html#implementation-guidance"
+			  }
+			],
+			"Checks": [
+			  "apigateway_restapi_logging_enabled",
+			  "apigatewayv2_api_access_logging_enabled",
+			  "awslambda_function_invoke_api_operations_cloudtrail_logging_enabled",
+			  "cloudtrail_cloudwatch_logging_enabled",
+			  "elb_logging_enabled",
+			  "opensearch_service_domains_audit_logging_enabled",
+			  "opensearch_service_domains_cloudwatch_logging_enabled",
+			  "rds_instance_enhanced_monitoring_enabled",
+			  "rds_instance_integration_cloudwatch_logs"
+			]
+		  },
+		  {
+			"Id": "REL10-BP01",
+			"Description": "Distribute workload data and resources across multiple Availability Zones or, where necessary, across AWS Regions. These locations can be as diverse as required.",
+			"Attributes": [
+			  {
+				"Name": "REL10-BP01 Deploy the workload to multiple locations",
+				"WellArchitectedQuestionId": "fault-isolation",
+				"WellArchitectedPracticeId": "rel_fault_isolation_multiaz_region_system",
+				"Section": "Failure management",
+				"SubSection": "Use fault isolation to protect your workload",
+				"LevelOfRisk": "High",
+				"AssessmentMethod": "Automated",
+				"Description": "Distribute workload data and resources across multiple Availability Zones or, where necessary, across AWS Regions. These locations can be as diverse as required.",
+				"ImplementationGuidanceUrl": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/use-fault-isolation-to-protect-your-workload.html#implementation-guidance."
+			  }
+			],
+			"Checks": [
+			  "rds_instance_multi_az"
+			]
+		  }
+		]
+	  }
+	  `
+	var comp CFramework
+	err := json.Unmarshal([]byte(jsonData), &comp)
+	if err != nil {
+		fmt.Println("Error:", err)
+		return
+	}
+
+	// Create a new Go file and write the contents
+	file, err := os.Create("requirements.go")
+	if err != nil {
+		fmt.Println("Error:", err)
+		return
+	}
+	defer file.Close()
+
+	// Write package declaration
+	file.WriteString("package main\n\n")
+
+	// Write struct definitions
+	file.WriteString("type NistComp struct {\n")
+	file.WriteString("\tProvider string\n")
+	file.WriteString("\tFramework string\n")
+	file.WriteString("\tFrameworkdesc string\n")
+	file.WriteString("\tId string\n")
+	file.WriteString("\tDescription string\n")
+	file.WriteString("\tItemId string\n")
+	file.WriteString("\tWellArchitectedQuestionId string\n")
+	file.WriteString("\tWellArchitectedPracticeId string\n")
+	file.WriteString("\tSection string\n")
+	file.WriteString("\tSubSection string\n")
+	file.WriteString("\tLevelOfRisk string\n")
+	file.WriteString("\tAssessmentMethod string\n")
+
+	file.WriteString("\tImplementationGuidanceUrl string\n")
+	file.WriteString("\tChecks []string\n")
+	file.WriteString("}\n\n")
+
+	// Write requirements list
+	// file.WriteString("var Requirements = []Requirement{\n")
+	var provider = "AWS"
+	var framework = "AWS-Well-Architected-Framework-Reliability-Pillar"
+	var Frameworkdesc = "Best Practices for the AWS Well-Architected Framework Reliability Pillar encompasses the ability of a workload to perform its intended function correctly and consistently when it’s expected to. This includes the ability to operate and test the workload through its total lifecycle."
+	var i int64
+	for _, req := range comp.Requirements {
+		i++
+		// file.WriteString(fmt.Sprintf("\tvar frame_reliablity_%s = &NistComp{\n", req.Id))
+		replacer := strings.NewReplacer(" ", "_", "-", "_", ",", "_")
+		file.WriteString(fmt.Sprintf("\tvar frame_reliablity_%s = &NistComp{\n", replacer.Replace(req.Id)))
+		file.WriteString(fmt.Sprintf("\t\tFramework: \"%s\",\n", framework))
+		file.WriteString(fmt.Sprintf("\t\tProvider: \"%s\",\n", provider))
+		file.WriteString(fmt.Sprintf("\t\tFrameworkdesc: \"%s\",\n", Frameworkdesc))
+		file.WriteString(fmt.Sprintf("\t\tId: \"%s\",\n", req.Id))
+		file.WriteString(fmt.Sprintf("\t\tDescription: \"%s\",\n", req.Description))
+		// file.WriteString(fmt.Sprintf("\t\tAttributes: []struct {\n"))
+		for _, attr := range req.Attributes {
+			if attr.ItemId != "" {
+				file.WriteString(fmt.Sprintf("\t\tItemId: \"%s\",\n", attr.ItemId))
+			}
+			if attr.WellArchitectedQuestionId != "" {
+				file.WriteString(fmt.Sprintf("\t\tWellArchitectedQuestionId: \"%s\",\n", attr.WellArchitectedQuestionId))
+			}
+			if attr.WellArchitectedPracticeId != "" {
+				file.WriteString(fmt.Sprintf("\t\tWellArchitectedPracticeId: \"%s\",\n", attr.WellArchitectedPracticeId))
+			}
+			if attr.Section != "" {
+				file.WriteString(fmt.Sprintf("\t\tSection: \"%s\",\n", attr.Section))
+			}
+			if attr.SubSection != "" {
+				file.WriteString(fmt.Sprintf("\t\tSubSection: \"%s\",\n", attr.SubSection))
+			}
+			if attr.LevelOfRisk != "" {
+				file.WriteString(fmt.Sprintf("\t\tLevelOfRisk: \"%s\",\n", attr.LevelOfRisk))
+			}
+			if attr.AssessmentMethod != "" {
+				file.WriteString(fmt.Sprintf("\t\tAssessmentMethod: \"%s\",\n", attr.AssessmentMethod))
+			}
+
+			if attr.ImplementationGuidanceUrl != "" {
+				file.WriteString(fmt.Sprintf("\t\tImplementationGuidanceUrl: \"%s\",\n", attr.ImplementationGuidanceUrl))
+			}
+
+		}
+		// file.WriteString(fmt.Sprintf("\t\t},\n"))
+		file.WriteString(fmt.Sprintf("\t\tChecks: %#v,\n", req.Checks))
+		file.WriteString(fmt.Sprintf("\t}\n"))
+
+	}
+	fmt.Println(i)
+
+}
