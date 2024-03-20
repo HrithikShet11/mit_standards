@@ -520,7 +520,7 @@ func main() {
 		i++
 		// file.WriteString(fmt.Sprintf("\tvar GxP_EU_%s = &NistComp{\n", req.Id))
 		replacer := strings.NewReplacer(" ", "_", ".", "_", "-", "_")
-		file.WriteString(fmt.Sprintf("\tvar FedRamp_Low%s = &NistComp{\n", replacer.Replace(req.Id)))
+		file.WriteString(fmt.Sprintf("\tvar FedRamp_Low_%s = &NistComp{\n", replacer.Replace(req.Id)))
 		file.WriteString(fmt.Sprintf("\t\tFramework: \"%s\",\n", framework))
 		file.WriteString(fmt.Sprintf("\t\tProvider: \"%s\",\n", provider))
 		file.WriteString(fmt.Sprintf("\t\tFrameworkdesc: \"%s\",\n", Frameworkdesc))
