@@ -21,7 +21,7 @@ type MitreComp struct {
 	Attributes    []Attribute `json:"Attributes"`
 }
 
-var mitre_T1190 = &MitreComp{
+var Mitre_T1190 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -84,7 +84,7 @@ var mitre_T1190 = &MitreComp{
 		},
 	},
 }
-var mitre_T1199 = &MitreComp{
+var Mitre_T1199 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -105,7 +105,7 @@ var mitre_T1199 = &MitreComp{
 		},
 	},
 }
-var mitre_T1078 = &MitreComp{
+var Mitre_T1078 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -180,7 +180,7 @@ var mitre_T1078 = &MitreComp{
 		},
 	},
 }
-var mitre_T1059 = &MitreComp{
+var Mitre_T1059 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -201,7 +201,7 @@ var mitre_T1059 = &MitreComp{
 		},
 	},
 }
-var mitre_T1648 = &MitreComp{
+var Mitre_T1648 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -222,7 +222,7 @@ var mitre_T1648 = &MitreComp{
 		},
 	},
 }
-var mitre_T1204 = &MitreComp{
+var Mitre_T1204 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -243,7 +243,7 @@ var mitre_T1204 = &MitreComp{
 		},
 	},
 }
-var mitre_T1098 = &MitreComp{
+var Mitre_T1098 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -282,7 +282,7 @@ var mitre_T1098 = &MitreComp{
 		},
 	},
 }
-var mitre_T1136 = &MitreComp{
+var Mitre_T1136 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -303,7 +303,7 @@ var mitre_T1136 = &MitreComp{
 		},
 	},
 }
-var mitre_T1546 = &MitreComp{
+var Mitre_T1546 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -317,7 +317,7 @@ var mitre_T1546 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1651 = &MitreComp{
+var Mitre_T1651 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -331,7 +331,7 @@ var mitre_T1651 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1525 = &MitreComp{
+var Mitre_T1525 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -352,7 +352,7 @@ var mitre_T1525 = &MitreComp{
 		},
 	},
 }
-var mitre_T1556 = &MitreComp{
+var Mitre_T1556 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -373,7 +373,7 @@ var mitre_T1556 = &MitreComp{
 		},
 	},
 }
-var mitre_T1562 = &MitreComp{
+var Mitre_T1562 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -406,7 +406,7 @@ var mitre_T1562 = &MitreComp{
 		},
 	},
 }
-var mitre_T1578 = &MitreComp{
+var Mitre_T1578 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -427,7 +427,7 @@ var mitre_T1578 = &MitreComp{
 		},
 	},
 }
-var mitre_T1535 = &MitreComp{
+var Mitre_T1535 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -441,7 +441,7 @@ var mitre_T1535 = &MitreComp{
 	Checks:        []string{"organizations_scp_check_deny_regions"},
 	Attributes:    []Attribute{},
 }
-var mitre_T1550 = &MitreComp{
+var Mitre_T1550 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -462,7 +462,7 @@ var mitre_T1550 = &MitreComp{
 		},
 	},
 }
-var mitre_T1110 = &MitreComp{
+var Mitre_T1110 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -519,7 +519,7 @@ var mitre_T1110 = &MitreComp{
 		},
 	},
 }
-var mitre_T1606 = &MitreComp{
+var Mitre_T1606 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -540,7 +540,7 @@ var mitre_T1606 = &MitreComp{
 		},
 	},
 }
-var mitre_T1621 = &MitreComp{
+var Mitre_T1621 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -554,7 +554,7 @@ var mitre_T1621 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1040 = &MitreComp{
+var Mitre_T1040 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -599,7 +599,7 @@ var mitre_T1040 = &MitreComp{
 		},
 	},
 }
-var mitre_T1552 = &MitreComp{
+var Mitre_T1552 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -656,7 +656,7 @@ var mitre_T1552 = &MitreComp{
 		},
 	},
 }
-var mitre_T1048 = &MitreComp{
+var Mitre_T1048 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -695,7 +695,7 @@ var mitre_T1048 = &MitreComp{
 		},
 	},
 }
-var mitre_T1537 = &MitreComp{
+var Mitre_T1537 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -716,7 +716,7 @@ var mitre_T1537 = &MitreComp{
 		},
 	},
 }
-var mitre_T1119 = &MitreComp{
+var Mitre_T1119 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -737,7 +737,7 @@ var mitre_T1119 = &MitreComp{
 		},
 	},
 }
-var mitre_T1530 = &MitreComp{
+var Mitre_T1530 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -806,7 +806,7 @@ var mitre_T1530 = &MitreComp{
 		},
 	},
 }
-var mitre_T1213 = &MitreComp{
+var Mitre_T1213 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -820,7 +820,7 @@ var mitre_T1213 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1074 = &MitreComp{
+var Mitre_T1074 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -834,7 +834,7 @@ var mitre_T1074 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1485 = &MitreComp{
+var Mitre_T1485 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -897,7 +897,7 @@ var mitre_T1485 = &MitreComp{
 		},
 	},
 }
-var mitre_T1486 = &MitreComp{
+var Mitre_T1486 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -936,7 +936,7 @@ var mitre_T1486 = &MitreComp{
 		},
 	},
 }
-var mitre_T1491 = &MitreComp{
+var Mitre_T1491 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -969,7 +969,7 @@ var mitre_T1491 = &MitreComp{
 		},
 	},
 }
-var mitre_T1499 = &MitreComp{
+var Mitre_T1499 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1008,7 +1008,7 @@ var mitre_T1499 = &MitreComp{
 		},
 	},
 }
-var mitre_T1490 = &MitreComp{
+var Mitre_T1490 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1041,7 +1041,7 @@ var mitre_T1490 = &MitreComp{
 		},
 	},
 }
-var mitre_T1496 = &MitreComp{
+var Mitre_T1496 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1080,7 +1080,7 @@ var mitre_T1496 = &MitreComp{
 		},
 	},
 }
-var mitre_T1498 = &MitreComp{
+var Mitre_T1498 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1125,7 +1125,7 @@ var mitre_T1498 = &MitreComp{
 		},
 	},
 }
-var mitre_T1087 = &MitreComp{
+var Mitre_T1087 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1146,7 +1146,7 @@ var mitre_T1087 = &MitreComp{
 		},
 	},
 }
-var mitre_T1580 = &MitreComp{
+var Mitre_T1580 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1185,7 +1185,7 @@ var mitre_T1580 = &MitreComp{
 		},
 	},
 }
-var mitre_T1538 = &MitreComp{
+var Mitre_T1538 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1212,7 +1212,7 @@ var mitre_T1538 = &MitreComp{
 		},
 	},
 }
-var mitre_T1526 = &MitreComp{
+var Mitre_T1526 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1233,7 +1233,7 @@ var mitre_T1526 = &MitreComp{
 		},
 	},
 }
-var mitre_T1619 = &MitreComp{
+var Mitre_T1619 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1254,7 +1254,7 @@ var mitre_T1619 = &MitreComp{
 		},
 	},
 }
-var mitre_T1046 = &MitreComp{
+var Mitre_T1046 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1305,7 +1305,7 @@ var mitre_T1046 = &MitreComp{
 		},
 	},
 }
-var mitre_T1201 = &MitreComp{
+var Mitre_T1201 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1326,7 +1326,7 @@ var mitre_T1201 = &MitreComp{
 		},
 	},
 }
-var mitre_T1049 = &MitreComp{
+var Mitre_T1049 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1340,7 +1340,7 @@ var mitre_T1049 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1614 = &MitreComp{
+var Mitre_T1614 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1354,7 +1354,7 @@ var mitre_T1614 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1082 = &MitreComp{
+var Mitre_T1082 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1368,7 +1368,7 @@ var mitre_T1082 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1518 = &MitreComp{
+var Mitre_T1518 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",
@@ -1382,7 +1382,7 @@ var mitre_T1518 = &MitreComp{
 	Checks:        []string{},
 	Attributes:    []Attribute{},
 }
-var mitre_T1069 = &MitreComp{
+var Mitre_T1069 = &MitreComp{
 	Framework:     "MITRE-ATTACK",
 	Provider:      "AWS",
 	Frameworkdesc: "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.",

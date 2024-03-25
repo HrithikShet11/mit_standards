@@ -15,7 +15,7 @@ type NistComp struct {
 	Checks        []string
 }
 
-var nist_2_3_1_1 = &NistComp{
+var Nist_2_3_1_1 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -25,7 +25,7 @@ var nist_2_3_1_1 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_profile_attached", "ec2_instance_public_ip", "eks_endpoints_not_publicly_accessible", "emr_cluster_master_nodes_no_public_ip", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_1_2 = &NistComp{
+var Nist_2_3_1_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -35,7 +35,7 @@ var nist_2_3_1_2 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_profile_attached", "ec2_instance_public_ip", "eks_endpoints_not_publicly_accessible", "emr_cluster_master_nodes_no_public_ip", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_1_3 = &NistComp{
+var Nist_2_3_1_3 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -45,7 +45,7 @@ var nist_2_3_1_3 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "eks_endpoints_not_publicly_accessible", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_1_4 = &NistComp{
+var Nist_2_3_1_4 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -55,7 +55,7 @@ var nist_2_3_1_4 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_2_3_1_5 = &NistComp{
+var Nist_2_3_1_5 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -65,7 +65,7 @@ var nist_2_3_1_5 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_2_3_1_6 = &NistComp{
+var Nist_2_3_1_6 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -75,7 +75,7 @@ var nist_2_3_1_6 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key"},
 }
-var nist_2_3_1_7 = &NistComp{
+var Nist_2_3_1_7 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -85,7 +85,7 @@ var nist_2_3_1_7 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key"},
 }
-var nist_2_3_1_12 = &NistComp{
+var Nist_2_3_1_12 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -95,7 +95,7 @@ var nist_2_3_1_12 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_integration_cloudwatch_logs", "s3_bucket_server_access_logging_enabled", "securityhub_enabled"},
 }
-var nist_2_3_1_13 = &NistComp{
+var Nist_2_3_1_13 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -105,7 +105,7 @@ var nist_2_3_1_13 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"elb_ssl_listeners", "s3_bucket_secure_transport_policy"},
 }
-var nist_2_3_1_14 = &NistComp{
+var Nist_2_3_1_14 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -115,7 +115,7 @@ var nist_2_3_1_14 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "iam_user_mfa_enabled_console_access", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_1_20 = &NistComp{
+var Nist_2_3_1_20 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -125,7 +125,7 @@ var nist_2_3_1_20 = &NistComp{
 	Section:       "3.1 Access Control",
 	Checks:        []string{"s3_account_level_public_access_blocks", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_3_1 = &NistComp{
+var Nist_2_3_3_1 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -135,7 +135,7 @@ var nist_2_3_3_1 = &NistComp{
 	Section:       "3.3 Audit and Accountability",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_integration_cloudwatch_logs", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_2_3_3_2 = &NistComp{
+var Nist_2_3_3_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -145,7 +145,7 @@ var nist_2_3_3_2 = &NistComp{
 	Section:       "3.3 Audit and Accountability",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "guardduty_is_enabled", "rds_instance_integration_cloudwatch_logs", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_2_3_3_3 = &NistComp{
+var Nist_2_3_3_3 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -155,7 +155,7 @@ var nist_2_3_3_3 = &NistComp{
 	Section:       "3.3 Audit and Accountability",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_2_3_3_4 = &NistComp{
+var Nist_2_3_3_4 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -165,7 +165,7 @@ var nist_2_3_3_4 = &NistComp{
 	Section:       "3.3 Audit and Accountability",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_2_3_3_5 = &NistComp{
+var Nist_2_3_3_5 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -175,7 +175,7 @@ var nist_2_3_3_5 = &NistComp{
 	Section:       "3.3 Audit and Accountability",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_2_3_3_8 = &NistComp{
+var Nist_2_3_3_8 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -185,7 +185,7 @@ var nist_2_3_3_8 = &NistComp{
 	Section:       "3.3 Audit and Accountability",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "cloudwatch_log_group_kms_encryption_enabled", "s3_bucket_default_encryption", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_object_versioning", "s3_account_level_public_access_blocks"},
 }
-var nist_2_3_4_1 = &NistComp{
+var Nist_2_3_4_1 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -195,7 +195,7 @@ var nist_2_3_4_1 = &NistComp{
 	Section:       "3.4 Configuration Management",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "elbv2_deletion_protection", "ssm_managed_compliant_patching", "ec2_elastic_ip_unassigned", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_4_2 = &NistComp{
+var Nist_2_3_4_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -205,7 +205,7 @@ var nist_2_3_4_2 = &NistComp{
 	Section:       "3.4 Configuration Management",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "ssm_managed_compliant_patching"},
 }
-var nist_2_3_4_6 = &NistComp{
+var Nist_2_3_4_6 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -215,7 +215,7 @@ var nist_2_3_4_6 = &NistComp{
 	Section:       "3.4 Configuration Management",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_managed_by_ssm", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "awslambda_function_url_public", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "ssm_managed_compliant_patching", "ec2_securitygroup_default_restrict_traffic"},
 }
-var nist_2_3_4_7 = &NistComp{
+var Nist_2_3_4_7 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -225,7 +225,7 @@ var nist_2_3_4_7 = &NistComp{
 	Section:       "3.4 Configuration Management",
 	Checks:        []string{"ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_4_9 = &NistComp{
+var Nist_2_3_4_9 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -235,7 +235,7 @@ var nist_2_3_4_9 = &NistComp{
 	Section:       "3.4 Configuration Management",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_2_3_5_2 = &NistComp{
+var Nist_2_3_5_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -245,7 +245,7 @@ var nist_2_3_5_2 = &NistComp{
 	Section:       "3.5 Identification and Authentication",
 	Checks:        []string{"iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_2_3_5_3 = &NistComp{
+var Nist_2_3_5_3 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -255,7 +255,7 @@ var nist_2_3_5_3 = &NistComp{
 	Section:       "3.5 Identification and Authentication",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_2_3_5_5 = &NistComp{
+var Nist_2_3_5_5 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -265,7 +265,7 @@ var nist_2_3_5_5 = &NistComp{
 	Section:       "3.5 Identification and Authentication",
 	Checks:        []string{"iam_password_policy_reuse_24", "iam_password_policy_expires_passwords_within_90_days_or_less"},
 }
-var nist_2_3_5_6 = &NistComp{
+var Nist_2_3_5_6 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -275,7 +275,7 @@ var nist_2_3_5_6 = &NistComp{
 	Section:       "3.5 Identification and Authentication",
 	Checks:        []string{"iam_password_policy_reuse_24", "iam_password_policy_expires_passwords_within_90_days_or_less", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_2_3_5_7 = &NistComp{
+var Nist_2_3_5_7 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -285,7 +285,7 @@ var nist_2_3_5_7 = &NistComp{
 	Section:       "3.5 Identification and Authentication",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_password_policy_lowercase", "iam_password_policy_number", "iam_password_policy_symbol", "iam_password_policy_uppercase", "iam_password_policy_reuse_24", "iam_password_policy_expires_passwords_within_90_days_or_less", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_2_3_5_8 = &NistComp{
+var Nist_2_3_5_8 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -295,7 +295,7 @@ var nist_2_3_5_8 = &NistComp{
 	Section:       "3.5 Identification and Authentication",
 	Checks:        []string{"iam_password_policy_reuse_24", "iam_password_policy_expires_passwords_within_90_days_or_less", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_2_3_5_10 = &NistComp{
+var Nist_2_3_5_10 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -305,7 +305,7 @@ var nist_2_3_5_10 = &NistComp{
 	Section:       "3.5 Identification and Authentication",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "ec2_ebs_volume_encryption", "elbv2_insecure_ssl_ciphers", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy"},
 }
-var nist_2_3_6_1 = &NistComp{
+var Nist_2_3_6_1 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -315,7 +315,7 @@ var nist_2_3_6_1 = &NistComp{
 	Section:       "3.6 Incident Response",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "rds_instance_integration_cloudwatch_logs", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_2_3_6_2 = &NistComp{
+var Nist_2_3_6_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -325,7 +325,7 @@ var nist_2_3_6_2 = &NistComp{
 	Section:       "3.6 Incident Response",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "rds_instance_integration_cloudwatch_logs", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_2_3_11_2 = &NistComp{
+var Nist_2_3_11_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -335,7 +335,7 @@ var nist_2_3_11_2 = &NistComp{
 	Section:       "3.11 Risk Assessment",
 	Checks:        []string{"guardduty_is_enabled", "guardduty_no_high_severity_findings", "securityhub_enabled"},
 }
-var nist_2_3_11_3 = &NistComp{
+var Nist_2_3_11_3 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -345,7 +345,7 @@ var nist_2_3_11_3 = &NistComp{
 	Section:       "3.11 Risk Assessment",
 	Checks:        []string{"guardduty_is_enabled", "guardduty_no_high_severity_findings", "securityhub_enabled"},
 }
-var nist_2_3_12_4 = &NistComp{
+var Nist_2_3_12_4 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -355,7 +355,7 @@ var nist_2_3_12_4 = &NistComp{
 	Section:       "3.12 Assessment, Authorization, and Monitoring",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "ec2_instance_imdsv2_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "securityhub_enabled"},
 }
-var nist_2_3_13_1 = &NistComp{
+var Nist_2_3_13_1 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -365,7 +365,7 @@ var nist_2_3_13_1 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"acm_certificates_expiration_check", "apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_log_file_validation_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "elbv2_waf_acl_attached", "elb_ssl_listeners", "guardduty_is_enabled", "awslambda_function_not_publicly_accessible", "rds_instance_integration_cloudwatch_logs", "rds_instance_no_public_access", "redshift_cluster_public_access", "s3_bucket_secure_transport_policy", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_13_2 = &NistComp{
+var Nist_2_3_13_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -375,7 +375,7 @@ var nist_2_3_13_2 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"acm_certificates_expiration_check", "cloudtrail_multi_region_enabled", "dynamodb_tables_pitr_enabled", "ec2_ebs_public_snapshot", "ec2_instance_public_ip", "efs_have_backup_enabled", "elbv2_deletion_protection", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_backup_enabled", "rds_instance_integration_cloudwatch_logs", "rds_instance_multi_az", "rds_instance_no_public_access", "rds_instance_backup_enabled", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var nist_2_3_13_3 = &NistComp{
+var Nist_2_3_13_3 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -385,7 +385,7 @@ var nist_2_3_13_3 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var nist_2_3_13_4 = &NistComp{
+var Nist_2_3_13_4 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -395,7 +395,7 @@ var nist_2_3_13_4 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{},
 }
-var nist_2_3_13_5 = &NistComp{
+var Nist_2_3_13_5 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -405,7 +405,7 @@ var nist_2_3_13_5 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "elbv2_waf_acl_attached", "elb_ssl_listeners", "emr_cluster_master_nodes_no_public_ip", "opensearch_service_domains_node_to_node_encryption_enabled", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_secure_transport_policy", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_13_6 = &NistComp{
+var Nist_2_3_13_6 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -415,7 +415,7 @@ var nist_2_3_13_6 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_2_3_13_8 = &NistComp{
+var Nist_2_3_13_8 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -425,7 +425,7 @@ var nist_2_3_13_8 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"acm_certificates_expiration_check", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_2_3_13_11 = &NistComp{
+var Nist_2_3_13_11 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -435,7 +435,7 @@ var nist_2_3_13_11 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"acm_certificates_expiration_check", "cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "efs_encryption_at_rest_enabled", "opensearch_service_domains_encryption_at_rest_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_2_3_13_15 = &NistComp{
+var Nist_2_3_13_15 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -445,7 +445,7 @@ var nist_2_3_13_15 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"elb_ssl_listeners"},
 }
-var nist_2_3_13_16 = &NistComp{
+var Nist_2_3_13_16 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -455,7 +455,7 @@ var nist_2_3_13_16 = &NistComp{
 	Section:       "3.13 System and Communications Protection",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "efs_encryption_at_rest_enabled", "opensearch_service_domains_encryption_at_rest_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_2_3_14_1 = &NistComp{
+var Nist_2_3_14_1 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -465,7 +465,7 @@ var nist_2_3_14_1 = &NistComp{
 	Section:       "3.14 System and Information integrity",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_2_3_14_2 = &NistComp{
+var Nist_2_3_14_2 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -475,7 +475,7 @@ var nist_2_3_14_2 = &NistComp{
 	Section:       "3.14 System and Information integrity",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "guardduty_is_enabled", "securityhub_enabled", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var nist_2_3_14_3 = &NistComp{
+var Nist_2_3_14_3 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -485,7 +485,7 @@ var nist_2_3_14_3 = &NistComp{
 	Section:       "3.14 System and Information integrity",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled", "ssm_managed_compliant_patching"},
 }
-var nist_2_3_14_4 = &NistComp{
+var Nist_2_3_14_4 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -495,7 +495,7 @@ var nist_2_3_14_4 = &NistComp{
 	Section:       "3.14 System and Information integrity",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_2_3_14_6 = &NistComp{
+var Nist_2_3_14_6 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",
@@ -505,7 +505,7 @@ var nist_2_3_14_6 = &NistComp{
 	Section:       "3.14 System and Information integrity",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_integration_cloudwatch_logs", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_2_3_14_7 = &NistComp{
+var Nist_2_3_14_7 = &NistComp{
 	Framework:     "NIST-800-171-Revision-2",
 	Provider:      "AWS",
 	Frameworkdesc: "The cybersecurity controls within NIST 800-171 safeguard CUI in the IT networks of government contractors and subcontractors. It defines the practices and procedures that government contractors must adhere to when their networks process or store CUI. NIST 800-171 only applies to those parts of a contractor’s network where CUI is present.",

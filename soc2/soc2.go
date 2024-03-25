@@ -15,7 +15,7 @@ type NistComp struct {
 	Checks        []string
 }
 
-var soc2_cc_1_1 = &NistComp{
+var Soc2_cc_1_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -28,7 +28,7 @@ var soc2_cc_1_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_1_2 = &NistComp{
+var Soc2_cc_1_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -41,7 +41,7 @@ var soc2_cc_1_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_1_3 = &NistComp{
+var Soc2_cc_1_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -54,7 +54,7 @@ var soc2_cc_1_3 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var soc2_cc_1_4 = &NistComp{
+var Soc2_cc_1_4 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -67,7 +67,7 @@ var soc2_cc_1_4 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_1_5 = &NistComp{
+var Soc2_cc_1_5 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -80,7 +80,7 @@ var soc2_cc_1_5 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_2_1 = &NistComp{
+var Soc2_cc_2_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -93,7 +93,7 @@ var soc2_cc_2_1 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "config_recorder_all_regions_enabled"},
 }
-var soc2_cc_2_2 = &NistComp{
+var Soc2_cc_2_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -106,7 +106,7 @@ var soc2_cc_2_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_2_3 = &NistComp{
+var Soc2_cc_2_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -119,7 +119,7 @@ var soc2_cc_2_3 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_3_1 = &NistComp{
+var Soc2_cc_3_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -132,7 +132,7 @@ var soc2_cc_3_1 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled", "config_recorder_all_regions_enabled"},
 }
-var soc2_cc_3_2 = &NistComp{
+var Soc2_cc_3_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -145,7 +145,7 @@ var soc2_cc_3_2 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching", "guardduty_no_high_severity_findings", "guardduty_is_enabled", "ssm_managed_compliant_patching"},
 }
-var soc2_cc_3_3 = &NistComp{
+var Soc2_cc_3_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -158,7 +158,7 @@ var soc2_cc_3_3 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_3_4 = &NistComp{
+var Soc2_cc_3_4 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -171,7 +171,7 @@ var soc2_cc_3_4 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"config_recorder_all_regions_enabled"},
 }
-var soc2_cc_4_1 = &NistComp{
+var Soc2_cc_4_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -184,7 +184,7 @@ var soc2_cc_4_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_4_2 = &NistComp{
+var Soc2_cc_4_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -197,7 +197,7 @@ var soc2_cc_4_2 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"guardduty_is_enabled", "guardduty_no_high_severity_findings"},
 }
-var soc2_cc_5_1 = &NistComp{
+var Soc2_cc_5_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -210,7 +210,7 @@ var soc2_cc_5_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_5_2 = &NistComp{
+var Soc2_cc_5_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -223,7 +223,7 @@ var soc2_cc_5_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_5_3 = &NistComp{
+var Soc2_cc_5_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -236,7 +236,7 @@ var soc2_cc_5_3 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_6_1 = &NistComp{
+var Soc2_cc_6_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -249,7 +249,7 @@ var soc2_cc_6_1 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"s3_bucket_public_access"},
 }
-var soc2_cc_6_2 = &NistComp{
+var Soc2_cc_6_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -262,7 +262,7 @@ var soc2_cc_6_2 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"rds_instance_no_public_access"},
 }
-var soc2_cc_6_3 = &NistComp{
+var Soc2_cc_6_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -275,7 +275,7 @@ var soc2_cc_6_3 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var soc2_cc_6_4 = &NistComp{
+var Soc2_cc_6_4 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -288,7 +288,7 @@ var soc2_cc_6_4 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_6_5 = &NistComp{
+var Soc2_cc_6_5 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -301,7 +301,7 @@ var soc2_cc_6_5 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_6_6 = &NistComp{
+var Soc2_cc_6_6 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -314,7 +314,7 @@ var soc2_cc_6_6 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"ec2_instance_public_ip"},
 }
-var soc2_cc_6_7 = &NistComp{
+var Soc2_cc_6_7 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -327,7 +327,7 @@ var soc2_cc_6_7 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"acm_certificates_expiration_check"},
 }
-var soc2_cc_6_8 = &NistComp{
+var Soc2_cc_6_8 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -340,7 +340,7 @@ var soc2_cc_6_8 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var soc2_cc_7_1 = &NistComp{
+var Soc2_cc_7_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -353,7 +353,7 @@ var soc2_cc_7_1 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled", "ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var soc2_cc_7_2 = &NistComp{
+var Soc2_cc_7_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -366,7 +366,7 @@ var soc2_cc_7_2 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "s3_bucket_server_access_logging_enabled", "rds_instance_integration_cloudwatch_logs", "cloudtrail_multi_region_enabled", "securityhub_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "cloudtrail_multi_region_enabled", "redshift_cluster_audit_logging", "vpc_flow_logs_enabled", "ec2_instance_imdsv2_enabled", "guardduty_is_enabled", "apigateway_restapi_logging_enabled", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var soc2_cc_7_3 = &NistComp{
+var Soc2_cc_7_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -379,7 +379,7 @@ var soc2_cc_7_3 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"cloudwatch_log_group_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "cloudtrail_cloudwatch_logging_enabled", "guardduty_is_enabled", "apigateway_restapi_logging_enabled", "rds_instance_integration_cloudwatch_logs", "securityhub_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "elbv2_logging_enabled", "elb_logging_enabled", "s3_bucket_server_access_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "vpc_flow_logs_enabled", "guardduty_no_high_severity_findings"},
 }
-var soc2_cc_7_4 = &NistComp{
+var Soc2_cc_7_4 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -392,7 +392,7 @@ var soc2_cc_7_4 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning", "securityhub_enabled"},
 }
-var soc2_cc_7_5 = &NistComp{
+var Soc2_cc_7_5 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -405,7 +405,7 @@ var soc2_cc_7_5 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_8_1 = &NistComp{
+var Soc2_cc_8_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -418,7 +418,7 @@ var soc2_cc_8_1 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"config_recorder_all_regions_enabled"},
 }
-var soc2_cc_9_1 = &NistComp{
+var Soc2_cc_9_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -431,7 +431,7 @@ var soc2_cc_9_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_9_2 = &NistComp{
+var Soc2_cc_9_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -444,7 +444,7 @@ var soc2_cc_9_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_a_1_1 = &NistComp{
+var Soc2_cc_a_1_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -457,7 +457,7 @@ var soc2_cc_a_1_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_a_1_2 = &NistComp{
+var Soc2_cc_a_1_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -470,7 +470,7 @@ var soc2_cc_a_1_2 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_integration_cloudwatch_logs", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var soc2_cc_a_1_3 = &NistComp{
+var Soc2_cc_a_1_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -483,7 +483,7 @@ var soc2_cc_a_1_3 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_cc_c_1_1 = &NistComp{
+var Soc2_cc_c_1_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -496,7 +496,7 @@ var soc2_cc_c_1_1 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"rds_instance_deletion_protection"},
 }
-var soc2_cc_c_1_2 = &NistComp{
+var Soc2_cc_c_1_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -509,7 +509,7 @@ var soc2_cc_c_1_2 = &NistComp{
 	Type:          "automated",
 	Checks:        []string{"s3_bucket_object_versioning"},
 }
-var soc2_p_1_1 = &NistComp{
+var Soc2_p_1_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -522,7 +522,7 @@ var soc2_p_1_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_2_1 = &NistComp{
+var Soc2_p_2_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -535,7 +535,7 @@ var soc2_p_2_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_3_1 = &NistComp{
+var Soc2_p_3_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -548,7 +548,7 @@ var soc2_p_3_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_3_2 = &NistComp{
+var Soc2_p_3_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -561,7 +561,7 @@ var soc2_p_3_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_4_1 = &NistComp{
+var Soc2_p_4_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -574,7 +574,7 @@ var soc2_p_4_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_4_2 = &NistComp{
+var Soc2_p_4_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -587,7 +587,7 @@ var soc2_p_4_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_4_3 = &NistComp{
+var Soc2_p_4_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -600,7 +600,7 @@ var soc2_p_4_3 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_5_1 = &NistComp{
+var Soc2_p_5_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -613,7 +613,7 @@ var soc2_p_5_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_5_2 = &NistComp{
+var Soc2_p_5_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -626,7 +626,7 @@ var soc2_p_5_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_6_1 = &NistComp{
+var Soc2_p_6_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -639,7 +639,7 @@ var soc2_p_6_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_6_2 = &NistComp{
+var Soc2_p_6_2 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -652,7 +652,7 @@ var soc2_p_6_2 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_6_3 = &NistComp{
+var Soc2_p_6_3 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -665,7 +665,7 @@ var soc2_p_6_3 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_6_4 = &NistComp{
+var Soc2_p_6_4 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -678,7 +678,7 @@ var soc2_p_6_4 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_6_5 = &NistComp{
+var Soc2_p_6_5 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -691,7 +691,7 @@ var soc2_p_6_5 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_6_6 = &NistComp{
+var Soc2_p_6_6 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -704,7 +704,7 @@ var soc2_p_6_6 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_6_7 = &NistComp{
+var Soc2_p_6_7 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -717,7 +717,7 @@ var soc2_p_6_7 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_7_1 = &NistComp{
+var Soc2_p_7_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",
@@ -730,7 +730,7 @@ var soc2_p_7_1 = &NistComp{
 	Type:          "manual",
 	Checks:        []string{},
 }
-var soc2_p_8_1 = &NistComp{
+var Soc2_p_8_1 = &NistComp{
 	Framework:     "SOC2",
 	Provider:      "AWS",
 	Frameworkdesc: "System and Organization Controls (SOC), defined by the American Institute of Certified Public Accountants (AICPA), is the name of a set of reports that's produced during an audit. It's intended for use by service organizations (organizations that provide information systems as a service to other organizations) to issue validated reports of internal controls over those information systems to the users of those services. The reports focus on controls grouped into five categories known as Trust Service Principles.",

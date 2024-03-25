@@ -19,7 +19,7 @@ type NistComp struct {
 	References            string
 }
 
-var cis_1_4_1_1 = &NistComp{
+var Cis_1_4_1_1 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -35,7 +35,7 @@ var cis_1_4_1_1 = &NistComp{
 	References:           "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-account-payment.html#contact-info",
 	Checks:               []string{"account_maintain_current_contact_details"},
 }
-var cis_1_4_1_10 = &NistComp{
+var Cis_1_4_1_10 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -53,7 +53,7 @@ var cis_1_4_1_10 = &NistComp{
 	References:            "https://tools.ietf.org/html/rfc6238:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#enable-mfa-for-privileged-users:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html:https://blogs.aws.amazon.com/security/post/Tx2SJJYE082KBUK/How-to-Delegate-Management-of-Multi-Factor-Authentication-to-AWS-IAM-Users",
 	Checks:                []string{"iam_user_mfa_enabled_console_access"},
 }
-var cis_1_4_1_11 = &NistComp{
+var Cis_1_4_1_11 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -70,7 +70,7 @@ var cis_1_4_1_11 = &NistComp{
 	References:            "https://docs.aws.amazon.com/cli/latest/reference/iam/delete-access-key.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html",
 	Checks:                []string{"iam_user_no_setup_initial_access_key"},
 }
-var cis_1_4_1_12 = &NistComp{
+var Cis_1_4_1_12 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -87,7 +87,7 @@ var cis_1_4_1_12 = &NistComp{
 	References:            "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#remove-credentials:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_finding-unused.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_admin-change-user.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html",
 	Checks:                []string{"iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var cis_1_4_1_13 = &NistComp{
+var Cis_1_4_1_13 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -103,7 +103,7 @@ var cis_1_4_1_13 = &NistComp{
 	References:           "https://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html",
 	Checks:               []string{"iam_user_two_active_access_key"},
 }
-var cis_1_4_1_14 = &NistComp{
+var Cis_1_4_1_14 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -119,7 +119,7 @@ var cis_1_4_1_14 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#rotate-credentials:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_finding-unused.html:https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html",
 	Checks:               []string{"iam_rotate_access_key_90_days"},
 }
-var cis_1_4_1_15 = &NistComp{
+var Cis_1_4_1_15 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -135,7 +135,7 @@ var cis_1_4_1_15 = &NistComp{
 	References:           "http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html:http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html",
 	Checks:               []string{"iam_policy_attached_only_to_group_or_roles"},
 }
-var cis_1_4_1_16 = &NistComp{
+var Cis_1_4_1_16 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -151,7 +151,7 @@ var cis_1_4_1_16 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html:https://docs.aws.amazon.com/cli/latest/reference/iam/index.html#cli-aws-iam",
 	Checks:               []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges"},
 }
-var cis_1_4_1_17 = &NistComp{
+var Cis_1_4_1_17 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -169,7 +169,7 @@ var cis_1_4_1_17 = &NistComp{
 	References:            "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html:https://aws.amazon.com/premiumsupport/pricing/:https://docs.aws.amazon.com/cli/latest/reference/iam/list-policies.html:https://docs.aws.amazon.com/cli/latest/reference/iam/attach-role-policy.html:https://docs.aws.amazon.com/cli/latest/reference/iam/list-entities-for-policy.html",
 	Checks:                []string{"iam_support_role_created"},
 }
-var cis_1_4_1_18 = &NistComp{
+var Cis_1_4_1_18 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -185,7 +185,7 @@ var cis_1_4_1_18 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2.html:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html",
 	Checks:               []string{"ec2_instance_profile_attached"},
 }
-var cis_1_4_1_19 = &NistComp{
+var Cis_1_4_1_19 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -202,7 +202,7 @@ var cis_1_4_1_19 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_server-certs.html:https://docs.aws.amazon.com/cli/latest/reference/iam/delete-server-certificate.html",
 	Checks:               []string{"iam_no_expired_server_certificates_stored"},
 }
-var cis_1_4_1_2 = &NistComp{
+var Cis_1_4_1_2 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -217,7 +217,7 @@ var cis_1_4_1_2 = &NistComp{
 	AuditProcedure:       "Perform the following to determine if security contact information is present:  **From Console:**  1. Click on your account name at the top right corner of the console 2. From the drop-down menu Click 'My Account'  3. Scroll down to the 'Alternate Contacts' section 4. Ensure contact information is specified in the 'Security' section",
 	Checks:               []string{"account_security_contact_information_is_registered"},
 }
-var cis_1_4_1_20 = &NistComp{
+var Cis_1_4_1_20 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -233,7 +233,7 @@ var cis_1_4_1_20 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-getting-started.html:https://docs.aws.amazon.com/cli/latest/reference/accessanalyzer/get-analyzer.html:https://docs.aws.amazon.com/cli/latest/reference/accessanalyzer/create-analyzer.html",
 	Checks:               []string{"accessanalyzer_enabled"},
 }
-var cis_1_4_1_21 = &NistComp{
+var Cis_1_4_1_21 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -248,7 +248,7 @@ var cis_1_4_1_21 = &NistComp{
 	AuditProcedure:       "For multi-account AWS environments with an external identity provider...   1. Determine the master account for identity federation or IAM user management 2. Login to that account through the AWS Management Console 3. Click 'Services'  4. Click 'IAM'  5. Click 'Identity providers' 6. Verify the configuration  Then..., determine all accounts that should not have local users present. For each account...  1. Determine all accounts that should not have local users present 2. Log into the AWS Management Console 3. Switch role into each identified account 4. Click 'Services'  5. Click 'IAM'  6. Click 'Users' 7. Confirm that no IAM users representing individuals are present  For multi-account AWS environments implementing AWS Organizations without an external identity provider...   1. Determine all accounts that should not have local users present 2. Log into the AWS Management Console 3. Switch role into each identified account 4. Click 'Services'  5. Click 'IAM'  6. Click 'Users' 7. Confirm that no IAM users representing individuals are present",
 	Checks:               []string{"iam_check_saml_providers_sts"},
 }
-var cis_1_4_1_3 = &NistComp{
+var Cis_1_4_1_3 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -263,7 +263,7 @@ var cis_1_4_1_3 = &NistComp{
 	AuditProcedure:       "**From Console:**  1. Login to the AWS account as the 'root' user 2. On the top right you will see the _<Root_Account_Name>_ 3. Click on the _<Root_Account_Name>_ 4. From the drop-down menu Click 'My Account'  5. In the 'Configure Security Challenge Questions' section on the 'Personal Information' page, configure three security challenge questions. 6. Click 'Save questions' .",
 	Checks:               []string{"account_security_questions_are_registered_in_the_aws_account"},
 }
-var cis_1_4_1_4 = &NistComp{
+var Cis_1_4_1_4 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -280,7 +280,7 @@ var cis_1_4_1_4 = &NistComp{
 	References:            "http://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html:http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html:http://docs.aws.amazon.com/IAM/latest/APIReference/API_GetAccountSummary.html:https://aws.amazon.com/blogs/security/an-easier-way-to-determine-the-presence-of-aws-account-access-keys/",
 	Checks:                []string{"iam_no_root_access_key"},
 }
-var cis_1_4_1_5 = &NistComp{
+var Cis_1_4_1_5 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -297,7 +297,7 @@ var cis_1_4_1_5 = &NistComp{
 	References:            "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html#id_root-user_manage_mfa:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html#enable-virt-mfa-for-root",
 	Checks:                []string{"iam_root_mfa_enabled"},
 }
-var cis_1_4_1_6 = &NistComp{
+var Cis_1_4_1_6 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -314,7 +314,7 @@ var cis_1_4_1_6 = &NistComp{
 	References:            "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_physical.html#enable-hw-mfa-for-root",
 	Checks:                []string{"iam_root_hardware_mfa_enabled"},
 }
-var cis_1_4_1_7 = &NistComp{
+var Cis_1_4_1_7 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -331,7 +331,7 @@ var cis_1_4_1_7 = &NistComp{
 	References:            "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html:https://docs.aws.amazon.com/general/latest/gr/aws_tasks-that-require-root.html",
 	Checks:                []string{"iam_avoid_root_usage"},
 }
-var cis_1_4_1_8 = &NistComp{
+var Cis_1_4_1_8 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -347,7 +347,7 @@ var cis_1_4_1_8 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#configure-strong-password-policy",
 	Checks:               []string{"iam_password_policy_minimum_length_14"},
 }
-var cis_1_4_1_9 = &NistComp{
+var Cis_1_4_1_9 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -363,7 +363,7 @@ var cis_1_4_1_9 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html:https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#configure-strong-password-policy",
 	Checks:               []string{"iam_password_policy_reuse_24"},
 }
-var cis_1_4_2_1_1 = &NistComp{
+var Cis_1_4_2_1_1 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -381,7 +381,7 @@ var cis_1_4_2_1_1 = &NistComp{
 	References:            "https://docs.aws.amazon.com/AmazonS3/latest/user-guide/default-bucket-encryption.html:https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html#bucket-encryption-related-resources",
 	Checks:                []string{"s3_bucket_default_encryption"},
 }
-var cis_1_4_2_1_2 = &NistComp{
+var Cis_1_4_2_1_2 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -397,7 +397,7 @@ var cis_1_4_2_1_2 = &NistComp{
 	References:           "https://aws.amazon.com/premiumsupport/knowledge-center/s3-bucket-policy-for-config-rule/:https://aws.amazon.com/blogs/security/how-to-use-bucket-policies-and-apply-defense-in-depth-to-help-secure-your-amazon-s3-data/:https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/get-bucket-policy.html",
 	Checks:               []string{"s3_bucket_secure_transport_policy"},
 }
-var cis_1_4_2_1_3 = &NistComp{
+var Cis_1_4_2_1_3 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -413,7 +413,7 @@ var cis_1_4_2_1_3 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html#MultiFactorAuthenticationDelete:https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingMFADelete.html:https://aws.amazon.com/blogs/security/securing-access-to-aws-using-mfa-part-3/:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html",
 	Checks:               []string{"s3_bucket_no_mfa_delete"},
 }
-var cis_1_4_2_1_4 = &NistComp{
+var Cis_1_4_2_1_4 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -430,7 +430,7 @@ var cis_1_4_2_1_4 = &NistComp{
 	References:           "https://aws.amazon.com/macie/getting-started/:https://docs.aws.amazon.com/workspaces/latest/adminguide/data-protection.html:https://docs.aws.amazon.com/macie/latest/user/data-classification.html",
 	Checks:               []string{"macie_is_enabled"},
 }
-var cis_1_4_2_1_5 = &NistComp{
+var Cis_1_4_2_1_5 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -440,14 +440,14 @@ var cis_1_4_2_1_5 = &NistComp{
 	Profile:              "Level 1",
 	AssessmentStatus:     "Automated",
 	Attrdescription:      "Amazon S3 provides 'Block public access (bucket settings)' and 'Block public access (account settings)' to help you manage public access to Amazon S3 resources. By default, S3 buckets and objects are created with public access disabled. However, an IAM principal with sufficient S3 permissions can enable public access at the bucket and/or object level. While enabled, 'Block public access (bucket settings)' prevents an individual bucket, and its contained objects, from becoming publicly accessible. Similarly, 'Block public access (account settings)' prevents all buckets, and contained objects, from becoming publicly accessible across the entire account.",
-	RationaleStatement:   "Amazon S3 'Block public access (bucket settings)' prevents the accidental or malicious public exposure of data contained within the respective bucket(s).   Amazon S3 'Block public access (account settings)' prevents the accidental or malicious public exposure of data contained within all buckets of the respective AWS account.  Whether blocking public access to all or some buckets is an organizational decision that should be based on data sensitivity, least privilege, and use case.",
+	RationaleStatement:   "Amazon S3 'Block public access (bucket settings)' prevents the accidental or malicious public exposure of data contained within the respective bucket(s).   Amazon S3 'Block public access (account settings)' prevents the accidental or malicious public exposure of data contained within all buckets of the respective AWS account.  Whether blocking public access to all or some buckets is an organizational deCision that should be based on data sensitivity, least privilege, and use case.",
 	ImpactStatement:      "When you apply Block Public Access settings to an account, the settings apply to all AWS Regions globally. The settings might not take effect in all Regions immediately or simultaneously, but they eventually propagate to all Regions.",
 	RemediationProcedure: "**If utilizing Block Public Access (bucket settings)**  **From Console:**  1. Login to AWS Management Console and open the Amazon S3 console using https://console.aws.amazon.com/s3/  2. Select the Check box next to the Bucket. 3. Click on 'Edit public access settings'. 4. Click 'Block all public access' 5. Repeat for all the buckets in your AWS account that contain sensitive data.  **From Command Line:**  1. List all of the S3 Buckets ''' aws s3 ls ''' 2. Set the Block Public Access to true on that bucket ''' aws s3api put-public-access-block --bucket <name-of-bucket> --public-access-block-configuration 'BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=true,RestrictPublicBuckets=true' '''  **If utilizing Block Public Access (account settings)**  **From Console:**  If the output reads 'true' for the separate configuration settings then it is set on the account.  1. Login to AWS Management Console and open the Amazon S3 console using https://console.aws.amazon.com/s3/  2. Choose 'Block Public Access (account settings)' 3. Choose 'Edit' to change the block public access settings for all the buckets in your AWS account 4. Choose the settings you want to change, and then choose 'Save'. For details about each setting, pause on the 'i' icons. 5. When you're asked for confirmation, enter 'confirm'. Then Click 'Confirm' to save your changes.  **From Command Line:**  To set Block Public access settings for this account, run the following command: ''' aws s3control put-public-access-block --public-access-block-configuration BlockPublicAcls=true, IgnorePublicAcls=true, BlockPublicPolicy=true, RestrictPublicBuckets=true --account-id <value> '''",
 	AuditProcedure:       "**If utilizing Block Public Access (bucket settings)**  **From Console:**  1. Login to AWS Management Console and open the Amazon S3 console using https://console.aws.amazon.com/s3/  2. Select the Check box next to the Bucket. 3. Click on 'Edit public access settings'. 4. Ensure that block public access settings are set appropriately for this bucket 5. Repeat for all the buckets in your AWS account.  **From Command Line:**  1. List all of the S3 Buckets ''' aws s3 ls ''' 2. Find the public access setting on that bucket ''' aws s3api get-public-access-block --bucket <name-of-the-bucket> ''' Output if Block Public access is enabled:  ''' {  'PublicAccessBlockConfiguration': {  'BlockPublicAcls': true,  'IgnorePublicAcls': true,  'BlockPublicPolicy': true,  'RestrictPublicBuckets': true  } } '''  If the output reads 'false' for the separate configuration settings then proceed to the remediation.  **If utilizing Block Public Access (account settings)**  **From Console:**  1. Login to AWS Management Console and open the Amazon S3 console using https://console.aws.amazon.com/s3/  2. Choose 'Block public access (account settings)' 3. Ensure that block public access settings are set appropriately for your AWS account.  **From Command Line:**  To check Public access settings for this account status, run the following command, 'aws s3control get-public-access-block --account-id <ACCT_ID> --region <REGION_NAME>'  Output if Block Public access is enabled:  ''' {  'PublicAccessBlockConfiguration': {  'IgnorePublicAcls': true,   'BlockPublicPolicy': true,   'BlockPublicAcls': true,   'RestrictPublicBuckets': true  } } '''  If the output reads 'false' for the separate configuration settings then proceed to the remediation.",
 	References:           "https://docs.aws.amazon.com/AmazonS3/latest/user-guide/block-public-access-account.html",
 	Checks:               []string{"s3_bucket_level_public_access_block", "s3_account_level_public_access_blocks"},
 }
-var cis_1_4_2_2_1 = &NistComp{
+var Cis_1_4_2_2_1 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -465,7 +465,7 @@ var cis_1_4_2_2_1 = &NistComp{
 	References:            "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html:https://aws.amazon.com/blogs/aws/new-opt-in-to-default-encryption-for-new-ebs-volumes/",
 	Checks:                []string{"ec2_ebs_volume_encryption"},
 }
-var cis_1_4_2_3_1 = &NistComp{
+var Cis_1_4_2_3_1 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -481,7 +481,7 @@ var cis_1_4_2_3_1 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html:https://aws.amazon.com/blogs/database/selecting-the-right-encryption-options-for-amazon-rds-and-amazon-aurora-database-engines/#:~:text=With%20RDS%2Dencrypted%20resources%2C%20data,transparent%20to%20your%20database%20engine.:https://aws.amazon.com/rds/features/security/",
 	Checks:               []string{"rds_instance_storage_encrypted"},
 }
-var cis_1_4_3_1 = &NistComp{
+var Cis_1_4_3_1 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -498,7 +498,7 @@ var cis_1_4_3_1 = &NistComp{
 	References:           "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html#cloudtrail-concepts-management-events:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-management-and-data-events-with-cloudtrail.html?icmpid=docs_cloudtrail_console#logging-management-events:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-supported-services.html#cloud-trail-supported-services-data-events",
 	Checks:               []string{"cloudtrail_multi_region_enabled"},
 }
-var cis_1_4_3_10 = &NistComp{
+var Cis_1_4_3_10 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -514,7 +514,7 @@ var cis_1_4_3_10 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-cloudtrail-events.html",
 	Checks:               []string{"cloudtrail_s3_dataevents_write_enabled"},
 }
-var cis_1_4_3_11 = &NistComp{
+var Cis_1_4_3_11 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -530,7 +530,7 @@ var cis_1_4_3_11 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-cloudtrail-events.html",
 	Checks:               []string{"cloudtrail_s3_dataevents_read_enabled"},
 }
-var cis_1_4_3_2 = &NistComp{
+var Cis_1_4_3_2 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -546,7 +546,7 @@ var cis_1_4_3_2 = &NistComp{
 	References:           "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-enabling.html",
 	Checks:               []string{"cloudtrail_log_file_validation_enabled"},
 }
-var cis_1_4_3_3 = &NistComp{
+var Cis_1_4_3_3 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -562,7 +562,7 @@ var cis_1_4_3_3 = &NistComp{
 	References:           "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html",
 	Checks:               []string{"cloudtrail_logs_s3_bucket_is_not_publicly_accessible"},
 }
-var cis_1_4_3_4 = &NistComp{
+var Cis_1_4_3_4 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -579,7 +579,7 @@ var cis_1_4_3_4 = &NistComp{
 	References:           "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/how-cloudtrail-works.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-aws-service-specific-topics.html",
 	Checks:               []string{"cloudtrail_cloudwatch_logging_enabled"},
 }
-var cis_1_4_3_5 = &NistComp{
+var Cis_1_4_3_5 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -596,7 +596,7 @@ var cis_1_4_3_5 = &NistComp{
 	References:           "https://docs.aws.amazon.com/cli/latest/reference/configservice/describe-configuration-recorder-status.html",
 	Checks:               []string{"config_recorder_all_regions_enabled"},
 }
-var cis_1_4_3_6 = &NistComp{
+var Cis_1_4_3_6 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -612,7 +612,7 @@ var cis_1_4_3_6 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerLogs.html",
 	Checks:               []string{"cloudtrail_logs_s3_bucket_access_logging_enabled"},
 }
-var cis_1_4_3_7 = &NistComp{
+var Cis_1_4_3_7 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -630,7 +630,7 @@ var cis_1_4_3_7 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/encrypting-cloudtrail-log-files-with-aws-kms.html:https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html",
 	Checks:                []string{"cloudtrail_kms_encryption_enabled"},
 }
-var cis_1_4_3_8 = &NistComp{
+var Cis_1_4_3_8 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -647,7 +647,7 @@ var cis_1_4_3_8 = &NistComp{
 	References:           "https://aws.amazon.com/kms/pricing/:https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final",
 	Checks:               []string{"kms_cmk_rotation_enabled"},
 }
-var cis_1_4_3_9 = &NistComp{
+var Cis_1_4_3_9 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -664,7 +664,7 @@ var cis_1_4_3_9 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/flow-logs.html",
 	Checks:               []string{"vpc_flow_logs_enabled"},
 }
-var cis_1_4_4_1 = &NistComp{
+var Cis_1_4_4_1 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -682,7 +682,7 @@ var cis_1_4_4_1 = &NistComp{
 	References:            "https://aws.amazon.com/sns/:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_unauthorized_api_calls"},
 }
-var cis_1_4_4_10 = &NistComp{
+var Cis_1_4_4_10 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -699,7 +699,7 @@ var cis_1_4_4_10 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_security_group_changes"},
 }
-var cis_1_4_4_11 = &NistComp{
+var Cis_1_4_4_11 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -716,7 +716,7 @@ var cis_1_4_4_11 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_changes_to_network_acls_alarm_configured"},
 }
-var cis_1_4_4_12 = &NistComp{
+var Cis_1_4_4_12 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -733,7 +733,7 @@ var cis_1_4_4_12 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_changes_to_network_gateways_alarm_configured"},
 }
-var cis_1_4_4_13 = &NistComp{
+var Cis_1_4_4_13 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -750,7 +750,7 @@ var cis_1_4_4_13 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_changes_to_network_route_tables_alarm_configured"},
 }
-var cis_1_4_4_14 = &NistComp{
+var Cis_1_4_4_14 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -767,7 +767,7 @@ var cis_1_4_4_14 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_changes_to_vpcs_alarm_configured"},
 }
-var cis_1_4_4_15 = &NistComp{
+var Cis_1_4_4_15 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -783,7 +783,7 @@ var cis_1_4_4_15 = &NistComp{
 	References:           "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/organizations/latest/userguide/orgs_security_incident-response.html",
 	Checks:               []string{"cloudwatch_log_metric_filter_aws_organizations_changes"},
 }
-var cis_1_4_4_2 = &NistComp{
+var Cis_1_4_4_2 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -800,7 +800,7 @@ var cis_1_4_4_2 = &NistComp{
 	References:            "https://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/viewing_metrics_with_cloudwatch.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_sign_in_without_mfa"},
 }
-var cis_1_4_4_3 = &NistComp{
+var Cis_1_4_4_3 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -817,7 +817,7 @@ var cis_1_4_4_3 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_root_usage"},
 }
-var cis_1_4_4_4 = &NistComp{
+var Cis_1_4_4_4 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -834,7 +834,7 @@ var cis_1_4_4_4 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_policy_changes"},
 }
-var cis_1_4_4_5 = &NistComp{
+var Cis_1_4_4_5 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -851,7 +851,7 @@ var cis_1_4_4_5 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled"},
 }
-var cis_1_4_4_6 = &NistComp{
+var Cis_1_4_4_6 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -868,7 +868,7 @@ var cis_1_4_4_6 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_authentication_failures"},
 }
-var cis_1_4_4_7 = &NistComp{
+var Cis_1_4_4_7 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -885,7 +885,7 @@ var cis_1_4_4_7 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_disable_or_scheduled_deletion_of_kms_cmk"},
 }
-var cis_1_4_4_8 = &NistComp{
+var Cis_1_4_4_8 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -902,7 +902,7 @@ var cis_1_4_4_8 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_for_s3_bucket_policy_changes"},
 }
-var cis_1_4_4_9 = &NistComp{
+var Cis_1_4_4_9 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -919,7 +919,7 @@ var cis_1_4_4_9 = &NistComp{
 	References:            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudwatch-alarms-for-cloudtrail.html:https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html:https://docs.aws.amazon.com/sns/latest/dg/SubscribeTopic.html",
 	Checks:                []string{"cloudwatch_log_metric_filter_and_alarm_for_aws_config_configuration_changes_enabled"},
 }
-var cis_1_4_5_1 = &NistComp{
+var Cis_1_4_5_1 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -935,7 +935,7 @@ var cis_1_4_5_1 = &NistComp{
 	References:           "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html:https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html#VPC_Security_Comparison",
 	Checks:               []string{"ec2_networkacl_allow_ingress_any_port", "ec2_networkacl_allow_ingress_tcp_port_22", "ec2_networkacl_allow_ingress_tcp_port_3389"},
 }
-var cis_1_4_5_2 = &NistComp{
+var Cis_1_4_5_2 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -952,7 +952,7 @@ var cis_1_4_5_2 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html#deleting-security-group-rule",
 	Checks:               []string{"ec2_securitygroup_allow_ingress_from_internet_to_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_3389"},
 }
-var cis_1_4_5_3 = &NistComp{
+var Cis_1_4_5_3 = &NistComp{
 	Framework:            "CIS",
 	Provider:             "AWS",
 	Frameworkdesc:        "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",
@@ -969,7 +969,7 @@ var cis_1_4_5_3 = &NistComp{
 	References:           "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html#default-security-group",
 	Checks:               []string{"ec2_securitygroup_default_restrict_traffic"},
 }
-var cis_1_4_5_4 = &NistComp{
+var Cis_1_4_5_4 = &NistComp{
 	Framework:             "CIS",
 	Provider:              "AWS",
 	Frameworkdesc:         "The CIS Benchmark for CIS Amazon Web Services Foundations Benchmark, v1.4.0, Level 1 and 2 provides prescriptive guidance for configuring security options for a subset of Amazon Web Services. It has an emphasis on foundational, testable, and architecture agnostic settings",

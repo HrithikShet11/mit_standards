@@ -17,7 +17,7 @@ type NistComp struct {
 	Checks             []string
 }
 
-var ens_rds_op_acc_1_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_1_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -32,7 +32,7 @@ var ens_rds_op_acc_1_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_check_saml_providers_sts"},
 }
-var ens_rds_op_acc_2_aws_iam_4 = &NistComp{
+var Ens_rds_op_acc_2_aws_iam_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -47,7 +47,7 @@ var ens_rds_op_acc_2_aws_iam_4 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_avoid_root_usage"},
 }
-var ens_rds_op_acc_3_r1_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_3_r1_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -62,7 +62,7 @@ var ens_rds_op_acc_3_r1_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_support_role_created"},
 }
-var ens_rds_op_acc_3_r2_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_3_r2_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -77,7 +77,7 @@ var ens_rds_op_acc_3_r2_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_securityaudit_role_created"},
 }
-var ens_rds_op_acc_4_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -92,7 +92,7 @@ var ens_rds_op_acc_4_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"sqs_queues_not_publicly_accessible", "s3_bucket_policy_public_write_access", "awslambda_function_not_publicly_accessible", "iam_no_custom_policy_permissive_role_assumption", "cloudwatch_cross_account_sharing_disabled", "awslambda_function_url_public", "awslambda_function_url_cors_policy", "iam_policy_allows_privilege_escalation", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "organizations_scp_check_deny_regions", "organizations_account_part_of_organizations"},
 }
-var ens_rds_op_acc_4_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -107,7 +107,7 @@ var ens_rds_op_acc_4_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_policy_allows_privilege_escalation", "iam_no_custom_policy_permissive_role_assumption", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var ens_rds_op_acc_4_aws_iam_6 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_6 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -122,7 +122,7 @@ var ens_rds_op_acc_4_aws_iam_6 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_instance_managed_by_ssm"},
 }
-var ens_rds_op_acc_4_aws_iam_7 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_7 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -137,7 +137,7 @@ var ens_rds_op_acc_4_aws_iam_7 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_no_root_access_key", "iam_avoid_root_usage"},
 }
-var ens_rds_op_acc_4_aws_iam_8 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_8 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -152,7 +152,7 @@ var ens_rds_op_acc_4_aws_iam_8 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"organizations_account_part_of_organizations", "organizations_scp_check_deny_regions"},
 }
-var ens_rds_op_acc_4_aws_iam_9 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_9 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -167,7 +167,7 @@ var ens_rds_op_acc_4_aws_iam_9 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var ens_rds_op_acc_4_aws_sys_1 = &NistComp{
+var Ens_rds_op_acc_4_aws_sys_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -182,7 +182,7 @@ var ens_rds_op_acc_4_aws_sys_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_instance_managed_by_ssm"},
 }
-var ens_rds_op_acc_6_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -197,7 +197,7 @@ var ens_rds_op_acc_6_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_user_two_active_access_key"},
 }
-var ens_rds_op_acc_6_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_6_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -212,7 +212,7 @@ var ens_rds_op_acc_6_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_user_accesskey_unused", "iam_user_console_access_unused", "iam_rotate_access_key_90_days"},
 }
-var ens_rds_op_acc_6_aws_iam_3 = &NistComp{
+var Ens_rds_op_acc_6_aws_iam_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -227,7 +227,7 @@ var ens_rds_op_acc_6_aws_iam_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_password_policy_expires_passwords_within_90_days_or_less", "iam_user_accesskey_unused", "iam_user_console_access_unused", "iam_rotate_access_key_90_days"},
 }
-var ens_rds_op_acc_6_aws_iam_4 = &NistComp{
+var Ens_rds_op_acc_6_aws_iam_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -242,7 +242,7 @@ var ens_rds_op_acc_6_aws_iam_4 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_user_no_setup_initial_access_key"},
 }
-var ens_rds_op_acc_6_r1_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r1_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -257,7 +257,7 @@ var ens_rds_op_acc_6_r1_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_password_policy_lowercase", "iam_password_policy_minimum_length_14", "iam_password_policy_number", "iam_password_policy_reuse_24", "iam_password_policy_symbol", "iam_password_policy_uppercase"},
 }
-var ens_rds_op_acc_6_r2_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r2_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -272,7 +272,7 @@ var ens_rds_op_acc_6_r2_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_administrator_access_with_mfa", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access"},
 }
-var ens_rds_op_acc_6_r4_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r4_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -287,7 +287,7 @@ var ens_rds_op_acc_6_r4_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_user_mfa_enabled_console_access", "iam_root_hardware_mfa_enabled"},
 }
-var ens_rds_op_acc_6_r5_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r5_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -302,7 +302,7 @@ var ens_rds_op_acc_6_r5_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_multi_region_enabled"},
 }
-var ens_rds_op_acc_6_r7_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r7_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -317,7 +317,7 @@ var ens_rds_op_acc_6_r7_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var ens_rds_op_acc_6_r8_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r8_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -332,7 +332,7 @@ var ens_rds_op_acc_6_r8_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_user_mfa_enabled_console_access"},
 }
-var ens_rds_op_exp_1_aws_cfg_1 = &NistComp{
+var Ens_rds_op_exp_1_aws_cfg_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -347,7 +347,7 @@ var ens_rds_op_exp_1_aws_cfg_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"config_recorder_all_regions_enabled"},
 }
-var ens_rds_op_exp_1_aws_cfg_2 = &NistComp{
+var Ens_rds_op_exp_1_aws_cfg_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -362,7 +362,7 @@ var ens_rds_op_exp_1_aws_cfg_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"config_recorder_all_regions_enabled"},
 }
-var ens_rds_op_exp_1_aws_sys_1 = &NistComp{
+var Ens_rds_op_exp_1_aws_sys_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -377,7 +377,7 @@ var ens_rds_op_exp_1_aws_sys_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var ens_rds_op_exp_1_aws_sys_2 = &NistComp{
+var Ens_rds_op_exp_1_aws_sys_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -392,7 +392,7 @@ var ens_rds_op_exp_1_aws_sys_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"organizations_tags_policies_enabled_and_attached"},
 }
-var ens_rds_op_exp_1_aws_re_1 = &NistComp{
+var Ens_rds_op_exp_1_aws_re_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -407,7 +407,7 @@ var ens_rds_op_exp_1_aws_re_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"resourceexplorer2_indexes_found"},
 }
-var ens_rds_op_exp_1_aws_tag_1 = &NistComp{
+var Ens_rds_op_exp_1_aws_tag_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -422,7 +422,7 @@ var ens_rds_op_exp_1_aws_tag_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"organizations_tags_policies_enabled_and_attached"},
 }
-var ens_rds_op_exp_3_aws_cfg_1 = &NistComp{
+var Ens_rds_op_exp_3_aws_cfg_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -437,7 +437,7 @@ var ens_rds_op_exp_3_aws_cfg_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"config_recorder_all_regions_enabled"},
 }
-var ens_rds_op_exp_3_r3_aws_cfg_1 = &NistComp{
+var Ens_rds_op_exp_3_r3_aws_cfg_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -452,7 +452,7 @@ var ens_rds_op_exp_3_r3_aws_cfg_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"config_recorder_all_regions_enabled"},
 }
-var ens_rds_op_exp_4_aws_sys_2 = &NistComp{
+var Ens_rds_op_exp_4_aws_sys_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -467,7 +467,7 @@ var ens_rds_op_exp_4_aws_sys_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var ens_rds_op_exp_4_r2_aws_sys_1 = &NistComp{
+var Ens_rds_op_exp_4_r2_aws_sys_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -482,7 +482,7 @@ var ens_rds_op_exp_4_r2_aws_sys_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_instance_managed_by_ssm"},
 }
-var ens_rds_op_exp_4_r4_aws_insp_1 = &NistComp{
+var Ens_rds_op_exp_4_r4_aws_insp_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -497,7 +497,7 @@ var ens_rds_op_exp_4_r4_aws_insp_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"inspector2_is_enabled", "inspector2_active_findings_exist"},
 }
-var ens_rds_op_exp_5_aws_ct_1 = &NistComp{
+var Ens_rds_op_exp_5_aws_ct_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -512,7 +512,7 @@ var ens_rds_op_exp_5_aws_ct_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_multi_region_enabled"},
 }
-var ens_rds_op_exp_6_aws_gd_1 = &NistComp{
+var Ens_rds_op_exp_6_aws_gd_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -527,7 +527,7 @@ var ens_rds_op_exp_6_aws_gd_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"guardduty_is_enabled"},
 }
-var ens_rds_op_exp_7_aws_gd_1 = &NistComp{
+var Ens_rds_op_exp_7_aws_gd_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -542,7 +542,7 @@ var ens_rds_op_exp_7_aws_gd_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"guardduty_is_enabled", "guardduty_no_high_severity_findings"},
 }
-var ens_rds_op_exp_7_aws_sh_1 = &NistComp{
+var Ens_rds_op_exp_7_aws_sh_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -557,7 +557,7 @@ var ens_rds_op_exp_7_aws_sh_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"securityhub_enabled"},
 }
-var ens_rds_op_exp_7_aws_cf_1 = &NistComp{
+var Ens_rds_op_exp_7_aws_cf_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -572,7 +572,7 @@ var ens_rds_op_exp_7_aws_cf_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudfront_distributions_logging_enabled"},
 }
-var ens_rds_op_ext_7_aws_am_1 = &NistComp{
+var Ens_rds_op_ext_7_aws_am_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -587,7 +587,7 @@ var ens_rds_op_ext_7_aws_am_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"account_maintain_current_contact_details", "account_security_contact_information_is_registered", "account_security_questions_are_registered_in_the_aws_account"},
 }
-var ens_rds_op_exp_8_aws_ct_1 = &NistComp{
+var Ens_rds_op_exp_8_aws_ct_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -602,7 +602,7 @@ var ens_rds_op_exp_8_aws_ct_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_multi_region_enabled"},
 }
-var ens_rds_op_exp_8_aws_ct_2 = &NistComp{
+var Ens_rds_op_exp_8_aws_ct_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -617,7 +617,7 @@ var ens_rds_op_exp_8_aws_ct_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled"},
 }
-var ens_rds_op_exp_8_aws_ct_3 = &NistComp{
+var Ens_rds_op_exp_8_aws_ct_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -632,7 +632,7 @@ var ens_rds_op_exp_8_aws_ct_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_log_file_validation_enabled"},
 }
-var ens_rds_op_exp_8_aws_ct_4 = &NistComp{
+var Ens_rds_op_exp_8_aws_ct_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -647,7 +647,7 @@ var ens_rds_op_exp_8_aws_ct_4 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_logs_s3_bucket_is_not_publicly_accessible", "cloudtrail_s3_dataevents_write_enabled"},
 }
-var ens_rds_op_exp_8_aws_ct_5 = &NistComp{
+var Ens_rds_op_exp_8_aws_ct_5 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -662,7 +662,7 @@ var ens_rds_op_exp_8_aws_ct_5 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_metric_filter_unauthorized_api_calls", "cloudwatch_log_metric_filter_authentication_failures", "cloudwatch_log_metric_filter_sign_in_without_mfa", "cloudwatch_log_metric_filter_root_usage", "cloudwatch_log_metric_filter_policy_changes"},
 }
-var ens_rds_op_exp_8_aws_ct_6 = &NistComp{
+var Ens_rds_op_exp_8_aws_ct_6 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -677,7 +677,7 @@ var ens_rds_op_exp_8_aws_ct_6 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_multi_region_enabled"},
 }
-var ens_rds_op_exp_8_aws_cw_1 = &NistComp{
+var Ens_rds_op_exp_8_aws_cw_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -692,7 +692,7 @@ var ens_rds_op_exp_8_aws_cw_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_metric_filter_root_usage"},
 }
-var ens_rds_op_exp_8_r1_aws_ct_2 = &NistComp{
+var Ens_rds_op_exp_8_r1_aws_ct_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -707,7 +707,7 @@ var ens_rds_op_exp_8_r1_aws_ct_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_insights_exist"},
 }
-var ens_rds_op_exp_8_r1_aws_ct_3 = &NistComp{
+var Ens_rds_op_exp_8_r1_aws_ct_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -722,7 +722,7 @@ var ens_rds_op_exp_8_r1_aws_ct_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_insights_exist"},
 }
-var ens_rds_op_exp_8_r1_aws_ct_4 = &NistComp{
+var Ens_rds_op_exp_8_r1_aws_ct_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -737,7 +737,7 @@ var ens_rds_op_exp_8_r1_aws_ct_4 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_s3_dataevents_write_enabled", "cloudtrail_s3_dataevents_read_enabled"},
 }
-var ens_rds_op_exp_8_r1_aws_ct_6 = &NistComp{
+var Ens_rds_op_exp_8_r1_aws_ct_6 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -752,7 +752,7 @@ var ens_rds_op_exp_8_r1_aws_ct_6 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_logs_s3_bucket_access_logging_enabled"},
 }
-var ens_rds_op_exp_8_r1_aws_ct_7 = &NistComp{
+var Ens_rds_op_exp_8_r1_aws_ct_7 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -767,7 +767,7 @@ var ens_rds_op_exp_8_r1_aws_ct_7 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_cloudwatch_logging_enabled"},
 }
-var ens_rds_op_exp_8_r3_aws_cw_1 = &NistComp{
+var Ens_rds_op_exp_8_r3_aws_cw_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -782,7 +782,7 @@ var ens_rds_op_exp_8_r3_aws_cw_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_8 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_8 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -797,7 +797,7 @@ var ens_rds_op_exp_8_r4_aws_ct_8 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_policy_allows_privilege_escalation", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_custom_policy_permissive_role_assumption", "iam_policy_attached_only_to_group_or_roles", "iam_role_cross_service_confused_deputy_prevention"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_1 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -812,7 +812,7 @@ var ens_rds_op_exp_8_r4_aws_ct_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_policy_allows_privilege_escalation", "iam_customer_attached_policy_no_administrative_privileges", "iam_customer_unattached_policy_no_administrative_privilege", "iam_no_custom_policy_permissive_role_assumption", "iam_policy_attached_only_to_group_or_roles", "iam_role_cross_service_confused_deputy_prevention", "iam_policy_no_full_access_to_cloudtrail"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_2 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -827,7 +827,7 @@ var ens_rds_op_exp_8_r4_aws_ct_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"s3_bucket_public_access", "cloudtrail_logs_s3_bucket_is_not_publicly_accessible", "s3_bucket_policy_public_write_access"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_3 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -842,7 +842,7 @@ var ens_rds_op_exp_8_r4_aws_ct_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_bucket_requires_mfa_delete"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_4 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -857,7 +857,7 @@ var ens_rds_op_exp_8_r4_aws_ct_4 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_kms_encryption_enabled"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_5 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_5 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -872,7 +872,7 @@ var ens_rds_op_exp_8_r4_aws_ct_5 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_logs_s3_bucket_access_logging_enabled"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_6 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_6 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -887,7 +887,7 @@ var ens_rds_op_exp_8_r4_aws_ct_6 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_logs_s3_bucket_is_not_publicly_accessible"},
 }
-var ens_rds_op_exp_8_r4_aws_ct_7 = &NistComp{
+var Ens_rds_op_exp_8_r4_aws_ct_7 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -902,7 +902,7 @@ var ens_rds_op_exp_8_r4_aws_ct_7 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_kms_encryption_enabled"},
 }
-var ens_rds_op_exp_9_aws_ct_1 = &NistComp{
+var Ens_rds_op_exp_9_aws_ct_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -917,7 +917,7 @@ var ens_rds_op_exp_9_aws_ct_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_multi_region_enabled"},
 }
-var ens_rds_op_exp_9_aws_img_1 = &NistComp{
+var Ens_rds_op_exp_9_aws_img_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -932,7 +932,7 @@ var ens_rds_op_exp_9_aws_img_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_instance_managed_by_ssm", "ssmincidents_enabled_with_plans"},
 }
-var ens_rds_op_exp_10_aws_tag_1 = &NistComp{
+var Ens_rds_op_exp_10_aws_tag_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -947,7 +947,7 @@ var ens_rds_op_exp_10_aws_tag_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"organizations_tags_policies_enabled_and_attached"},
 }
-var ens_rds_op_exp_10_aws_cmk_1 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -962,7 +962,7 @@ var ens_rds_op_exp_10_aws_cmk_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_policy_no_full_access_to_kms"},
 }
-var ens_rds_op_exp_10_aws_cmk_2 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -977,7 +977,7 @@ var ens_rds_op_exp_10_aws_cmk_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"iam_policy_no_full_access_to_kms"},
 }
-var ens_rds_op_exp_10_aws_cmk_3 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -992,7 +992,7 @@ var ens_rds_op_exp_10_aws_cmk_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"kms_cmk_rotation_enabled"},
 }
-var ens_rds_op_exp_10_aws_cmk_4 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1007,7 +1007,7 @@ var ens_rds_op_exp_10_aws_cmk_4 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_metric_filter_disable_or_scheduled_deletion_of_kms_cmk"},
 }
-var ens_rds_op_exp_10_aws_cmk_5 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_5 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1022,7 +1022,7 @@ var ens_rds_op_exp_10_aws_cmk_5 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudwatch_log_metric_filter_disable_or_scheduled_deletion_of_kms_cmk"},
 }
-var ens_rds_op_mon_1_aws_gd_1 = &NistComp{
+var Ens_rds_op_mon_1_aws_gd_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1037,7 +1037,7 @@ var ens_rds_op_mon_1_aws_gd_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"guardduty_is_enabled"},
 }
-var ens_rds_op_mon_1_aws_ct_1 = &NistComp{
+var Ens_rds_op_mon_1_aws_ct_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1052,7 +1052,7 @@ var ens_rds_op_mon_1_aws_ct_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_multi_region_enabled"},
 }
-var ens_rds_op_mon_1_aws_flow_1 = &NistComp{
+var Ens_rds_op_mon_1_aws_flow_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1067,7 +1067,7 @@ var ens_rds_op_mon_1_aws_flow_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"vpc_flow_logs_enabled"},
 }
-var ens_rds_op_mon_1_aws_gd_2 = &NistComp{
+var Ens_rds_op_mon_1_aws_gd_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1082,7 +1082,7 @@ var ens_rds_op_mon_1_aws_gd_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"guardduty_is_enabled"},
 }
-var ens_rds_op_mon_1_aws_gd_3 = &NistComp{
+var Ens_rds_op_mon_1_aws_gd_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1097,7 +1097,7 @@ var ens_rds_op_mon_1_aws_gd_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"guardduty_centrally_managed"},
 }
-var ens_rds_op_mon_2_aws_sh_1 = &NistComp{
+var Ens_rds_op_mon_2_aws_sh_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1112,7 +1112,7 @@ var ens_rds_op_mon_2_aws_sh_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"securityhub_enabled"},
 }
-var ens_rds_op_mon_3_aws_cwl_2 = &NistComp{
+var Ens_rds_op_mon_3_aws_cwl_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1127,7 +1127,7 @@ var ens_rds_op_mon_3_aws_cwl_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudtrail_cloudwatch_logging_enabled"},
 }
-var ens_rds_op_mon_3_r1_aws_gd_1 = &NistComp{
+var Ens_rds_op_mon_3_r1_aws_gd_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1142,7 +1142,7 @@ var ens_rds_op_mon_3_r1_aws_gd_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"guardduty_is_enabled"},
 }
-var ens_rds_op_mon_3_r1_aws_sh_1 = &NistComp{
+var Ens_rds_op_mon_3_r1_aws_sh_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1157,7 +1157,7 @@ var ens_rds_op_mon_3_r1_aws_sh_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"securityhub_enabled"},
 }
-var ens_rds_op_mon_3_r2_aws_cfg_1 = &NistComp{
+var Ens_rds_op_mon_3_r2_aws_cfg_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1172,7 +1172,7 @@ var ens_rds_op_mon_3_r2_aws_cfg_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"config_recorder_all_regions_enabled"},
 }
-var ens_rds_op_mon_3_r2_aws_sh_1 = &NistComp{
+var Ens_rds_op_mon_3_r2_aws_sh_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1187,7 +1187,7 @@ var ens_rds_op_mon_3_r2_aws_sh_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"securityhub_enabled"},
 }
-var ens_rds_op_mon_3_r2_aws_insp_1 = &NistComp{
+var Ens_rds_op_mon_3_r2_aws_insp_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1202,7 +1202,7 @@ var ens_rds_op_mon_3_r2_aws_insp_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"inspector2_is_enabled", "inspector2_active_findings_exist"},
 }
-var ens_rds_op_mon_3_r3_aws_gd_1 = &NistComp{
+var Ens_rds_op_mon_3_r3_aws_gd_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1217,7 +1217,7 @@ var ens_rds_op_mon_3_r3_aws_gd_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"guardduty_is_enabled"},
 }
-var ens_rds_op_mon_3_r6_aws_cfg_1 = &NistComp{
+var Ens_rds_op_mon_3_r6_aws_cfg_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1232,7 +1232,7 @@ var ens_rds_op_mon_3_r6_aws_cfg_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"config_recorder_all_regions_enabled"},
 }
-var ens_rds_op_mon_3_r6_aws_insp_1 = &NistComp{
+var Ens_rds_op_mon_3_r6_aws_insp_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1247,7 +1247,7 @@ var ens_rds_op_mon_3_r6_aws_insp_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"inspector2_is_enabled", "inspector2_active_findings_exist"},
 }
-var ens_rds_mp_com_1_aws_sg_1 = &NistComp{
+var Ens_rds_mp_com_1_aws_sg_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1262,7 +1262,7 @@ var ens_rds_mp_com_1_aws_sg_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_securitygroup_default_restrict_traffic", "ec2_securitygroup_from_launch_wizard"},
 }
-var ens_rds_mp_com_1_aws_sg_2 = &NistComp{
+var Ens_rds_mp_com_1_aws_sg_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1277,7 +1277,7 @@ var ens_rds_mp_com_1_aws_sg_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_securitygroup_allow_ingress_from_internet_to_any_port"},
 }
-var ens_rds_mp_com_1_aws_sg_3 = &NistComp{
+var Ens_rds_mp_com_1_aws_sg_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1292,7 +1292,7 @@ var ens_rds_mp_com_1_aws_sg_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_securitygroup_not_used"},
 }
-var ens_rds_mp_com_1_aws_elb_1 = &NistComp{
+var Ens_rds_mp_com_1_aws_elb_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1307,7 +1307,7 @@ var ens_rds_mp_com_1_aws_elb_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"elb_ssl_listeners"},
 }
-var ens_rds_mp_com_1_aws_elb_2 = &NistComp{
+var Ens_rds_mp_com_1_aws_elb_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1322,7 +1322,7 @@ var ens_rds_mp_com_1_aws_elb_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"elb_insecure_ssl_ciphers"},
 }
-var ens_rds_mp_com_1_aws_nfw_1 = &NistComp{
+var Ens_rds_mp_com_1_aws_nfw_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1337,7 +1337,7 @@ var ens_rds_mp_com_1_aws_nfw_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"networkfirewall_in_all_vpc"},
 }
-var ens_rds_mp_com_1_aws_nfw_2 = &NistComp{
+var Ens_rds_mp_com_1_aws_nfw_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1352,7 +1352,7 @@ var ens_rds_mp_com_1_aws_nfw_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"fms_policy_compliant"},
 }
-var ens_rds_mp_com_1_aws_s3_1 = &NistComp{
+var Ens_rds_mp_com_1_aws_s3_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1367,7 +1367,7 @@ var ens_rds_mp_com_1_aws_s3_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"s3_bucket_secure_transport_policy"},
 }
-var ens_rds_mp_com_1_aws_cf_1 = &NistComp{
+var Ens_rds_mp_com_1_aws_cf_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1382,7 +1382,7 @@ var ens_rds_mp_com_1_aws_cf_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudfront_distributions_https_enabled"},
 }
-var ens_rds_mp_com_3_aws_elb_1 = &NistComp{
+var Ens_rds_mp_com_3_aws_elb_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1397,7 +1397,7 @@ var ens_rds_mp_com_3_aws_elb_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"elbv2_insecure_ssl_ciphers"},
 }
-var ens_rds_mp_com_3_aws_elb_2 = &NistComp{
+var Ens_rds_mp_com_3_aws_elb_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1412,7 +1412,7 @@ var ens_rds_mp_com_3_aws_elb_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"elbv2_insecure_ssl_ciphers"},
 }
-var ens_rds_mp_com_3_aws_s3_1 = &NistComp{
+var Ens_rds_mp_com_3_aws_s3_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1427,7 +1427,7 @@ var ens_rds_mp_com_3_aws_s3_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"s3_bucket_secure_transport_policy"},
 }
-var ens_rds_mp_com_3_aws_cf_1 = &NistComp{
+var Ens_rds_mp_com_3_aws_cf_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1442,7 +1442,7 @@ var ens_rds_mp_com_3_aws_cf_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudfront_distributions_https_enabled"},
 }
-var ens_rds_mp_com_4_aws_ws_1 = &NistComp{
+var Ens_rds_mp_com_4_aws_ws_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1457,7 +1457,7 @@ var ens_rds_mp_com_4_aws_ws_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"workspaces_vpc_2private_1public_subnets_nat"},
 }
-var ens_rds_mp_com_4_aws_vpc_1 = &NistComp{
+var Ens_rds_mp_com_4_aws_vpc_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1472,7 +1472,7 @@ var ens_rds_mp_com_4_aws_vpc_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"vpc_subnet_separate_private_public"},
 }
-var ens_rds_mp_com_4_aws_vpc_2 = &NistComp{
+var Ens_rds_mp_com_4_aws_vpc_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1487,7 +1487,7 @@ var ens_rds_mp_com_4_aws_vpc_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_instance_internet_facing_with_instance_profile"},
 }
-var ens_rds_mp_com_4_r1_aws_vpc_1 = &NistComp{
+var Ens_rds_mp_com_4_r1_aws_vpc_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1502,7 +1502,7 @@ var ens_rds_mp_com_4_r1_aws_vpc_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"vpc_subnet_separate_private_public", "vpc_different_regions"},
 }
-var ens_rds_mp_com_4_r2_aws_vpc_1 = &NistComp{
+var Ens_rds_mp_com_4_r2_aws_vpc_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1517,7 +1517,7 @@ var ens_rds_mp_com_4_r2_aws_vpc_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"vpc_peering_routing_tables_with_least_privilege"},
 }
-var ens_rds_mp_com_4_r3_aws_vpc_1 = &NistComp{
+var Ens_rds_mp_com_4_r3_aws_vpc_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1532,7 +1532,7 @@ var ens_rds_mp_com_4_r3_aws_vpc_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"vpc_subnet_different_az", "vpc_different_regions"},
 }
-var ens_rds_mp_si_2_aws_kms_1 = &NistComp{
+var Ens_rds_mp_si_2_aws_kms_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1547,7 +1547,7 @@ var ens_rds_mp_si_2_aws_kms_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_ebs_volume_encryption"},
 }
-var ens_rds_mp_si_2_aws_s3_1 = &NistComp{
+var Ens_rds_mp_si_2_aws_s3_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1562,7 +1562,7 @@ var ens_rds_mp_si_2_aws_s3_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"s3_bucket_default_encryption"},
 }
-var ens_rds_mp_si_2_aws_sqs_1 = &NistComp{
+var Ens_rds_mp_si_2_aws_sqs_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1577,7 +1577,7 @@ var ens_rds_mp_si_2_aws_sqs_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"sqs_queues_server_side_encryption_enabled"},
 }
-var ens_rds_mp_si_2_aws_rds_1 = &NistComp{
+var Ens_rds_mp_si_2_aws_rds_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1592,7 +1592,7 @@ var ens_rds_mp_si_2_aws_rds_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"rds_instance_storage_encrypted"},
 }
-var ens_rds_mp_si_2_aws_dydb_1 = &NistComp{
+var Ens_rds_mp_si_2_aws_dydb_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1607,7 +1607,7 @@ var ens_rds_mp_si_2_aws_dydb_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"dynamodb_tables_kms_cmk_encryption_enabled"},
 }
-var ens_rds_mp_si_2_aws_es_1 = &NistComp{
+var Ens_rds_mp_si_2_aws_es_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1622,7 +1622,7 @@ var ens_rds_mp_si_2_aws_es_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"opensearch_service_domains_encryption_at_rest_enabled"},
 }
-var ens_rds_mp_si_2_aws_elb_1 = &NistComp{
+var Ens_rds_mp_si_2_aws_elb_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1637,7 +1637,7 @@ var ens_rds_mp_si_2_aws_elb_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_ebs_snapshots_encrypted"},
 }
-var ens_rds_mp_si_2_r2_aws_ebs_1 = &NistComp{
+var Ens_rds_mp_si_2_r2_aws_ebs_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1652,7 +1652,7 @@ var ens_rds_mp_si_2_r2_aws_ebs_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"ec2_ebs_snapshots_encrypted"},
 }
-var ens_rds_mp_sw_2_r1_aws_acb_1 = &NistComp{
+var Ens_rds_mp_sw_2_r1_aws_acb_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1667,7 +1667,7 @@ var ens_rds_mp_sw_2_r1_aws_acb_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"codebuild_project_older_90_days", "codebuild_project_user_controlled_buildspec"},
 }
-var ens_rds_mp_s_2_aws_waf_1 = &NistComp{
+var Ens_rds_mp_s_2_aws_waf_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1682,7 +1682,7 @@ var ens_rds_mp_s_2_aws_waf_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"cloudfront_distributions_using_waf"},
 }
-var ens_rds_mp_s_2_aws_waf_2 = &NistComp{
+var Ens_rds_mp_s_2_aws_waf_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1697,7 +1697,7 @@ var ens_rds_mp_s_2_aws_waf_2 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"apigateway_restapi_waf_acl_attached"},
 }
-var ens_rds_mp_s_2_aws_waf_3 = &NistComp{
+var Ens_rds_mp_s_2_aws_waf_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1712,7 +1712,7 @@ var ens_rds_mp_s_2_aws_waf_3 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"elbv2_waf_acl_attached"},
 }
-var ens_rds_mp_s_4_r1_aws_shieldadv_1 = &NistComp{
+var Ens_rds_mp_s_4_r1_aws_shieldadv_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1727,7 +1727,7 @@ var ens_rds_mp_s_4_r1_aws_shieldadv_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"shield_advanced_protection_in_associated_elastic_ips", "shield_advanced_protection_in_classic_load_balancers", "shield_advanced_protection_in_cloudfront_distributions", "shield_advanced_protection_in_global_accelerators", "shield_advanced_protection_in_internet_facing_load_balancers", "shield_advanced_protection_in_route53_hosted_zones"},
 }
-var ens_rds_mp_s_4_aws_as_1 = &NistComp{
+var Ens_rds_mp_s_4_aws_as_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1742,7 +1742,7 @@ var ens_rds_mp_s_4_aws_as_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"autoscaling_group_multiple_az"},
 }
-var ens_rds_op_pl_2_aws_warch_1 = &NistComp{
+var Ens_rds_op_pl_2_aws_warch_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1757,7 +1757,7 @@ var ens_rds_op_pl_2_aws_warch_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_2_aws_warch_1_1 = &NistComp{
+var Ens_rds_op_pl_2_aws_warch_1_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1772,7 +1772,7 @@ var ens_rds_op_pl_2_aws_warch_1_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_2_aws_warch_1_2 = &NistComp{
+var Ens_rds_op_pl_2_aws_warch_1_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1787,7 +1787,7 @@ var ens_rds_op_pl_2_aws_warch_1_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_aws_ec2_1 = &NistComp{
+var Ens_rds_op_pl_4_aws_ec2_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1802,7 +1802,7 @@ var ens_rds_op_pl_4_aws_ec2_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_aws_sq_1 = &NistComp{
+var Ens_rds_op_pl_4_aws_sq_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1817,7 +1817,7 @@ var ens_rds_op_pl_4_aws_sq_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_r1_aws_cw_1 = &NistComp{
+var Ens_rds_op_pl_4_r1_aws_cw_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1832,7 +1832,7 @@ var ens_rds_op_pl_4_r1_aws_cw_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_r1_aws_sq_1 = &NistComp{
+var Ens_rds_op_pl_4_r1_aws_sq_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1847,7 +1847,7 @@ var ens_rds_op_pl_4_r1_aws_sq_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_r1_aws_sq_2 = &NistComp{
+var Ens_rds_op_pl_4_r1_aws_sq_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1862,7 +1862,7 @@ var ens_rds_op_pl_4_r1_aws_sq_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_r1_aws_sns_1 = &NistComp{
+var Ens_rds_op_pl_4_r1_aws_sns_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1877,7 +1877,7 @@ var ens_rds_op_pl_4_r1_aws_sns_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_r1_aws_sns_2 = &NistComp{
+var Ens_rds_op_pl_4_r1_aws_sns_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1892,7 +1892,7 @@ var ens_rds_op_pl_4_r1_aws_sns_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_pl_4_r1_aws_sq_3 = &NistComp{
+var Ens_rds_op_pl_4_r1_aws_sq_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1907,7 +1907,7 @@ var ens_rds_op_pl_4_r1_aws_sq_3 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_1_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_1_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1922,7 +1922,7 @@ var ens_rds_op_acc_1_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_1_aws_iam_3 = &NistComp{
+var Ens_rds_op_acc_1_aws_iam_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1937,7 +1937,7 @@ var ens_rds_op_acc_1_aws_iam_3 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_1_aws_iam_4 = &NistComp{
+var Ens_rds_op_acc_1_aws_iam_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1952,7 +1952,7 @@ var ens_rds_op_acc_1_aws_iam_4 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_1_aws_iam_5 = &NistComp{
+var Ens_rds_op_acc_1_aws_iam_5 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1967,7 +1967,7 @@ var ens_rds_op_acc_1_aws_iam_5 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_1_aws_iam_6 = &NistComp{
+var Ens_rds_op_acc_1_aws_iam_6 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1982,7 +1982,7 @@ var ens_rds_op_acc_1_aws_iam_6 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_1_aws_iam_7 = &NistComp{
+var Ens_rds_op_acc_1_aws_iam_7 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -1997,7 +1997,7 @@ var ens_rds_op_acc_1_aws_iam_7 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_1_r1_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_1_r1_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2012,7 +2012,7 @@ var ens_rds_op_acc_1_r1_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_2_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_2_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2027,7 +2027,7 @@ var ens_rds_op_acc_2_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_2_aws_vpn_1 = &NistComp{
+var Ens_rds_op_acc_2_aws_vpn_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2042,7 +2042,7 @@ var ens_rds_op_acc_2_aws_vpn_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_2_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_2_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2057,7 +2057,7 @@ var ens_rds_op_acc_2_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_2_aws_iam_3 = &NistComp{
+var Ens_rds_op_acc_2_aws_iam_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2072,7 +2072,7 @@ var ens_rds_op_acc_2_aws_iam_3 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_2_aws_vpn_2 = &NistComp{
+var Ens_rds_op_acc_2_aws_vpn_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2087,7 +2087,7 @@ var ens_rds_op_acc_2_aws_vpn_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_2_aws_vpn_3 = &NistComp{
+var Ens_rds_op_acc_2_aws_vpn_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2102,7 +2102,7 @@ var ens_rds_op_acc_2_aws_vpn_3 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_2_r1_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_2_r1_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2117,7 +2117,7 @@ var ens_rds_op_acc_2_r1_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_3_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_3_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2132,7 +2132,7 @@ var ens_rds_op_acc_3_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_3_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_3_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2147,7 +2147,7 @@ var ens_rds_op_acc_3_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_3_aws_iam_3 = &NistComp{
+var Ens_rds_op_acc_3_aws_iam_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2162,7 +2162,7 @@ var ens_rds_op_acc_3_aws_iam_3 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_3_aws_iam_4 = &NistComp{
+var Ens_rds_op_acc_3_aws_iam_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2177,7 +2177,7 @@ var ens_rds_op_acc_3_aws_iam_4 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_3_r3_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_3_r3_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2192,7 +2192,7 @@ var ens_rds_op_acc_3_r3_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_iam_12 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_12 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2207,7 +2207,7 @@ var ens_rds_op_acc_4_aws_iam_12 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_iam_13 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_13 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2222,7 +2222,7 @@ var ens_rds_op_acc_4_aws_iam_13 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_iam_3 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2237,7 +2237,7 @@ var ens_rds_op_acc_4_aws_iam_3 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_iam_4 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2252,7 +2252,7 @@ var ens_rds_op_acc_4_aws_iam_4 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_iam_5 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_5 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2267,7 +2267,7 @@ var ens_rds_op_acc_4_aws_iam_5 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_iam_10 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_10 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2282,7 +2282,7 @@ var ens_rds_op_acc_4_aws_iam_10 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_iam_11 = &NistComp{
+var Ens_rds_op_acc_4_aws_iam_11 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2297,7 +2297,7 @@ var ens_rds_op_acc_4_aws_iam_11 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_vpn_1 = &NistComp{
+var Ens_rds_op_acc_4_aws_vpn_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2312,7 +2312,7 @@ var ens_rds_op_acc_4_aws_vpn_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_4_aws_vpn_2 = &NistComp{
+var Ens_rds_op_acc_4_aws_vpn_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2327,7 +2327,7 @@ var ens_rds_op_acc_4_aws_vpn_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_6_r2_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_6_r2_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2342,7 +2342,7 @@ var ens_rds_op_acc_6_r2_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_6_r3_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r3_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2357,7 +2357,7 @@ var ens_rds_op_acc_6_r3_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_6_r5_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_6_r5_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2372,7 +2372,7 @@ var ens_rds_op_acc_6_r5_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_6_r9_aws_iam_1 = &NistComp{
+var Ens_rds_op_acc_6_r9_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2387,7 +2387,7 @@ var ens_rds_op_acc_6_r9_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_acc_6_r9_aws_iam_2 = &NistComp{
+var Ens_rds_op_acc_6_r9_aws_iam_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2402,7 +2402,7 @@ var ens_rds_op_acc_6_r9_aws_iam_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_1_r2_aws_sminv_1 = &NistComp{
+var Ens_rds_op_exp_1_r2_aws_sminv_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2417,7 +2417,7 @@ var ens_rds_op_exp_1_r2_aws_sminv_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_1_r3_aws_tag_1 = &NistComp{
+var Ens_rds_op_exp_1_r3_aws_tag_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2432,7 +2432,7 @@ var ens_rds_op_exp_1_r3_aws_tag_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_3_r4_aws_cfg_2 = &NistComp{
+var Ens_rds_op_exp_3_r4_aws_cfg_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2447,7 +2447,7 @@ var ens_rds_op_exp_3_r4_aws_cfg_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_4_aws_ami_1 = &NistComp{
+var Ens_rds_op_exp_4_aws_ami_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2462,7 +2462,7 @@ var ens_rds_op_exp_4_aws_ami_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_5_aws_cm_1 = &NistComp{
+var Ens_rds_op_exp_5_aws_cm_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2477,7 +2477,7 @@ var ens_rds_op_exp_5_aws_cm_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_5_aws_cal_1 = &NistComp{
+var Ens_rds_op_exp_5_aws_cal_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2492,7 +2492,7 @@ var ens_rds_op_exp_5_aws_cal_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_6_r1_aws_sys_1 = &NistComp{
+var Ens_rds_op_exp_6_r1_aws_sys_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2507,7 +2507,7 @@ var ens_rds_op_exp_6_r1_aws_sys_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_6_r3_aws_sys_1 = &NistComp{
+var Ens_rds_op_exp_6_r3_aws_sys_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2522,7 +2522,7 @@ var ens_rds_op_exp_6_r3_aws_sys_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_6_r4_aws_sys_1 = &NistComp{
+var Ens_rds_op_exp_6_r4_aws_sys_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2537,7 +2537,7 @@ var ens_rds_op_exp_6_r4_aws_sys_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_8_r1_aws_cw_1 = &NistComp{
+var Ens_rds_op_exp_8_r1_aws_cw_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2552,7 +2552,7 @@ var ens_rds_op_exp_8_r1_aws_cw_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_8_r3_aws_ct_1 = &NistComp{
+var Ens_rds_op_exp_8_r3_aws_ct_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2567,7 +2567,7 @@ var ens_rds_op_exp_8_r3_aws_ct_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_10_aws_cmk_6 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_6 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2582,7 +2582,7 @@ var ens_rds_op_exp_10_aws_cmk_6 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_10_aws_cmk_7 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_7 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2597,7 +2597,7 @@ var ens_rds_op_exp_10_aws_cmk_7 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_exp_10_aws_cmk_8 = &NistComp{
+var Ens_rds_op_exp_10_aws_cmk_8 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2612,7 +2612,7 @@ var ens_rds_op_exp_10_aws_cmk_8 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_cont_2_aws_az_1 = &NistComp{
+var Ens_rds_op_cont_2_aws_az_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2627,7 +2627,7 @@ var ens_rds_op_cont_2_aws_az_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_cont_3_aws_drs_1 = &NistComp{
+var Ens_rds_op_cont_3_aws_drs_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2642,7 +2642,7 @@ var ens_rds_op_cont_3_aws_drs_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"drs_job_exist"},
 }
-var ens_rds_op_mon_1_aws_gd_4 = &NistComp{
+var Ens_rds_op_mon_1_aws_gd_4 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2657,7 +2657,7 @@ var ens_rds_op_mon_1_aws_gd_4 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_op_mon_3_aws_cwl_1 = &NistComp{
+var Ens_rds_op_mon_3_aws_cwl_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2672,7 +2672,7 @@ var ens_rds_op_mon_3_aws_cwl_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_com_2_aws_vpn_1 = &NistComp{
+var Ens_rds_mp_com_2_aws_vpn_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2687,7 +2687,7 @@ var ens_rds_mp_com_2_aws_vpn_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_com_2_aws_vpn_2 = &NistComp{
+var Ens_rds_mp_com_2_aws_vpn_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2702,7 +2702,7 @@ var ens_rds_mp_com_2_aws_vpn_2 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_com_3_r1_aws_vpn_1 = &NistComp{
+var Ens_rds_mp_com_3_r1_aws_vpn_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2717,7 +2717,7 @@ var ens_rds_mp_com_3_r1_aws_vpn_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_si_2_r1_aws_kms_1 = &NistComp{
+var Ens_rds_mp_si_2_r1_aws_kms_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2732,7 +2732,7 @@ var ens_rds_mp_si_2_r1_aws_kms_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_sw_2_r1_aws_cfgd_1 = &NistComp{
+var Ens_rds_mp_sw_2_r1_aws_cfgd_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2747,7 +2747,7 @@ var ens_rds_mp_sw_2_r1_aws_cfgd_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_info_6_aws_iam_1 = &NistComp{
+var Ens_rds_mp_info_6_aws_iam_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2762,7 +2762,7 @@ var ens_rds_mp_info_6_aws_iam_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_info_6_aws_bcku_1 = &NistComp{
+var Ens_rds_mp_info_6_aws_bcku_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2777,7 +2777,7 @@ var ens_rds_mp_info_6_aws_bcku_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"backup_plans_exist", "backup_vaults_exist", "backup_reportplans_exist"},
 }
-var ens_rds_mp_info_6_aws_tag_1 = &NistComp{
+var Ens_rds_mp_info_6_aws_tag_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2792,7 +2792,7 @@ var ens_rds_mp_info_6_aws_tag_1 = &NistComp{
 	ModoEjecucion:      "automático",
 	Checks:             []string{"organizations_tags_policies_enabled_and_attached"},
 }
-var ens_rds_mp_info_6_r2_aws_bcku_1 = &NistComp{
+var Ens_rds_mp_info_6_r2_aws_bcku_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2807,7 +2807,7 @@ var ens_rds_mp_info_6_r2_aws_bcku_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_s_1_aws_wm_1 = &NistComp{
+var Ens_rds_mp_s_1_aws_wm_1 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2822,7 +2822,7 @@ var ens_rds_mp_s_1_aws_wm_1 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_s_1_aws_wm_3 = &NistComp{
+var Ens_rds_mp_s_1_aws_wm_3 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",
@@ -2837,7 +2837,7 @@ var ens_rds_mp_s_1_aws_wm_3 = &NistComp{
 	ModoEjecucion:      "manual",
 	Checks:             []string{},
 }
-var ens_rds_mp_s_1_aws_wm_2 = &NistComp{
+var Ens_rds_mp_s_1_aws_wm_2 = &NistComp{
 	Framework:          "ENS",
 	Provider:           "AWS",
 	Version:            "RD2022",

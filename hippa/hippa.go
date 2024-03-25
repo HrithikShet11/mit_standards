@@ -15,7 +15,7 @@ type NistComp struct {
 	Checks        []string
 }
 
-var hippa_164_308_a_1_ii_a = &NistComp{
+var Hippa_164_308_a_1_ii_a = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -26,7 +26,7 @@ var hippa_164_308_a_1_ii_a = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"config_recorder_all_regions_enabled", "guardduty_is_enabled"},
 }
-var hippa_164_308_a_1_ii_b = &NistComp{
+var Hippa_164_308_a_1_ii_b = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -37,7 +37,7 @@ var hippa_164_308_a_1_ii_b = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "dynamodb_tables_pitr_enabled", "ec2_ebs_public_snapshot", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "ec2_instance_public_ip", "ec2_instance_older_than_specific_days", "efs_encryption_at_rest_enabled", "elbv2_deletion_protection", "elb_ssl_listeners", "emr_cluster_master_nodes_no_public_ip", "opensearch_service_domains_encryption_at_rest_enabled", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_backup_enabled", "rds_instance_storage_encrypted", "rds_instance_multi_az", "rds_instance_storage_encrypted", "rds_snapshots_public_access", "redshift_cluster_audit_logging", "redshift_cluster_public_access", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_object_versioning", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var hippa_164_308_a_1_ii_d = &NistComp{
+var Hippa_164_308_a_1_ii_d = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -48,7 +48,7 @@ var hippa_164_308_a_1_ii_d = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var hippa_164_308_a_3_i = &NistComp{
+var Hippa_164_308_a_3_i = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -59,7 +59,7 @@ var hippa_164_308_a_3_i = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var hippa_164_308_a_3_ii_a = &NistComp{
+var Hippa_164_308_a_3_ii_a = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -70,7 +70,7 @@ var hippa_164_308_a_3_ii_a = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var hippa_164_308_a_3_ii_b = &NistComp{
+var Hippa_164_308_a_3_ii_b = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -81,7 +81,7 @@ var hippa_164_308_a_3_ii_b = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var hippa_164_308_a_3_ii_c = &NistComp{
+var Hippa_164_308_a_3_ii_c = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -92,7 +92,7 @@ var hippa_164_308_a_3_ii_c = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_rotate_access_key_90_days"},
 }
-var hippa_164_308_a_4_i = &NistComp{
+var Hippa_164_308_a_4_i = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -103,7 +103,7 @@ var hippa_164_308_a_4_i = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var hippa_164_308_a_4_ii_a = &NistComp{
+var Hippa_164_308_a_4_ii_a = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -114,7 +114,7 @@ var hippa_164_308_a_4_ii_a = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"acm_certificates_expiration_check", "cloudfront_distributions_https_enabled", "cloudtrail_kms_encryption_enabled", "dynamodb_accelerator_cluster_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "eks_cluster_kms_cmk_encryption_in_secrets_enabled", "elb_ssl_listeners", "opensearch_service_domains_encryption_at_rest_enabled", "opensearch_service_domains_node_to_node_encryption_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_backup_enabled", "rds_instance_integration_cloudwatch_logs", "rds_instance_storage_encrypted", "redshift_cluster_automated_snapshot", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var hippa_164_308_a_4_ii_b = &NistComp{
+var Hippa_164_308_a_4_ii_b = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -125,7 +125,7 @@ var hippa_164_308_a_4_ii_b = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var hippa_164_308_a_4_ii_c = &NistComp{
+var Hippa_164_308_a_4_ii_c = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -136,7 +136,7 @@ var hippa_164_308_a_4_ii_c = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"iam_password_policy_reuse_24", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var hippa_164_308_a_5_ii_b = &NistComp{
+var Hippa_164_308_a_5_ii_b = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -147,7 +147,7 @@ var hippa_164_308_a_5_ii_b = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var hippa_164_308_a_5_ii_c = &NistComp{
+var Hippa_164_308_a_5_ii_c = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -158,7 +158,7 @@ var hippa_164_308_a_5_ii_c = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"guardduty_is_enabled", "cloudwatch_log_metric_filter_authentication_failures", "securityhub_enabled"},
 }
-var hippa_164_308_a_5_ii_d = &NistComp{
+var Hippa_164_308_a_5_ii_d = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -169,7 +169,7 @@ var hippa_164_308_a_5_ii_d = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_password_policy_lowercase", "iam_password_policy_number", "iam_password_policy_symbol", "iam_password_policy_uppercase", "iam_password_policy_reuse_24", "iam_rotate_access_key_90_days", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var hippa_164_308_a_6_i = &NistComp{
+var Hippa_164_308_a_6_i = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -180,7 +180,7 @@ var hippa_164_308_a_6_i = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "cloudwatch_log_metric_filter_authentication_failures", "cloudwatch_log_metric_filter_root_usage", "securityhub_enabled"},
 }
-var hippa_164_308_a_6_ii = &NistComp{
+var Hippa_164_308_a_6_ii = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -191,7 +191,7 @@ var hippa_164_308_a_6_ii = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "cloudwatch_log_metric_filter_authentication_failures", "cloudwatch_log_metric_filter_root_usage", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var hippa_164_308_a_7_i = &NistComp{
+var Hippa_164_308_a_7_i = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -202,7 +202,7 @@ var hippa_164_308_a_7_i = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var hippa_164_308_a_7_ii_a = &NistComp{
+var Hippa_164_308_a_7_ii_a = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -213,7 +213,7 @@ var hippa_164_308_a_7_ii_a = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var hippa_164_308_a_7_ii_b = &NistComp{
+var Hippa_164_308_a_7_ii_b = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -224,7 +224,7 @@ var hippa_164_308_a_7_ii_b = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var hippa_164_308_a_7_ii_c = &NistComp{
+var Hippa_164_308_a_7_ii_c = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -235,7 +235,7 @@ var hippa_164_308_a_7_ii_c = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var hippa_164_308_a_8 = &NistComp{
+var Hippa_164_308_a_8 = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -246,7 +246,7 @@ var hippa_164_308_a_8 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var hippa_164_312_a_1 = &NistComp{
+var Hippa_164_312_a_1 = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -257,7 +257,7 @@ var hippa_164_312_a_1 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_user_mfa_enabled_console_access", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var hippa_164_312_a_2_i = &NistComp{
+var Hippa_164_312_a_2_i = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -268,7 +268,7 @@ var hippa_164_312_a_2_i = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "iam_no_root_access_key", "s3_bucket_public_access"},
 }
-var hippa_164_312_a_2_ii = &NistComp{
+var Hippa_164_312_a_2_ii = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -279,7 +279,7 @@ var hippa_164_312_a_2_ii = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var hippa_164_312_a_2_iv = &NistComp{
+var Hippa_164_312_a_2_iv = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -290,7 +290,7 @@ var hippa_164_312_a_2_iv = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "dynamodb_accelerator_cluster_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "eks_cluster_kms_cmk_encryption_in_secrets_enabled", "opensearch_service_domains_encryption_at_rest_enabled", "kms_cmk_rotation_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var hippa_164_312_b = &NistComp{
+var Hippa_164_312_b = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -301,7 +301,7 @@ var hippa_164_312_b = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_log_file_validation_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var hippa_164_312_c_1 = &NistComp{
+var Hippa_164_312_c_1 = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -312,7 +312,7 @@ var hippa_164_312_c_1 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "ec2_ebs_volume_encryption", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_object_versioning"},
 }
-var hippa_164_312_c_2 = &NistComp{
+var Hippa_164_312_c_2 = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -323,7 +323,7 @@ var hippa_164_312_c_2 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "ec2_ebs_volume_encryption", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_object_versioning", "vpc_flow_logs_enabled"},
 }
-var hippa_164_312_d = &NistComp{
+var Hippa_164_312_d = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -334,7 +334,7 @@ var hippa_164_312_d = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_password_policy_reuse_24", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var hippa_164_312_e_1 = &NistComp{
+var Hippa_164_312_e_1 = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -345,7 +345,7 @@ var hippa_164_312_e_1 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"acm_certificates_expiration_check", "cloudfront_distributions_https_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "awslambda_function_not_publicly_accessible", "s3_bucket_secure_transport_policy", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var hippa_164_312_e_2_i = &NistComp{
+var Hippa_164_312_e_2_i = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",
@@ -356,7 +356,7 @@ var hippa_164_312_e_2_i = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elb_ssl_listeners", "guardduty_is_enabled", "s3_bucket_secure_transport_policy", "s3_bucket_server_access_logging_enabled", "securityhub_enabled"},
 }
-var hippa_164_312_e_2_ii = &NistComp{
+var Hippa_164_312_e_2_ii = &NistComp{
 	Framework:     "HIPAA",
 	Provider:      "AWS",
 	Frameworkdesc: "The Health Insurance Portability and Accountability Act of 1996 (HIPAA) is legislation that helps US workers to retain health insurance coverage when they change or lose jobs. The legislation also seeks to encourage electronic health records to improve the efficiency and quality of the US healthcare system through improved information sharing.",

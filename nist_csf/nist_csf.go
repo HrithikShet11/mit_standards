@@ -15,7 +15,7 @@ type NistComp struct {
 	Checks        []string
 }
 
-var nist_csf_ae_1 = &NistComp{
+var Nist_csf_ae_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -26,7 +26,7 @@ var nist_csf_ae_1 = &NistComp{
 	SubSection:    "Anomalies and Events (DE.AE)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "ec2_securitygroup_default_restrict_traffic", "vpc_flow_logs_enabled", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_csf_ae_2 = &NistComp{
+var Nist_csf_ae_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -37,7 +37,7 @@ var nist_csf_ae_2 = &NistComp{
 	SubSection:    "Anomalies and Events (DE.AE)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_csf_ae_3 = &NistComp{
+var Nist_csf_ae_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -48,7 +48,7 @@ var nist_csf_ae_3 = &NistComp{
 	SubSection:    "Anomalies and Events (DE.AE)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_csf_ae_4 = &NistComp{
+var Nist_csf_ae_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -59,7 +59,7 @@ var nist_csf_ae_4 = &NistComp{
 	SubSection:    "Anomalies and Events (DE.AE)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "s3_bucket_server_access_logging_enabled", "securityhub_enabled"},
 }
-var nist_csf_ae_5 = &NistComp{
+var Nist_csf_ae_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -70,7 +70,7 @@ var nist_csf_ae_5 = &NistComp{
 	SubSection:    "Anomalies and Events (DE.AE)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured"},
 }
-var nist_csf_cm_1 = &NistComp{
+var Nist_csf_cm_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -81,7 +81,7 @@ var nist_csf_cm_1 = &NistComp{
 	SubSection:    "Security Continuous Monitoring (DE.CM)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_csf_cm_2 = &NistComp{
+var Nist_csf_cm_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -92,7 +92,7 @@ var nist_csf_cm_2 = &NistComp{
 	SubSection:    "Security Continuous Monitoring (DE.CM)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "config_recorder_all_regions_enabled", "ec2_instance_imdsv2_enabled", "guardduty_is_enabled", "cloudwatch_log_metric_filter_for_s3_bucket_policy_changes", "cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled", "cloudwatch_log_metric_filter_and_alarm_for_aws_config_configuration_changes_enabled", "cloudwatch_log_metric_filter_authentication_failures", "cloudwatch_log_metric_filter_sign_in_without_mfa", "cloudwatch_log_metric_filter_disable_or_scheduled_deletion_of_kms_cmk", "cloudwatch_log_metric_filter_policy_changes", "cloudwatch_log_metric_filter_root_usage", "cloudwatch_log_metric_filter_security_group_changes", "cloudwatch_log_metric_filter_unauthorized_api_calls", "rds_instance_enhanced_monitoring_enabled", "securityhub_enabled"},
 }
-var nist_csf_cm_3 = &NistComp{
+var Nist_csf_cm_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -103,7 +103,7 @@ var nist_csf_cm_3 = &NistComp{
 	SubSection:    "Security Continuous Monitoring (DE.CM)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "guardduty_is_enabled", "s3_bucket_server_access_logging_enabled", "securityhub_enabled"},
 }
-var nist_csf_cm_4 = &NistComp{
+var Nist_csf_cm_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -114,7 +114,7 @@ var nist_csf_cm_4 = &NistComp{
 	SubSection:    "Security Continuous Monitoring (DE.CM)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_csf_cm_5 = &NistComp{
+var Nist_csf_cm_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -125,7 +125,7 @@ var nist_csf_cm_5 = &NistComp{
 	SubSection:    "Security Continuous Monitoring (DE.CM)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "ec2_instance_imdsv2_enabled", "elbv2_waf_acl_attached", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "securityhub_enabled"},
 }
-var nist_csf_cm_6 = &NistComp{
+var Nist_csf_cm_6 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -136,7 +136,7 @@ var nist_csf_cm_6 = &NistComp{
 	SubSection:    "Security Continuous Monitoring (DE.CM)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "guardduty_is_enabled", "s3_bucket_server_access_logging_enabled", "securityhub_enabled"},
 }
-var nist_csf_cm_7 = &NistComp{
+var Nist_csf_cm_7 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -147,7 +147,7 @@ var nist_csf_cm_7 = &NistComp{
 	SubSection:    "Security Continuous Monitoring (DE.CM)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_csf_cp_4 = &NistComp{
+var Nist_csf_cp_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -158,7 +158,7 @@ var nist_csf_cp_4 = &NistComp{
 	SubSection:    "Detection Processes (DE.DP)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "ec2_instance_imdsv2_enabled", "elbv2_waf_acl_attached", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "securityhub_enabled"},
 }
-var nist_csf_cp_5 = &NistComp{
+var Nist_csf_cp_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -169,7 +169,7 @@ var nist_csf_cp_5 = &NistComp{
 	SubSection:    "Detection Processes (DE.DP)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled"},
 }
-var nist_csf_am_1 = &NistComp{
+var Nist_csf_am_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -180,7 +180,7 @@ var nist_csf_am_1 = &NistComp{
 	SubSection:    "Asset Management (ID.AM)",
 	Checks:        []string{"config_recorder_all_regions_enabled", "ec2_instance_managed_by_ssm"},
 }
-var nist_csf_am_2 = &NistComp{
+var Nist_csf_am_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -191,7 +191,7 @@ var nist_csf_am_2 = &NistComp{
 	SubSection:    "Asset Management (ID.AM)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_csf_am_3 = &NistComp{
+var Nist_csf_am_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -202,7 +202,7 @@ var nist_csf_am_3 = &NistComp{
 	SubSection:    "Asset Management (ID.AM)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_multi_region_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_csf_am_5 = &NistComp{
+var Nist_csf_am_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -213,7 +213,7 @@ var nist_csf_am_5 = &NistComp{
 	SubSection:    "Asset Management (ID.AM)",
 	Checks:        []string{},
 }
-var nist_csf_am_6 = &NistComp{
+var Nist_csf_am_6 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -224,7 +224,7 @@ var nist_csf_am_6 = &NistComp{
 	SubSection:    "Asset Management (ID.AM)",
 	Checks:        []string{},
 }
-var nist_csf_be_5 = &NistComp{
+var Nist_csf_be_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -235,7 +235,7 @@ var nist_csf_be_5 = &NistComp{
 	SubSection:    "Business Environment (ID.BE)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_backup_enabled", "rds_instance_multi_az", "s3_bucket_object_versioning"},
 }
-var nist_csf_ra_1 = &NistComp{
+var Nist_csf_ra_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -246,7 +246,7 @@ var nist_csf_ra_1 = &NistComp{
 	SubSection:    "Risk Assessment (ID.RA)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled", "ssm_managed_compliant_patching"},
 }
-var nist_csf_ra_2 = &NistComp{
+var Nist_csf_ra_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -257,7 +257,7 @@ var nist_csf_ra_2 = &NistComp{
 	SubSection:    "Risk Assessment (ID.RA)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_csf_ra_3 = &NistComp{
+var Nist_csf_ra_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -268,7 +268,7 @@ var nist_csf_ra_3 = &NistComp{
 	SubSection:    "Risk Assessment (ID.RA)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_csf_ra_5 = &NistComp{
+var Nist_csf_ra_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -279,7 +279,7 @@ var nist_csf_ra_5 = &NistComp{
 	SubSection:    "Risk Assessment (ID.RA)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "config_recorder_all_regions_enabled", "ec2_instance_imdsv2_enabled", "guardduty_is_enabled", "cloudwatch_log_metric_filter_for_s3_bucket_policy_changes", "cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled", "cloudwatch_log_metric_filter_and_alarm_for_aws_config_configuration_changes_enabled", "cloudwatch_log_metric_filter_authentication_failures", "cloudwatch_log_metric_filter_sign_in_without_mfa", "cloudwatch_log_metric_filter_disable_or_scheduled_deletion_of_kms_cmk", "cloudwatch_log_metric_filter_policy_changes", "cloudwatch_log_metric_filter_root_usage", "cloudwatch_log_metric_filter_security_group_changes", "cloudwatch_log_metric_filter_unauthorized_api_calls", "rds_instance_enhanced_monitoring_enabled", "securityhub_enabled"},
 }
-var nist_csf_sc_4 = &NistComp{
+var Nist_csf_sc_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -290,7 +290,7 @@ var nist_csf_sc_4 = &NistComp{
 	SubSection:    "Supply Chain Risk Management (ID.SC)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "config_recorder_all_regions_enabled", "ec2_instance_imdsv2_enabled", "guardduty_is_enabled", "cloudwatch_log_metric_filter_for_s3_bucket_policy_changes", "cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled", "cloudwatch_log_metric_filter_and_alarm_for_aws_config_configuration_changes_enabled", "cloudwatch_log_metric_filter_authentication_failures", "cloudwatch_log_metric_filter_sign_in_without_mfa", "cloudwatch_log_metric_filter_disable_or_scheduled_deletion_of_kms_cmk", "cloudwatch_log_metric_filter_policy_changes", "cloudwatch_log_metric_filter_root_usage", "cloudwatch_log_metric_filter_security_group_changes", "cloudwatch_log_metric_filter_unauthorized_api_calls", "rds_instance_enhanced_monitoring_enabled", "securityhub_enabled"},
 }
-var nist_csf_ac_1 = &NistComp{
+var Nist_csf_ac_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -301,7 +301,7 @@ var nist_csf_ac_1 = &NistComp{
 	SubSection:    "Identity Management and Access Control (PR.AC)",
 	Checks:        []string{"iam_password_policy_reuse_24", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_csf_ac_3 = &NistComp{
+var Nist_csf_ac_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -312,7 +312,7 @@ var nist_csf_ac_3 = &NistComp{
 	SubSection:    "Identity Management and Access Control (PR.AC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_csf_ac_4 = &NistComp{
+var Nist_csf_ac_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -323,7 +323,7 @@ var nist_csf_ac_4 = &NistComp{
 	SubSection:    "Identity Management and Access Control (PR.AC)",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_csf_ac_5 = &NistComp{
+var Nist_csf_ac_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -334,7 +334,7 @@ var nist_csf_ac_5 = &NistComp{
 	SubSection:    "Identity Management and Access Control (PR.AC)",
 	Checks:        []string{"acm_certificates_expiration_check", "ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_csf_ac_6 = &NistComp{
+var Nist_csf_ac_6 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -345,7 +345,7 @@ var nist_csf_ac_6 = &NistComp{
 	SubSection:    "Identity Management and Access Control (PR.AC)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_multi_region_enabled", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_csf_ac_7 = &NistComp{
+var Nist_csf_ac_7 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -356,7 +356,7 @@ var nist_csf_ac_7 = &NistComp{
 	SubSection:    "Identity Management and Access Control (PR.AC)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_csf_ds_1 = &NistComp{
+var Nist_csf_ds_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -367,7 +367,7 @@ var nist_csf_ds_1 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "ec2_ebs_volume_encryption", "efs_encryption_at_rest_enabled", "opensearch_service_domains_encryption_at_rest_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "s3_bucket_default_encryption", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_csf_ds_2 = &NistComp{
+var Nist_csf_ds_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -378,7 +378,7 @@ var nist_csf_ds_2 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"acm_certificates_expiration_check", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_csf_ds_3 = &NistComp{
+var Nist_csf_ds_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -389,7 +389,7 @@ var nist_csf_ds_3 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching", "ec2_elastic_ip_unassigned"},
 }
-var nist_csf_ds_4 = &NistComp{
+var Nist_csf_ds_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -400,7 +400,7 @@ var nist_csf_ds_4 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_enhanced_monitoring_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "s3_bucket_object_versioning"},
 }
-var nist_csf_ds_5 = &NistComp{
+var Nist_csf_ds_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -411,7 +411,7 @@ var nist_csf_ds_5 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "ec2_ebs_public_snapshot", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_server_access_logging_enabled", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_csf_ds_6 = &NistComp{
+var Nist_csf_ds_6 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -422,7 +422,7 @@ var nist_csf_ds_6 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_csf_ds_7 = &NistComp{
+var Nist_csf_ds_7 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -433,7 +433,7 @@ var nist_csf_ds_7 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled", "ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "elbv2_deletion_protection", "ssm_managed_compliant_patching", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var nist_csf_ds_8 = &NistComp{
+var Nist_csf_ds_8 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -444,7 +444,7 @@ var nist_csf_ds_8 = &NistComp{
 	SubSection:    "Data Security (PR.DS)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "securityhub_enabled"},
 }
-var nist_csf_ip_1 = &NistComp{
+var Nist_csf_ip_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -455,7 +455,7 @@ var nist_csf_ip_1 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "ssm_managed_compliant_patching"},
 }
-var nist_csf_ip_2 = &NistComp{
+var Nist_csf_ip_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -466,7 +466,7 @@ var nist_csf_ip_2 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{"ec2_instance_managed_by_ssm"},
 }
-var nist_csf_ip_3 = &NistComp{
+var Nist_csf_ip_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -477,7 +477,7 @@ var nist_csf_ip_3 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{"elbv2_deletion_protection"},
 }
-var nist_csf_ip_4 = &NistComp{
+var Nist_csf_ip_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -488,7 +488,7 @@ var nist_csf_ip_4 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "rds_instance_backup_enabled", "s3_bucket_object_versioning"},
 }
-var nist_csf_ip_7 = &NistComp{
+var Nist_csf_ip_7 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -499,7 +499,7 @@ var nist_csf_ip_7 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{},
 }
-var nist_csf_ip_8 = &NistComp{
+var Nist_csf_ip_8 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -510,7 +510,7 @@ var nist_csf_ip_8 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "eks_endpoints_not_publicly_accessible", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_csf_ip_9 = &NistComp{
+var Nist_csf_ip_9 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -521,7 +521,7 @@ var nist_csf_ip_9 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "elbv2_deletion_protection", "rds_instance_backup_enabled", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_csf_ip_12 = &NistComp{
+var Nist_csf_ip_12 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -532,7 +532,7 @@ var nist_csf_ip_12 = &NistComp{
 	SubSection:    "Information Protection Processes and Procedures (PR.IP)",
 	Checks:        []string{"config_recorder_all_regions_enabled", "ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var nist_csf_ma_2 = &NistComp{
+var Nist_csf_ma_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -543,7 +543,7 @@ var nist_csf_ma_2 = &NistComp{
 	SubSection:    "Maintenance (PR.MA)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_multi_region_enabled"},
 }
-var nist_csf_pt_1 = &NistComp{
+var Nist_csf_pt_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -554,7 +554,7 @@ var nist_csf_pt_1 = &NistComp{
 	SubSection:    "Protective Technology (PR.PT)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_csf_pt_3 = &NistComp{
+var Nist_csf_pt_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -565,7 +565,7 @@ var nist_csf_pt_3 = &NistComp{
 	SubSection:    "Protective Technology (PR.PT)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "awslambda_function_url_public", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks"},
 }
-var nist_csf_pt_4 = &NistComp{
+var Nist_csf_pt_4 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -576,7 +576,7 @@ var nist_csf_pt_4 = &NistComp{
 	SubSection:    "Protective Technology (PR.PT)",
 	Checks:        []string{"awslambda_function_not_publicly_accessible", "rds_instance_no_public_access", "redshift_cluster_public_access", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_csf_pt_5 = &NistComp{
+var Nist_csf_pt_5 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -587,7 +587,7 @@ var nist_csf_pt_5 = &NistComp{
 	SubSection:    "Protective Technology (PR.PT)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_backup_enabled", "rds_instance_multi_az", "s3_bucket_object_versioning"},
 }
-var nist_csf_rc_rp_1 = &NistComp{
+var Nist_csf_rc_rp_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -598,7 +598,7 @@ var nist_csf_rc_rp_1 = &NistComp{
 	SubSection:    "Recovery Planning (RC.RP)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "efs_have_backup_enabled", "elbv2_deletion_protection", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_csf_an_2 = &NistComp{
+var Nist_csf_an_2 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -609,7 +609,7 @@ var nist_csf_an_2 = &NistComp{
 	SubSection:    "Analysis (RS.AN)",
 	Checks:        []string{"guardduty_no_high_severity_findings"},
 }
-var nist_csf_mi_3 = &NistComp{
+var Nist_csf_mi_3 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",
@@ -620,7 +620,7 @@ var nist_csf_mi_3 = &NistComp{
 	SubSection:    "Mitigation (RS.MI)",
 	Checks:        []string{"guardduty_no_high_severity_findings"},
 }
-var nist_csf_rs_rp_1 = &NistComp{
+var Nist_csf_rs_rp_1 = &NistComp{
 	Framework:     "NIST-CSF",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST Cybersecurity Framework (CSF) is supported by governments and industries worldwide as a recommended baseline for use by any organization, regardless of sector or size. The NIST Cybersecurity Framework consists of three primary components: the framework core, the profiles, and the implementation tiers. The framework core contains desired cybersecurity activities and outcomes organized into 23 categories that cover the breadth of cybersecurity objectives for an organization. The profiles contain an organization's unique alignment of their organizational requirements and objectives, risk appetite, and resources using the desired outcomes of the framework core. The implementation tiers describe the degree to which an organization’s cybersecurity risk management practices exhibit the characteristics defined in the framework core.",

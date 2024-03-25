@@ -15,7 +15,7 @@ type NistComp struct {
 	Checks        []string
 }
 
-var nist_5_ac_2_1 = &NistComp{
+var Nist_5_ac_2_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -26,7 +26,7 @@ var nist_5_ac_2_1 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_2_3_a = &NistComp{
+var Nist_5_ac_2_3_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -37,7 +37,7 @@ var nist_5_ac_2_3_a = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_5_ac_2_3_b = &NistComp{
+var Nist_5_ac_2_3_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -48,7 +48,7 @@ var nist_5_ac_2_3_b = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_5_ac_2_3_c = &NistComp{
+var Nist_5_ac_2_3_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -59,7 +59,7 @@ var nist_5_ac_2_3_c = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_5_ac_2_3_d = &NistComp{
+var Nist_5_ac_2_3_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -70,7 +70,7 @@ var nist_5_ac_2_3_d = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_5_ac_2_3 = &NistComp{
+var Nist_5_ac_2_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -81,7 +81,7 @@ var nist_5_ac_2_3 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_5_ac_2_4 = &NistComp{
+var Nist_5_ac_2_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -92,7 +92,7 @@ var nist_5_ac_2_4 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_ac_2_6 = &NistComp{
+var Nist_5_ac_2_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -103,7 +103,7 @@ var nist_5_ac_2_6 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "ec2_instance_imdsv2_enabled", "emr_cluster_master_nodes_no_public_ip", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_ac_2_12_a = &NistComp{
+var Nist_5_ac_2_12_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -114,7 +114,7 @@ var nist_5_ac_2_12_a = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ac_2_d_1 = &NistComp{
+var Nist_5_ac_2_d_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -125,7 +125,7 @@ var nist_5_ac_2_d_1 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ac_2_g = &NistComp{
+var Nist_5_ac_2_g = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -136,7 +136,7 @@ var nist_5_ac_2_g = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_5_ac_2_i_2 = &NistComp{
+var Nist_5_ac_2_i_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -147,7 +147,7 @@ var nist_5_ac_2_i_2 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var nist_5_ac_2_j = &NistComp{
+var Nist_5_ac_2_j = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -158,7 +158,7 @@ var nist_5_ac_2_j = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_5_ac_3 = &NistComp{
+var Nist_5_ac_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -168,7 +168,7 @@ var nist_5_ac_3 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_profile_attached", "ec2_instance_public_ip", "ec2_instance_imdsv2_enabled", "emr_cluster_master_nodes_no_public_ip", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_policy_attached_only_to_group_or_roles", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_ac_3_1 = &NistComp{
+var Nist_5_ac_3_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -179,7 +179,7 @@ var nist_5_ac_3_1 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_ac_3_2 = &NistComp{
+var Nist_5_ac_3_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -190,7 +190,7 @@ var nist_5_ac_3_2 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ac_3_3 = &NistComp{
+var Nist_5_ac_3_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -201,7 +201,7 @@ var nist_5_ac_3_3 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_3_a = &NistComp{
+var Nist_5_ac_3_3_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -212,7 +212,7 @@ var nist_5_ac_3_3_a = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_3_b_1 = &NistComp{
+var Nist_5_ac_3_3_b_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -223,7 +223,7 @@ var nist_5_ac_3_3_b_1 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_3_b_2 = &NistComp{
+var Nist_5_ac_3_3_b_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -234,7 +234,7 @@ var nist_5_ac_3_3_b_2 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_3_b_3 = &NistComp{
+var Nist_5_ac_3_3_b_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -245,7 +245,7 @@ var nist_5_ac_3_3_b_3 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_3_b_4 = &NistComp{
+var Nist_5_ac_3_3_b_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -256,7 +256,7 @@ var nist_5_ac_3_3_b_4 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_3_b_5 = &NistComp{
+var Nist_5_ac_3_3_b_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -267,7 +267,7 @@ var nist_5_ac_3_3_b_5 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_3_c = &NistComp{
+var Nist_5_ac_3_3_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -278,7 +278,7 @@ var nist_5_ac_3_3_c = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_4 = &NistComp{
+var Nist_5_ac_3_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -289,7 +289,7 @@ var nist_5_ac_3_4 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_4_a = &NistComp{
+var Nist_5_ac_3_4_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -300,7 +300,7 @@ var nist_5_ac_3_4_a = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_4_b = &NistComp{
+var Nist_5_ac_3_4_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -311,7 +311,7 @@ var nist_5_ac_3_4_b = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"secretsmanager_automatic_rotation_enabled", "iam_user_accesskey_unused", "iam_user_console_access_unused", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_rotate_access_key_90_days", "iam_no_root_access_key", "iam_root_mfa_enabled", "iam_root_hardware_mfa_enabled", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_policy_attached_only_to_group_or_roles", "iam_password_policy_minimum_length_14", "ec2_instance_imdsv2_enabled"},
 }
-var nist_5_ac_3_4_c = &NistComp{
+var Nist_5_ac_3_4_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -322,7 +322,7 @@ var nist_5_ac_3_4_c = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_4_d = &NistComp{
+var Nist_5_ac_3_4_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -333,7 +333,7 @@ var nist_5_ac_3_4_d = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_4_e = &NistComp{
+var Nist_5_ac_3_4_e = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -344,7 +344,7 @@ var nist_5_ac_3_4_e = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_7 = &NistComp{
+var Nist_5_ac_3_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -355,7 +355,7 @@ var nist_5_ac_3_7 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"s3_bucket_public_access", "ec2_ebs_public_snapshot", "ec2_instance_public_ip", "ec2_instance_imdsv2_enabled", "emr_cluster_master_nodes_no_public_ip", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_ac_3_8 = &NistComp{
+var Nist_5_ac_3_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -366,7 +366,7 @@ var nist_5_ac_3_8 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_10 = &NistComp{
+var Nist_5_ac_3_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -377,7 +377,7 @@ var nist_5_ac_3_10 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_ac_3_12_a = &NistComp{
+var Nist_5_ac_3_12_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -388,7 +388,7 @@ var nist_5_ac_3_12_a = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_12_b = &NistComp{
+var Nist_5_ac_3_12_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -399,7 +399,7 @@ var nist_5_ac_3_12_b = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ac_3_13 = &NistComp{
+var Nist_5_ac_3_13 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -410,7 +410,7 @@ var nist_5_ac_3_13 = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_15_a = &NistComp{
+var Nist_5_ac_3_15_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -421,7 +421,7 @@ var nist_5_ac_3_15_a = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_3_15_b = &NistComp{
+var Nist_5_ac_3_15_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -432,7 +432,7 @@ var nist_5_ac_3_15_b = &NistComp{
 	SubSection:    "Access Enforcement (AC-3)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_4 = &NistComp{
+var Nist_5_ac_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -442,7 +442,7 @@ var nist_5_ac_4 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_ac_4_21 = &NistComp{
+var Nist_5_ac_4_21 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -453,7 +453,7 @@ var nist_5_ac_4_21 = &NistComp{
 	SubSection:    "Information Flow Enforcement (AC-4)",
 	Checks:        []string{"apigateway_restapi_waf_acl_attached", "ec2_ebs_public_snapshot", "ec2_instance_public_ip", "elbv2_waf_acl_attached", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_ac_4_22 = &NistComp{
+var Nist_5_ac_4_22 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -464,7 +464,7 @@ var nist_5_ac_4_22 = &NistComp{
 	SubSection:    "Information Flow Enforcement (AC-4)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_ac_4_26 = &NistComp{
+var Nist_5_ac_4_26 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -475,7 +475,7 @@ var nist_5_ac_4_26 = &NistComp{
 	SubSection:    "Information Flow Enforcement (AC-4)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_ac_4_28 = &NistComp{
+var Nist_5_ac_4_28 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -486,7 +486,7 @@ var nist_5_ac_4_28 = &NistComp{
 	SubSection:    "Information Flow Enforcement (AC-4)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_5_b = &NistComp{
+var Nist_5_ac_5_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -497,7 +497,7 @@ var nist_5_ac_5_b = &NistComp{
 	SubSection:    "Separation Of Duties (AC-5)",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var nist_5_ac_6 = &NistComp{
+var Nist_5_ac_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -507,7 +507,7 @@ var nist_5_ac_6 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "ec2_instance_imdsv2_enabled", "emr_cluster_master_nodes_no_public_ip", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_ac_6_2 = &NistComp{
+var Nist_5_ac_6_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -518,7 +518,7 @@ var nist_5_ac_6_2 = &NistComp{
 	SubSection:    "Least Privilege (AC-6)",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key"},
 }
-var nist_5_ac_6_3 = &NistComp{
+var Nist_5_ac_6_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -529,7 +529,7 @@ var nist_5_ac_6_3 = &NistComp{
 	SubSection:    "Least Privilege (AC-6)",
 	Checks:        []string{"iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var nist_5_ac_6_9 = &NistComp{
+var Nist_5_ac_6_9 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -540,7 +540,7 @@ var nist_5_ac_6_9 = &NistComp{
 	SubSection:    "Least Privilege (AC-6)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_ac_6_10 = &NistComp{
+var Nist_5_ac_6_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -551,7 +551,7 @@ var nist_5_ac_6_10 = &NistComp{
 	SubSection:    "Least Privilege (AC-6)",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key"},
 }
-var nist_5_ac_7_4 = &NistComp{
+var Nist_5_ac_7_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -562,7 +562,7 @@ var nist_5_ac_7_4 = &NistComp{
 	SubSection:    "Unsuccessful Logon Attempts (AC-7)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ac_7_4_a = &NistComp{
+var Nist_5_ac_7_4_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -573,7 +573,7 @@ var nist_5_ac_7_4_a = &NistComp{
 	SubSection:    "Unsuccessful Logon Attempts (AC-7)",
 	Checks:        []string{"iam_password_policy_minimum_length_14", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ac_16_b = &NistComp{
+var Nist_5_ac_16_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -584,7 +584,7 @@ var nist_5_ac_16_b = &NistComp{
 	SubSection:    "Security And Privacy Attributes (AC-16)",
 	Checks:        []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var nist_5_ac_17_b = &NistComp{
+var Nist_5_ac_17_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -595,7 +595,7 @@ var nist_5_ac_17_b = &NistComp{
 	SubSection:    "Remote Access (AC-17)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_ac_17_1 = &NistComp{
+var Nist_5_ac_17_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -606,7 +606,7 @@ var nist_5_ac_17_1 = &NistComp{
 	SubSection:    "Remote Access (AC-17)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_ac_17_2 = &NistComp{
+var Nist_5_ac_17_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -617,7 +617,7 @@ var nist_5_ac_17_2 = &NistComp{
 	SubSection:    "Remote Access (AC-17)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_ac_17_4_a = &NistComp{
+var Nist_5_ac_17_4_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -628,7 +628,7 @@ var nist_5_ac_17_4_a = &NistComp{
 	SubSection:    "Remote Access (AC-17)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_ac_17_9 = &NistComp{
+var Nist_5_ac_17_9 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -639,7 +639,7 @@ var nist_5_ac_17_9 = &NistComp{
 	SubSection:    "Remote Access (AC-17)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_ac_17_10 = &NistComp{
+var Nist_5_ac_17_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -650,7 +650,7 @@ var nist_5_ac_17_10 = &NistComp{
 	SubSection:    "Remote Access (AC-17)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_ac_24 = &NistComp{
+var Nist_5_ac_24 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -660,7 +660,7 @@ var nist_5_ac_24 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_ac_24_1 = &NistComp{
+var Nist_5_ac_24_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -671,7 +671,7 @@ var nist_5_ac_24_1 = &NistComp{
 	SubSection:    "Access Control Decisions (AC-24)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_au_2_b = &NistComp{
+var Nist_5_au_2_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -682,7 +682,7 @@ var nist_5_au_2_b = &NistComp{
 	SubSection:    "Event Logging (AU-2)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_3_1 = &NistComp{
+var Nist_5_au_3_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -693,7 +693,7 @@ var nist_5_au_3_1 = &NistComp{
 	SubSection:    "Content of Audit Records (AU-3)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "guardduty_is_enabled"},
 }
-var nist_5_au_3_a = &NistComp{
+var Nist_5_au_3_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -704,7 +704,7 @@ var nist_5_au_3_a = &NistComp{
 	SubSection:    "Content of Audit Records (AU-3)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_3_b = &NistComp{
+var Nist_5_au_3_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -715,7 +715,7 @@ var nist_5_au_3_b = &NistComp{
 	SubSection:    "Content of Audit Records (AU-3)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_3_c = &NistComp{
+var Nist_5_au_3_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -726,7 +726,7 @@ var nist_5_au_3_c = &NistComp{
 	SubSection:    "Content of Audit Records (AU-3)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_3_d = &NistComp{
+var Nist_5_au_3_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -737,7 +737,7 @@ var nist_5_au_3_d = &NistComp{
 	SubSection:    "Content of Audit Records (AU-3)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_3_e = &NistComp{
+var Nist_5_au_3_e = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -748,7 +748,7 @@ var nist_5_au_3_e = &NistComp{
 	SubSection:    "Content of Audit Records (AU-3)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_3_f = &NistComp{
+var Nist_5_au_3_f = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -759,7 +759,7 @@ var nist_5_au_3_f = &NistComp{
 	SubSection:    "Content of Audit Records (AU-3)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_au_4_1 = &NistComp{
+var Nist_5_au_4_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -770,7 +770,7 @@ var nist_5_au_4_1 = &NistComp{
 	SubSection:    "Audit Log Stprage Capacity (AU-4)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled"},
 }
-var nist_5_au_6_1 = &NistComp{
+var Nist_5_au_6_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -781,7 +781,7 @@ var nist_5_au_6_1 = &NistComp{
 	SubSection:    "Audit Record Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_5_au_6_3 = &NistComp{
+var Nist_5_au_6_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -792,7 +792,7 @@ var nist_5_au_6_3 = &NistComp{
 	SubSection:    "Audit Record Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_6_4 = &NistComp{
+var Nist_5_au_6_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -803,7 +803,7 @@ var nist_5_au_6_4 = &NistComp{
 	SubSection:    "Audit Record Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_6_5 = &NistComp{
+var Nist_5_au_6_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -814,7 +814,7 @@ var nist_5_au_6_5 = &NistComp{
 	SubSection:    "Audit Record Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_5_au_6_6 = &NistComp{
+var Nist_5_au_6_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -825,7 +825,7 @@ var nist_5_au_6_6 = &NistComp{
 	SubSection:    "Audit Record Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_6_9 = &NistComp{
+var Nist_5_au_6_9 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -836,7 +836,7 @@ var nist_5_au_6_9 = &NistComp{
 	SubSection:    "Audit Record Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_7_1 = &NistComp{
+var Nist_5_au_7_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -847,7 +847,7 @@ var nist_5_au_7_1 = &NistComp{
 	SubSection:    "Audit Record Reduction And Report Generation (AU-7)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled"},
 }
-var nist_5_au_8_b = &NistComp{
+var Nist_5_au_8_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -858,7 +858,7 @@ var nist_5_au_8_b = &NistComp{
 	SubSection:    "Time Stamps (AU-8)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_9_a = &NistComp{
+var Nist_5_au_9_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -869,7 +869,7 @@ var nist_5_au_9_a = &NistComp{
 	SubSection:    "Protection of Audit Information (AU-9)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_au_9_2 = &NistComp{
+var Nist_5_au_9_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -880,7 +880,7 @@ var nist_5_au_9_2 = &NistComp{
 	SubSection:    "Protection of Audit Information (AU-9)",
 	Checks:        []string{"s3_bucket_object_versioning"},
 }
-var nist_5_au_9_3 = &NistComp{
+var Nist_5_au_9_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -891,7 +891,7 @@ var nist_5_au_9_3 = &NistComp{
 	SubSection:    "Protection of Audit Information (AU-9)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "elb_ssl_listeners", "opensearch_service_domains_encryption_at_rest_enabled", "opensearch_service_domains_node_to_node_encryption_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_5_au_9_7 = &NistComp{
+var Nist_5_au_9_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -902,7 +902,7 @@ var nist_5_au_9_7 = &NistComp{
 	SubSection:    "Protection of Audit Information (AU-9)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled"},
 }
-var nist_5_au_10 = &NistComp{
+var Nist_5_au_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -912,7 +912,7 @@ var nist_5_au_10 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "opensearch_service_domains_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_au_11 = &NistComp{
+var Nist_5_au_11 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -922,7 +922,7 @@ var nist_5_au_11 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var nist_5_au_11_1 = &NistComp{
+var Nist_5_au_11_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -933,7 +933,7 @@ var nist_5_au_11_1 = &NistComp{
 	SubSection:    "Audit Record Retention (AU-11)",
 	Checks:        []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var nist_5_au_12_a = &NistComp{
+var Nist_5_au_12_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -944,7 +944,7 @@ var nist_5_au_12_a = &NistComp{
 	SubSection:    "Audit Record Generation (AU-12)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_12_c = &NistComp{
+var Nist_5_au_12_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -955,7 +955,7 @@ var nist_5_au_12_c = &NistComp{
 	SubSection:    "Audit Record Generation (AU-12)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_12_1 = &NistComp{
+var Nist_5_au_12_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -966,7 +966,7 @@ var nist_5_au_12_1 = &NistComp{
 	SubSection:    "Audit Record Generation (AU-12)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_12_2 = &NistComp{
+var Nist_5_au_12_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -977,7 +977,7 @@ var nist_5_au_12_2 = &NistComp{
 	SubSection:    "Audit Record Generation (AU-12)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_12_3 = &NistComp{
+var Nist_5_au_12_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -988,7 +988,7 @@ var nist_5_au_12_3 = &NistComp{
 	SubSection:    "Audit Record Generation (AU-12)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_12_4 = &NistComp{
+var Nist_5_au_12_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -999,7 +999,7 @@ var nist_5_au_12_4 = &NistComp{
 	SubSection:    "Audit Record Generation (AU-12)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_14_a = &NistComp{
+var Nist_5_au_14_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1010,7 +1010,7 @@ var nist_5_au_14_a = &NistComp{
 	SubSection:    "Session Audit (AU-14)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_14_b = &NistComp{
+var Nist_5_au_14_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1021,7 +1021,7 @@ var nist_5_au_14_b = &NistComp{
 	SubSection:    "Session Audit (AU-14)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_14_3 = &NistComp{
+var Nist_5_au_14_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1032,7 +1032,7 @@ var nist_5_au_14_3 = &NistComp{
 	SubSection:    "Session Audit (AU-14)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_au_16 = &NistComp{
+var Nist_5_au_16 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1042,7 +1042,7 @@ var nist_5_au_16 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled"},
 }
-var nist_5_ca_2_2 = &NistComp{
+var Nist_5_ca_2_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1053,7 +1053,7 @@ var nist_5_ca_2_2 = &NistComp{
 	SubSection:    "Control Assessments (CA-2)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "rds_instance_enhanced_monitoring_enabled"},
 }
-var nist_5_ca_2_d = &NistComp{
+var Nist_5_ca_2_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1064,7 +1064,7 @@ var nist_5_ca_2_d = &NistComp{
 	SubSection:    "Control Assessments (CA-2)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_5_ca_7 = &NistComp{
+var Nist_5_ca_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1074,7 +1074,7 @@ var nist_5_ca_7 = &NistComp{
 	Section:       "Assessment, Authorization, And Monitoring (CA)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "securityhub_enabled"},
 }
-var nist_5_ca_7_b = &NistComp{
+var Nist_5_ca_7_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1085,7 +1085,7 @@ var nist_5_ca_7_b = &NistComp{
 	SubSection:    "Continuous Monitoring (CA-7)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_ca_7_4_c = &NistComp{
+var Nist_5_ca_7_4_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1096,7 +1096,7 @@ var nist_5_ca_7_4_c = &NistComp{
 	SubSection:    "Continuous Monitoring (CA-7)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection"},
 }
-var nist_5_ca_9_b = &NistComp{
+var Nist_5_ca_9_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1107,7 +1107,7 @@ var nist_5_ca_9_b = &NistComp{
 	SubSection:    "Internal System Connections (CA-9)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_cm_2_a = &NistComp{
+var Nist_5_cm_2_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1118,7 +1118,7 @@ var nist_5_cm_2_a = &NistComp{
 	SubSection:    "Baseline Configuration (CM-2)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "elbv2_deletion_protection", "ssm_managed_compliant_patching", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_cm_2_b = &NistComp{
+var Nist_5_cm_2_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1129,7 +1129,7 @@ var nist_5_cm_2_b = &NistComp{
 	SubSection:    "Baseline Configuration (CM-2)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_2_b_1 = &NistComp{
+var Nist_5_cm_2_b_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1140,7 +1140,7 @@ var nist_5_cm_2_b_1 = &NistComp{
 	SubSection:    "Baseline Configuration (CM-2)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_2_b_2 = &NistComp{
+var Nist_5_cm_2_b_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1151,7 +1151,7 @@ var nist_5_cm_2_b_2 = &NistComp{
 	SubSection:    "Baseline Configuration (CM-2)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_2_b_3 = &NistComp{
+var Nist_5_cm_2_b_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1162,7 +1162,7 @@ var nist_5_cm_2_b_3 = &NistComp{
 	SubSection:    "Baseline Configuration (CM-2)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_2_2 = &NistComp{
+var Nist_5_cm_2_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1173,7 +1173,7 @@ var nist_5_cm_2_2 = &NistComp{
 	SubSection:    "Baseline Configuration (CM-2)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "elbv2_deletion_protection", "ssm_managed_compliant_patching", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_cm_3_3 = &NistComp{
+var Nist_5_cm_3_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1184,7 +1184,7 @@ var nist_5_cm_3_3 = &NistComp{
 	SubSection:    "Configuration Change Control (CM-3)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_3_a = &NistComp{
+var Nist_5_cm_3_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1195,7 +1195,7 @@ var nist_5_cm_3_a = &NistComp{
 	SubSection:    "Configuration Change Control (CM-3)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection"},
 }
-var nist_5_cm_5_1_a = &NistComp{
+var Nist_5_cm_5_1_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1206,7 +1206,7 @@ var nist_5_cm_5_1_a = &NistComp{
 	SubSection:    "Access Restrictions For Change (CM-5)",
 	Checks:        []string{"ec2_instance_profile_attached", "ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_policy_attached_only_to_group_or_roles", "iam_root_hardware_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_cm_5_1_b = &NistComp{
+var Nist_5_cm_5_1_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1217,7 +1217,7 @@ var nist_5_cm_5_1_b = &NistComp{
 	SubSection:    "Access Restrictions For Change (CM-5)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_cm_6 = &NistComp{
+var Nist_5_cm_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1227,7 +1227,7 @@ var nist_5_cm_6 = &NistComp{
 	Section:       "Configuration Management (CM)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_6_a = &NistComp{
+var Nist_5_cm_6_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1238,7 +1238,7 @@ var nist_5_cm_6_a = &NistComp{
 	SubSection:    "Configuration Settings (CM-6)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "ec2_instance_profile_attached", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "kms_cmk_rotation_enabled", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_server_access_logging_enabled", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "ec2_securitygroup_default_restrict_traffic", "vpc_flow_logs_enabled", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_cm_7_b = &NistComp{
+var Nist_5_cm_7_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1249,7 +1249,7 @@ var nist_5_cm_7_b = &NistComp{
 	SubSection:    "Least Functionality (CM-7)",
 	Checks:        []string{"ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_cm_8_1 = &NistComp{
+var Nist_5_cm_8_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1260,7 +1260,7 @@ var nist_5_cm_8_1 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_2 = &NistComp{
+var Nist_5_cm_8_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1271,7 +1271,7 @@ var nist_5_cm_8_2 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm"},
 }
-var nist_5_cm_8_3_a = &NistComp{
+var Nist_5_cm_8_3_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1282,7 +1282,7 @@ var nist_5_cm_8_3_a = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "guardduty_is_enabled", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_6 = &NistComp{
+var Nist_5_cm_8_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1293,7 +1293,7 @@ var nist_5_cm_8_6 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "elbv2_deletion_protection", "ssm_managed_compliant_patching", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_cm_8_a = &NistComp{
+var Nist_5_cm_8_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1304,7 +1304,7 @@ var nist_5_cm_8_a = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_a_1 = &NistComp{
+var Nist_5_cm_8_a_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1315,7 +1315,7 @@ var nist_5_cm_8_a_1 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_a_2 = &NistComp{
+var Nist_5_cm_8_a_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1326,7 +1326,7 @@ var nist_5_cm_8_a_2 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_a_3 = &NistComp{
+var Nist_5_cm_8_a_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1337,7 +1337,7 @@ var nist_5_cm_8_a_3 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_a_4 = &NistComp{
+var Nist_5_cm_8_a_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1348,7 +1348,7 @@ var nist_5_cm_8_a_4 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_a_5 = &NistComp{
+var Nist_5_cm_8_a_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1359,7 +1359,7 @@ var nist_5_cm_8_a_5 = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_8_b = &NistComp{
+var Nist_5_cm_8_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1370,7 +1370,7 @@ var nist_5_cm_8_b = &NistComp{
 	SubSection:    "System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_5_cm_9_b = &NistComp{
+var Nist_5_cm_9_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1381,7 +1381,7 @@ var nist_5_cm_9_b = &NistComp{
 	SubSection:    "Configuration Management Plan (CM-9)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_kms_encryption_enabled", "cloudtrail_log_file_validation_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "kms_cmk_rotation_enabled", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_server_access_logging_enabled", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "ec2_securitygroup_default_restrict_traffic", "vpc_flow_logs_enabled", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var nist_5_cm_12_b = &NistComp{
+var Nist_5_cm_12_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1392,7 +1392,7 @@ var nist_5_cm_12_b = &NistComp{
 	SubSection:    "Information Location (CM-12)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_cp_1_a_1_b = &NistComp{
+var Nist_5_cp_1_a_1_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1403,7 +1403,7 @@ var nist_5_cp_1_a_1_b = &NistComp{
 	SubSection:    "Policy And Procedures (CP-1)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_cp_1_a_2 = &NistComp{
+var Nist_5_cp_1_a_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1414,7 +1414,7 @@ var nist_5_cp_1_a_2 = &NistComp{
 	SubSection:    "Policy And Procedures (CP-1)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_cp_1_2 = &NistComp{
+var Nist_5_cp_1_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1425,7 +1425,7 @@ var nist_5_cp_1_2 = &NistComp{
 	SubSection:    "Policy And Procedures (CP-1)",
 	Checks:        []string{"efs_have_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "rds_instance_backup_enabled", "dynamodb_tables_pitr_enabled", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_2_a = &NistComp{
+var Nist_5_cp_2_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1436,7 +1436,7 @@ var nist_5_cp_2_a = &NistComp{
 	SubSection:    "Contingency Plan (CP-2)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_cp_2_a_6 = &NistComp{
+var Nist_5_cp_2_a_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1447,7 +1447,7 @@ var nist_5_cp_2_a_6 = &NistComp{
 	SubSection:    "Contingency Plan (CP-2)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_cp_2_a_7 = &NistComp{
+var Nist_5_cp_2_a_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1458,7 +1458,7 @@ var nist_5_cp_2_a_7 = &NistComp{
 	SubSection:    "Contingency Plan (CP-2)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_cp_2_d = &NistComp{
+var Nist_5_cp_2_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1469,7 +1469,7 @@ var nist_5_cp_2_d = &NistComp{
 	SubSection:    "Contingency Plan (CP-2)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_cp_2_e = &NistComp{
+var Nist_5_cp_2_e = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1480,7 +1480,7 @@ var nist_5_cp_2_e = &NistComp{
 	SubSection:    "Contingency Plan (CP-2)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_cp_2_5 = &NistComp{
+var Nist_5_cp_2_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1491,7 +1491,7 @@ var nist_5_cp_2_5 = &NistComp{
 	SubSection:    "Contingency Plan (CP-2)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "elbv2_deletion_protection", "rds_instance_backup_enabled", "rds_instance_deletion_protection", "rds_instance_backup_enabled", "rds_instance_multi_az", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_2_6 = &NistComp{
+var Nist_5_cp_2_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1502,7 +1502,7 @@ var nist_5_cp_2_6 = &NistComp{
 	SubSection:    "Contingency Plan (CP-2)",
 	Checks:        []string{"rds_instance_multi_az"},
 }
-var nist_5_cp_6_a = &NistComp{
+var Nist_5_cp_6_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1513,7 +1513,7 @@ var nist_5_cp_6_a = &NistComp{
 	SubSection:    "Alternate Storage Sites (CP-6)",
 	Checks:        []string{"efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_6_1 = &NistComp{
+var Nist_5_cp_6_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1524,7 +1524,7 @@ var nist_5_cp_6_1 = &NistComp{
 	SubSection:    "Alternate Storage Sites (CP-6)",
 	Checks:        []string{"efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_6_2 = &NistComp{
+var Nist_5_cp_6_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1535,7 +1535,7 @@ var nist_5_cp_6_2 = &NistComp{
 	SubSection:    "Alternate Storage Sites (CP-6)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_9_a = &NistComp{
+var Nist_5_cp_9_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1546,7 +1546,7 @@ var nist_5_cp_9_a = &NistComp{
 	SubSection:    "System Backup (CP-9)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "redshift_cluster_automatic_upgrades", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_9_b = &NistComp{
+var Nist_5_cp_9_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1557,7 +1557,7 @@ var nist_5_cp_9_b = &NistComp{
 	SubSection:    "System Backup (CP-9)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "redshift_cluster_automatic_upgrades", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_9_c = &NistComp{
+var Nist_5_cp_9_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1568,7 +1568,7 @@ var nist_5_cp_9_c = &NistComp{
 	SubSection:    "System Backup (CP-9)",
 	Checks:        []string{"efs_have_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "rds_instance_backup_enabled", "dynamodb_tables_pitr_enabled", "redshift_cluster_automatic_upgrades", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_9_d = &NistComp{
+var Nist_5_cp_9_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1579,7 +1579,7 @@ var nist_5_cp_9_d = &NistComp{
 	SubSection:    "System Backup (CP-9)",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "opensearch_service_domains_encryption_at_rest_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_5_cp_9_8 = &NistComp{
+var Nist_5_cp_9_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1590,7 +1590,7 @@ var nist_5_cp_9_8 = &NistComp{
 	SubSection:    "System Backup (CP-9)",
 	Checks:        []string{"rds_instance_storage_encrypted", "s3_bucket_default_encryption", "s3_bucket_default_encryption"},
 }
-var nist_5_cp_10 = &NistComp{
+var Nist_5_cp_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1600,7 +1600,7 @@ var nist_5_cp_10 = &NistComp{
 	Section:       "Contingency Planning (CP)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_5_cp_10_2 = &NistComp{
+var Nist_5_cp_10_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1611,7 +1611,7 @@ var nist_5_cp_10_2 = &NistComp{
 	SubSection:    "System Recovery And Reconstitution (CP-10)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_5_ia_2 = &NistComp{
+var Nist_5_ia_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1621,7 +1621,7 @@ var nist_5_ia_2 = &NistComp{
 	Section:       "Identification and Authentication (IA)",
 	Checks:        []string{"iam_no_root_access_key"},
 }
-var nist_5_ia_2_1 = &NistComp{
+var Nist_5_ia_2_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1632,7 +1632,7 @@ var nist_5_ia_2_1 = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ia_2_2 = &NistComp{
+var Nist_5_ia_2_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1643,7 +1643,7 @@ var nist_5_ia_2_2 = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ia_2_6 = &NistComp{
+var Nist_5_ia_2_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1654,7 +1654,7 @@ var nist_5_ia_2_6 = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ia_2_6_a = &NistComp{
+var Nist_5_ia_2_6_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1665,7 +1665,7 @@ var nist_5_ia_2_6_a = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ia_2_8 = &NistComp{
+var Nist_5_ia_2_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1676,7 +1676,7 @@ var nist_5_ia_2_8 = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_5_ia_3_3_b = &NistComp{
+var Nist_5_ia_3_3_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1687,7 +1687,7 @@ var nist_5_ia_3_3_b = &NistComp{
 	SubSection:    "Device Identification And Authentication (IA-3)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "apigateway_restapi_logging_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_ia_4_b = &NistComp{
+var Nist_5_ia_4_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1698,7 +1698,7 @@ var nist_5_ia_4_b = &NistComp{
 	SubSection:    "Identifier Management (IA-4)",
 	Checks:        []string{"iam_no_root_access_key"},
 }
-var nist_5_ia_4_d = &NistComp{
+var Nist_5_ia_4_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1709,7 +1709,7 @@ var nist_5_ia_4_d = &NistComp{
 	SubSection:    "Identifier Management (IA-4)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_4_4 = &NistComp{
+var Nist_5_ia_4_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1720,7 +1720,7 @@ var nist_5_ia_4_4 = &NistComp{
 	SubSection:    "Identifier Management (IA-4)",
 	Checks:        []string{"iam_no_root_access_key"},
 }
-var nist_5_ia_4_8 = &NistComp{
+var Nist_5_ia_4_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1731,7 +1731,7 @@ var nist_5_ia_4_8 = &NistComp{
 	SubSection:    "Identifier Management (IA-4)",
 	Checks:        []string{"iam_no_root_access_key"},
 }
-var nist_5_ia_5 = &NistComp{
+var Nist_5_ia_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1741,7 +1741,7 @@ var nist_5_ia_5 = &NistComp{
 	Section:       "Identification and Authentication (IA)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_b = &NistComp{
+var Nist_5_ia_5_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1752,7 +1752,7 @@ var nist_5_ia_5_b = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_c = &NistComp{
+var Nist_5_ia_5_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1763,7 +1763,7 @@ var nist_5_ia_5_c = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_d = &NistComp{
+var Nist_5_ia_5_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1774,7 +1774,7 @@ var nist_5_ia_5_d = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_f = &NistComp{
+var Nist_5_ia_5_f = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1785,7 +1785,7 @@ var nist_5_ia_5_f = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_h = &NistComp{
+var Nist_5_ia_5_h = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1796,7 +1796,7 @@ var nist_5_ia_5_h = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_1_c = &NistComp{
+var Nist_5_ia_5_1_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1807,7 +1807,7 @@ var nist_5_ia_5_1_c = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_ia_5_1_f = &NistComp{
+var Nist_5_ia_5_1_f = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1818,7 +1818,7 @@ var nist_5_ia_5_1_f = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_1_g = &NistComp{
+var Nist_5_ia_5_1_g = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1829,7 +1829,7 @@ var nist_5_ia_5_1_g = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_1_h = &NistComp{
+var Nist_5_ia_5_1_h = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1840,7 +1840,7 @@ var nist_5_ia_5_1_h = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_8 = &NistComp{
+var Nist_5_ia_5_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1850,7 +1850,7 @@ var nist_5_ia_5_8 = &NistComp{
 	Section:       "Identification and Authentication (IA)",
 	Checks:        []string{"iam_no_root_access_key"},
 }
-var nist_5_ia_5_18_a = &NistComp{
+var Nist_5_ia_5_18_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1861,7 +1861,7 @@ var nist_5_ia_5_18_a = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_5_18_b = &NistComp{
+var Nist_5_ia_5_18_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1872,7 +1872,7 @@ var nist_5_ia_5_18_b = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ia_8_2_b = &NistComp{
+var Nist_5_ia_8_2_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1883,7 +1883,7 @@ var nist_5_ia_8_2_b = &NistComp{
 	SubSection:    "Identification And Authentication (Non-Organizational Users) (IA-8)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ir_4_a = &NistComp{
+var Nist_5_ir_4_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1894,7 +1894,7 @@ var nist_5_ir_4_a = &NistComp{
 	SubSection:    "Incident Handling (IR-4)",
 	Checks:        []string{"guardduty_no_high_severity_findings"},
 }
-var nist_5_ma_4_c = &NistComp{
+var Nist_5_ma_4_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1905,7 +1905,7 @@ var nist_5_ma_4_c = &NistComp{
 	SubSection:    "Nonlocal Maintenance (MA-4)",
 	Checks:        []string{"iam_password_policy_minimum_length_14"},
 }
-var nist_5_ma_4_1_a = &NistComp{
+var Nist_5_ma_4_1_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1916,7 +1916,7 @@ var nist_5_ma_4_1_a = &NistComp{
 	SubSection:    "Nonlocal Maintenance (MA-4)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_mp_2 = &NistComp{
+var Nist_5_mp_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1926,7 +1926,7 @@ var nist_5_mp_2 = &NistComp{
 	Section:       "Media Protection (MP)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "ec2_instance_imdsv2_enabled", "emr_cluster_master_nodes_no_public_ip", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_pe_6_2 = &NistComp{
+var Nist_5_pe_6_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1937,7 +1937,7 @@ var nist_5_pe_6_2 = &NistComp{
 	SubSection:    "Monitoring Physical Access (PE-6)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_pe_6_4 = &NistComp{
+var Nist_5_pe_6_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1948,7 +1948,7 @@ var nist_5_pe_6_4 = &NistComp{
 	SubSection:    "Monitoring Physical Access (PE-6)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_pm_11_b = &NistComp{
+var Nist_5_pm_11_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1959,7 +1959,7 @@ var nist_5_pm_11_b = &NistComp{
 	SubSection:    "Mission And Business Process Defination (PM-11)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_object_versioning"},
 }
-var nist_5_pm_14_a_1 = &NistComp{
+var Nist_5_pm_14_a_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1970,7 +1970,7 @@ var nist_5_pm_14_a_1 = &NistComp{
 	SubSection:    "Testing, Training, And Monitoring (PM-14)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_pm_14_b = &NistComp{
+var Nist_5_pm_14_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1981,7 +1981,7 @@ var nist_5_pm_14_b = &NistComp{
 	SubSection:    "Testing, Training, And Monitoring (PM-14)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_pm_16 = &NistComp{
+var Nist_5_pm_16 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -1991,7 +1991,7 @@ var nist_5_pm_16 = &NistComp{
 	Section:       "Program Management (PM)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_pm_17_b = &NistComp{
+var Nist_5_pm_17_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2002,7 +2002,7 @@ var nist_5_pm_17_b = &NistComp{
 	SubSection:    "Protecting Controlled Unclassified Information On External Systems (PM-17)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "cloudtrail_log_file_validation_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy", "s3_bucket_object_versioning"},
 }
-var nist_5_pm_21_b = &NistComp{
+var Nist_5_pm_21_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2013,7 +2013,7 @@ var nist_5_pm_21_b = &NistComp{
 	SubSection:    "Accounting Of Disclosures (PM-21)",
 	Checks:        []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var nist_5_pm_31 = &NistComp{
+var Nist_5_pm_31 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2023,7 +2023,7 @@ var nist_5_pm_31 = &NistComp{
 	Section:       "Program Management (PM)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_ra_1_a = &NistComp{
+var Nist_5_ra_1_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2034,7 +2034,7 @@ var nist_5_ra_1_a = &NistComp{
 	SubSection:    "Policy And Procedures (RA-1)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_1_a_1 = &NistComp{
+var Nist_5_ra_1_a_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2045,7 +2045,7 @@ var nist_5_ra_1_a_1 = &NistComp{
 	SubSection:    "Policy And Procedures (RA-1)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_1_a_2 = &NistComp{
+var Nist_5_ra_1_a_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2056,7 +2056,7 @@ var nist_5_ra_1_a_2 = &NistComp{
 	SubSection:    "Policy And Procedures (RA-1)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_3_4 = &NistComp{
+var Nist_5_ra_3_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2067,7 +2067,7 @@ var nist_5_ra_3_4 = &NistComp{
 	SubSection:    "Risk Assessment (RA-3)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_3_a_1 = &NistComp{
+var Nist_5_ra_3_a_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2078,7 +2078,7 @@ var nist_5_ra_3_a_1 = &NistComp{
 	SubSection:    "Risk Assessment (RA-3)",
 	Checks:        []string{"guardduty_is_enabled", "ssm_managed_compliant_patching"},
 }
-var nist_5_ra_5_a = &NistComp{
+var Nist_5_ra_5_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2089,7 +2089,7 @@ var nist_5_ra_5_a = &NistComp{
 	SubSection:    "Vulnerability Monitoring And Scanning (RA-5)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_5_4 = &NistComp{
+var Nist_5_ra_5_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2100,7 +2100,7 @@ var nist_5_ra_5_4 = &NistComp{
 	SubSection:    "Vulnerability Monitoring And Scanning (RA-5)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_10_a = &NistComp{
+var Nist_5_ra_10_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2111,7 +2111,7 @@ var nist_5_ra_10_a = &NistComp{
 	SubSection:    "Threat Hunting (RA-10)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_10_a_1 = &NistComp{
+var Nist_5_ra_10_a_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2122,7 +2122,7 @@ var nist_5_ra_10_a_1 = &NistComp{
 	SubSection:    "Threat Hunting (RA-10)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_ra_10_a_2 = &NistComp{
+var Nist_5_ra_10_a_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2133,7 +2133,7 @@ var nist_5_ra_10_a_2 = &NistComp{
 	SubSection:    "Threat Hunting (RA-10)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_sa_1_1 = &NistComp{
+var Nist_5_sa_1_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2144,7 +2144,7 @@ var nist_5_sa_1_1 = &NistComp{
 	SubSection:    "Policy And Procedures (SA-1)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_sa_9_6 = &NistComp{
+var Nist_5_sa_9_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2155,7 +2155,7 @@ var nist_5_sa_9_6 = &NistComp{
 	SubSection:    "External System Services (SA-9)",
 	Checks:        []string{"kms_cmk_rotation_enabled"},
 }
-var nist_5_sa_10_1 = &NistComp{
+var Nist_5_sa_10_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2166,7 +2166,7 @@ var nist_5_sa_10_1 = &NistComp{
 	SubSection:    "Developer Configuration Management (SA-10)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_sa_15_a_4 = &NistComp{
+var Nist_5_sa_15_a_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2177,7 +2177,7 @@ var nist_5_sa_15_a_4 = &NistComp{
 	SubSection:    "Development Process, Standards, And Tools (SA-15)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection"},
 }
-var nist_5_sc_5_1 = &NistComp{
+var Nist_5_sc_5_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2188,7 +2188,7 @@ var nist_5_sc_5_1 = &NistComp{
 	SubSection:    "Denial Of Service Protection (SC-5)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_sc_5_2 = &NistComp{
+var Nist_5_sc_5_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2199,7 +2199,7 @@ var nist_5_sc_5_2 = &NistComp{
 	SubSection:    "Denial Of Service Protection (SC-5)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "elbv2_deletion_protection", "rds_instance_backup_enabled", "rds_instance_deletion_protection", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "redshift_cluster_automatic_upgrades", "s3_bucket_object_versioning"},
 }
-var nist_5_sc_5_3_a = &NistComp{
+var Nist_5_sc_5_3_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2210,7 +2210,7 @@ var nist_5_sc_5_3_a = &NistComp{
 	SubSection:    "Denial Of Service Protection (SC-5)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_sc_5_3_b = &NistComp{
+var Nist_5_sc_5_3_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2221,7 +2221,7 @@ var nist_5_sc_5_3_b = &NistComp{
 	SubSection:    "Denial Of Service Protection (SC-5)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_sc_5_a = &NistComp{
+var Nist_5_sc_5_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2232,7 +2232,7 @@ var nist_5_sc_5_a = &NistComp{
 	SubSection:    "Denial Of Service Protection (SC-5)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_sc_5_b = &NistComp{
+var Nist_5_sc_5_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2243,7 +2243,7 @@ var nist_5_sc_5_b = &NistComp{
 	SubSection:    "Denial Of Service Protection (SC-5)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_sc_6 = &NistComp{
+var Nist_5_sc_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2253,7 +2253,7 @@ var nist_5_sc_6 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"rds_instance_multi_az"},
 }
-var nist_5_sc_7_2 = &NistComp{
+var Nist_5_sc_7_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2264,7 +2264,7 @@ var nist_5_sc_7_2 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_sc_7_3 = &NistComp{
+var Nist_5_sc_7_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2275,7 +2275,7 @@ var nist_5_sc_7_3 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_sc_7_4_b = &NistComp{
+var Nist_5_sc_7_4_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2286,7 +2286,7 @@ var nist_5_sc_7_4_b = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_sc_7_4_g = &NistComp{
+var Nist_5_sc_7_4_g = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2297,7 +2297,7 @@ var nist_5_sc_7_4_g = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_sc_7_5 = &NistComp{
+var Nist_5_sc_7_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2308,7 +2308,7 @@ var nist_5_sc_7_5 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "s3_bucket_secure_transport_policy", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_7 = &NistComp{
+var Nist_5_sc_7_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2319,7 +2319,7 @@ var nist_5_sc_7_7 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_9_a = &NistComp{
+var Nist_5_sc_7_9_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2330,7 +2330,7 @@ var nist_5_sc_7_9_a = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_sc_7_9_b = &NistComp{
+var Nist_5_sc_7_9_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2341,7 +2341,7 @@ var nist_5_sc_7_9_b = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_sc_7_11 = &NistComp{
+var Nist_5_sc_7_11 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2352,7 +2352,7 @@ var nist_5_sc_7_11 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_12 = &NistComp{
+var Nist_5_sc_7_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2363,7 +2363,7 @@ var nist_5_sc_7_12 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"acm_certificates_expiration_check", "ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_16 = &NistComp{
+var Nist_5_sc_7_16 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2374,7 +2374,7 @@ var nist_5_sc_7_16 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"acm_certificates_expiration_check", "ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_20 = &NistComp{
+var Nist_5_sc_7_20 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2385,7 +2385,7 @@ var nist_5_sc_7_20 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_sc_7_21 = &NistComp{
+var Nist_5_sc_7_21 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2396,7 +2396,7 @@ var nist_5_sc_7_21 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_24_b = &NistComp{
+var Nist_5_sc_7_24_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2407,7 +2407,7 @@ var nist_5_sc_7_24_b = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_25 = &NistComp{
+var Nist_5_sc_7_25 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2418,7 +2418,7 @@ var nist_5_sc_7_25 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var nist_5_sc_7_26 = &NistComp{
+var Nist_5_sc_7_26 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2429,7 +2429,7 @@ var nist_5_sc_7_26 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var nist_5_sc_7_27 = &NistComp{
+var Nist_5_sc_7_27 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2440,7 +2440,7 @@ var nist_5_sc_7_27 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var nist_5_sc_7_28 = &NistComp{
+var Nist_5_sc_7_28 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2451,7 +2451,7 @@ var nist_5_sc_7_28 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var nist_5_sc_7_a = &NistComp{
+var Nist_5_sc_7_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2462,7 +2462,7 @@ var nist_5_sc_7_a = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_7_b = &NistComp{
+var Nist_5_sc_7_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2473,7 +2473,7 @@ var nist_5_sc_7_b = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_sc_7_c = &NistComp{
+var Nist_5_sc_7_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2484,7 +2484,7 @@ var nist_5_sc_7_c = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_5_sc_8 = &NistComp{
+var Nist_5_sc_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2494,7 +2494,7 @@ var nist_5_sc_8 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_sc_8_1 = &NistComp{
+var Nist_5_sc_8_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2505,7 +2505,7 @@ var nist_5_sc_8_1 = &NistComp{
 	SubSection:    "Transmission Confidentiality And Integrity (SC-8)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elbv2_insecure_ssl_ciphers", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_sc_8_2 = &NistComp{
+var Nist_5_sc_8_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2516,7 +2516,7 @@ var nist_5_sc_8_2 = &NistComp{
 	SubSection:    "Transmission Confidentiality And Integrity (SC-8)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_sc_8_3 = &NistComp{
+var Nist_5_sc_8_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2527,7 +2527,7 @@ var nist_5_sc_8_3 = &NistComp{
 	SubSection:    "Transmission Confidentiality And Integrity (SC-8)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "elb_ssl_listeners", "opensearch_service_domains_encryption_at_rest_enabled", "opensearch_service_domains_node_to_node_encryption_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_5_sc_8_4 = &NistComp{
+var Nist_5_sc_8_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2538,7 +2538,7 @@ var nist_5_sc_8_4 = &NistComp{
 	SubSection:    "Transmission Confidentiality And Integrity (SC-8)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "elb_ssl_listeners", "opensearch_service_domains_encryption_at_rest_enabled", "opensearch_service_domains_node_to_node_encryption_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_5_sc_8_5 = &NistComp{
+var Nist_5_sc_8_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2549,7 +2549,7 @@ var nist_5_sc_8_5 = &NistComp{
 	SubSection:    "Transmission Confidentiality And Integrity (SC-8)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_sc_12 = &NistComp{
+var Nist_5_sc_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2559,7 +2559,7 @@ var nist_5_sc_12 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"kms_cmk_rotation_enabled"},
 }
-var nist_5_sc_12_2 = &NistComp{
+var Nist_5_sc_12_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2570,7 +2570,7 @@ var nist_5_sc_12_2 = &NistComp{
 	SubSection:    "Cryptographic Key Establishment And Management (SC-12)",
 	Checks:        []string{"kms_cmk_rotation_enabled"},
 }
-var nist_5_sc_12_6 = &NistComp{
+var Nist_5_sc_12_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2581,7 +2581,7 @@ var nist_5_sc_12_6 = &NistComp{
 	SubSection:    "Cryptographic Key Establishment And Management (SC-12)",
 	Checks:        []string{"kms_cmk_rotation_enabled"},
 }
-var nist_5_sc_13_a = &NistComp{
+var Nist_5_sc_13_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2592,7 +2592,7 @@ var nist_5_sc_13_a = &NistComp{
 	SubSection:    "Cryptographic Protection (SC-13)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "elb_ssl_listeners", "opensearch_service_domains_encryption_at_rest_enabled", "opensearch_service_domains_node_to_node_encryption_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_5_sc_16_1 = &NistComp{
+var Nist_5_sc_16_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2603,7 +2603,7 @@ var nist_5_sc_16_1 = &NistComp{
 	SubSection:    "Transmission Of Security And Privacy Attributes (SC-16)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_object_versioning"},
 }
-var nist_5_sc_22 = &NistComp{
+var Nist_5_sc_22 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2613,7 +2613,7 @@ var nist_5_sc_22 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"elbv2_deletion_protection", "rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_5_sc_23 = &NistComp{
+var Nist_5_sc_23 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2623,7 +2623,7 @@ var nist_5_sc_23 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_5_sc_23_3 = &NistComp{
+var Nist_5_sc_23_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2634,7 +2634,7 @@ var nist_5_sc_23_3 = &NistComp{
 	SubSection:    "Session Authenticity (SC-23)",
 	Checks:        []string{"ec2_instance_imdsv2_enabled", "iam_password_policy_minimum_length_14", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access", "iam_user_accesskey_unused", "iam_user_console_access_unused", "secretsmanager_automatic_rotation_enabled"},
 }
-var nist_5_sc_23_5 = &NistComp{
+var Nist_5_sc_23_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2645,7 +2645,7 @@ var nist_5_sc_23_5 = &NistComp{
 	SubSection:    "Session Authenticity (SC-23)",
 	Checks:        []string{"elbv2_insecure_ssl_ciphers", "elb_ssl_listeners"},
 }
-var nist_5_sc_25 = &NistComp{
+var Nist_5_sc_25 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2655,7 +2655,7 @@ var nist_5_sc_25 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_5_sc_28_1 = &NistComp{
+var Nist_5_sc_28_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2666,7 +2666,7 @@ var nist_5_sc_28_1 = &NistComp{
 	SubSection:    "Protection Of Information At Rest (SC-28)",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "opensearch_service_domains_encryption_at_rest_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_5_sc_28_2 = &NistComp{
+var Nist_5_sc_28_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2677,7 +2677,7 @@ var nist_5_sc_28_2 = &NistComp{
 	SubSection:    "Protection Of Information At Rest (SC-28)",
 	Checks:        []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var nist_5_sc_36 = &NistComp{
+var Nist_5_sc_36 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2687,7 +2687,7 @@ var nist_5_sc_36 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"rds_instance_multi_az"},
 }
-var nist_5_sc_36_1_a = &NistComp{
+var Nist_5_sc_36_1_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2698,7 +2698,7 @@ var nist_5_sc_36_1_a = &NistComp{
 	SubSection:    "Distributed Processing And Storage (SC-36)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "rds_instance_enhanced_monitoring_enabled"},
 }
-var nist_5_sc_43_b = &NistComp{
+var Nist_5_sc_43_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2709,7 +2709,7 @@ var nist_5_sc_43_b = &NistComp{
 	SubSection:    "Usage Restrictions (SC-43)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_1_a_2 = &NistComp{
+var Nist_5_si_1_a_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2720,7 +2720,7 @@ var nist_5_si_1_a_2 = &NistComp{
 	SubSection:    "Policy And Procedures (SI-1)",
 	Checks:        []string{"apigateway_restapi_client_certificate_enabled", "cloudtrail_log_file_validation_enabled", "elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy", "s3_bucket_object_versioning"},
 }
-var nist_5_si_1_1_c = &NistComp{
+var Nist_5_si_1_1_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2731,7 +2731,7 @@ var nist_5_si_1_1_c = &NistComp{
 	SubSection:    "Policy And Procedures (SI-1)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_si_2_5 = &NistComp{
+var Nist_5_si_2_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2742,7 +2742,7 @@ var nist_5_si_2_5 = &NistComp{
 	SubSection:    "Flaw Remediation (SI-2)",
 	Checks:        []string{"redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_si_2_2 = &NistComp{
+var Nist_5_si_2_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2753,7 +2753,7 @@ var nist_5_si_2_2 = &NistComp{
 	SubSection:    "Flaw Remediation (SI-2)",
 	Checks:        []string{"redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_si_2_a = &NistComp{
+var Nist_5_si_2_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2764,7 +2764,7 @@ var nist_5_si_2_a = &NistComp{
 	SubSection:    "Flaw Remediation (SI-2)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "rds_instance_enhanced_monitoring_enabled"},
 }
-var nist_5_si_2_c = &NistComp{
+var Nist_5_si_2_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2775,7 +2775,7 @@ var nist_5_si_2_c = &NistComp{
 	SubSection:    "Flaw Remediation (SI-2)",
 	Checks:        []string{"redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_si_2_d = &NistComp{
+var Nist_5_si_2_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2786,7 +2786,7 @@ var nist_5_si_2_d = &NistComp{
 	SubSection:    "Flaw Remediation (SI-2)",
 	Checks:        []string{"redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching"},
 }
-var nist_5_si_3_c_2 = &NistComp{
+var Nist_5_si_3_c_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2797,7 +2797,7 @@ var nist_5_si_3_c_2 = &NistComp{
 	SubSection:    "Malicious Code Protection (SI-3)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var nist_5_si_3_8_a = &NistComp{
+var Nist_5_si_3_8_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2808,7 +2808,7 @@ var nist_5_si_3_8_a = &NistComp{
 	SubSection:    "Malicious Code Protection (SI-3)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_3_8_b = &NistComp{
+var Nist_5_si_3_8_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2819,7 +2819,7 @@ var nist_5_si_3_8_b = &NistComp{
 	SubSection:    "Malicious Code Protection (SI-3)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_si_4_a = &NistComp{
+var Nist_5_si_4_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2830,7 +2830,7 @@ var nist_5_si_4_a = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_a_1 = &NistComp{
+var Nist_5_si_4_a_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2841,7 +2841,7 @@ var nist_5_si_4_a_1 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_a_2 = &NistComp{
+var Nist_5_si_4_a_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2852,7 +2852,7 @@ var nist_5_si_4_a_2 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_b = &NistComp{
+var Nist_5_si_4_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2863,7 +2863,7 @@ var nist_5_si_4_b = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_c = &NistComp{
+var Nist_5_si_4_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2874,7 +2874,7 @@ var nist_5_si_4_c = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_d = &NistComp{
+var Nist_5_si_4_d = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2885,7 +2885,7 @@ var nist_5_si_4_d = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_si_4_1 = &NistComp{
+var Nist_5_si_4_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2896,7 +2896,7 @@ var nist_5_si_4_1 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_2 = &NistComp{
+var Nist_5_si_4_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2907,7 +2907,7 @@ var nist_5_si_4_2 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "guardduty_is_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_si_4_3 = &NistComp{
+var Nist_5_si_4_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2918,7 +2918,7 @@ var nist_5_si_4_3 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_4_a = &NistComp{
+var Nist_5_si_4_4_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2929,7 +2929,7 @@ var nist_5_si_4_4_a = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_4_b = &NistComp{
+var Nist_5_si_4_4_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2940,7 +2940,7 @@ var nist_5_si_4_4_b = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_10 = &NistComp{
+var Nist_5_si_4_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2951,7 +2951,7 @@ var nist_5_si_4_10 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_12 = &NistComp{
+var Nist_5_si_4_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2962,7 +2962,7 @@ var nist_5_si_4_12 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured"},
 }
-var nist_5_si_4_13_a = &NistComp{
+var Nist_5_si_4_13_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2973,7 +2973,7 @@ var nist_5_si_4_13_a = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_14 = &NistComp{
+var Nist_5_si_4_14 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2984,7 +2984,7 @@ var nist_5_si_4_14 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_17 = &NistComp{
+var Nist_5_si_4_17 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -2995,7 +2995,7 @@ var nist_5_si_4_17 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_si_4_20 = &NistComp{
+var Nist_5_si_4_20 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3006,7 +3006,7 @@ var nist_5_si_4_20 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_si_4_23 = &NistComp{
+var Nist_5_si_4_23 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3017,7 +3017,7 @@ var nist_5_si_4_23 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_4_25 = &NistComp{
+var Nist_5_si_4_25 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3028,7 +3028,7 @@ var nist_5_si_4_25 = &NistComp{
 	SubSection:    "System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_5_si_5_1 = &NistComp{
+var Nist_5_si_5_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3039,7 +3039,7 @@ var nist_5_si_5_1 = &NistComp{
 	SubSection:    "Secuity Alerts, Advisories, And Directives (SI-5)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled"},
 }
-var nist_5_si_5_b = &NistComp{
+var Nist_5_si_5_b = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3050,7 +3050,7 @@ var nist_5_si_5_b = &NistComp{
 	SubSection:    "Secuity Alerts, Advisories, And Directives (SI-5)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled"},
 }
-var nist_5_si_7_1 = &NistComp{
+var Nist_5_si_7_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3061,7 +3061,7 @@ var nist_5_si_7_1 = &NistComp{
 	SubSection:    "Software, Firmware, and Information Integrity (SI-7)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_si_7_3 = &NistComp{
+var Nist_5_si_7_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3072,7 +3072,7 @@ var nist_5_si_7_3 = &NistComp{
 	SubSection:    "Software, Firmware, and Information Integrity (SI-7)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_si_7_7 = &NistComp{
+var Nist_5_si_7_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3083,7 +3083,7 @@ var nist_5_si_7_7 = &NistComp{
 	SubSection:    "Software, Firmware, and Information Integrity (SI-7)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_si_7_8 = &NistComp{
+var Nist_5_si_7_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3094,7 +3094,7 @@ var nist_5_si_7_8 = &NistComp{
 	SubSection:    "Software, Firmware, and Information Integrity (SI-7)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "apigateway_restapi_logging_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_5_si_7_a = &NistComp{
+var Nist_5_si_7_a = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3105,7 +3105,7 @@ var nist_5_si_7_a = &NistComp{
 	SubSection:    "Software, Firmware, and Information Integrity (SI-7)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_5_si_10_1_c = &NistComp{
+var Nist_5_si_10_1_c = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3116,7 +3116,7 @@ var nist_5_si_10_1_c = &NistComp{
 	SubSection:    "Information Input Validation (SI-10)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled"},
 }
-var nist_5_si_12 = &NistComp{
+var Nist_5_si_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3126,7 +3126,7 @@ var nist_5_si_12 = &NistComp{
 	Section:       "System and Information integrity (SI)",
 	Checks:        []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var nist_5_si_13_5 = &NistComp{
+var Nist_5_si_13_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",
@@ -3137,7 +3137,7 @@ var nist_5_si_13_5 = &NistComp{
 	SubSection:    "Predictable Failure Prevention (SI-13)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_deletion_protection", "rds_instance_multi_az", "rds_instance_backup_enabled", "redshift_cluster_automated_snapshot", "s3_bucket_object_versioning"},
 }
-var nist_5_si_19_4 = &NistComp{
+var Nist_5_si_19_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-5",
 	Provider:      "AWS",
 	Frameworkdesc: "The NIST 800-53 (Rev. 5) Low-Moderate-High framework represents the security controls and the associated assessment procedures that are defined in NIST SP 800-53 Revision 5 Recommended Security Controls for Federal Information Systems and Organizations. For any discrepancies that are noted in the content between this NIST SP 800-53 framework and the latest published NIST Special Publication SP 800-53 Revision 5, refer to the official published documents that are available at the NIST Computer Security Resource Center.",

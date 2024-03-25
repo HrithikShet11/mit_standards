@@ -15,7 +15,7 @@ type NistComp struct {
 	Checks        []string
 }
 
-var rbi_annex_i_1_1 = &NistComp{
+var Rbi_annex_i_1_1 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -26,7 +26,7 @@ var rbi_annex_i_1_1 = &NistComp{
 	Service:       "ec2",
 	Checks:        []string{"ec2_instance_managed_by_ssm"},
 }
-var rbi_annex_i_1_3 = &NistComp{
+var Rbi_annex_i_1_3 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -37,7 +37,7 @@ var rbi_annex_i_1_3 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"acm_certificates_expiration_check", "apigateway_restapi_client_certificate_enabled", "cloudtrail_kms_encryption_enabled", "dynamodb_tables_kms_cmk_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_public_snapshot", "ec2_ebs_volume_encryption", "ec2_instance_public_ip", "efs_encryption_at_rest_enabled", "elbv2_insecure_ssl_ciphers", "elb_ssl_listeners", "emr_cluster_master_nodes_no_public_ip", "opensearch_service_domains_encryption_at_rest_enabled", "opensearch_service_domains_node_to_node_encryption_enabled", "kms_cmk_rotation_enabled", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_no_public_access", "rds_instance_storage_encrypted", "rds_snapshots_public_access", "redshift_cluster_audit_logging", "redshift_cluster_public_access", "s3_bucket_default_encryption", "s3_bucket_default_encryption", "s3_bucket_secure_transport_policy", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled", "ec2_networkacl_allow_ingress_any_port"},
 }
-var rbi_annex_i_5_1 = &NistComp{
+var Rbi_annex_i_5_1 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -48,7 +48,7 @@ var rbi_annex_i_5_1 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"apigateway_restapi_waf_acl_attached", "elbv2_waf_acl_attached", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var rbi_annex_i_6 = &NistComp{
+var Rbi_annex_i_6 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -59,7 +59,7 @@ var rbi_annex_i_6 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"guardduty_no_high_severity_findings", "rds_instance_minor_version_upgrade_enabled", "redshift_cluster_automatic_upgrades", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var rbi_annex_i_7_1 = &NistComp{
+var Rbi_annex_i_7_1 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -70,7 +70,7 @@ var rbi_annex_i_7_1 = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_policy_attached_only_to_group_or_roles", "iam_no_root_access_key"},
 }
-var rbi_annex_i_7_2 = &NistComp{
+var Rbi_annex_i_7_2 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -81,7 +81,7 @@ var rbi_annex_i_7_2 = &NistComp{
 	Service:       "iam",
 	Checks:        []string{"iam_password_policy_reuse_24"},
 }
-var rbi_annex_i_7_3 = &NistComp{
+var Rbi_annex_i_7_3 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -92,7 +92,7 @@ var rbi_annex_i_7_3 = &NistComp{
 	Service:       "vpc",
 	Checks:        []string{"ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22"},
 }
-var rbi_annex_i_7_4 = &NistComp{
+var Rbi_annex_i_7_4 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",
@@ -103,7 +103,7 @@ var rbi_annex_i_7_4 = &NistComp{
 	Service:       "aws",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_log_group_retention_policy_specific_days_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "opensearch_service_domains_cloudwatch_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled", "vpc_flow_logs_enabled"},
 }
-var rbi_annex_i_12 = &NistComp{
+var Rbi_annex_i_12 = &NistComp{
 	Framework:     "RBI-Cyber-Security-Framework",
 	Provider:      "AWS",
 	Frameworkdesc: "The Reserve Bank had prescribed a set of baseline cyber security controls for primary (Urban) cooperative banks (UCBs) in October 2018. On further examination, it has been decided to prescribe a comprehensive cyber security framework for the UCBs, as a graded approach, based on their digital depth and interconnectedness with the payment systems landscape, digital products offered by them and assessment of cyber security risk. The framework would mandate implementation of progressively stronger security measures based on the nature, variety and scale of digital product offerings of banks.",

@@ -15,7 +15,7 @@ type NistComp struct {
 	Checks        []string
 }
 
-var nist_4_ac_2_1 = &NistComp{
+var Nist_4_ac_2_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -26,7 +26,7 @@ var nist_4_ac_2_1 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"guardduty_is_enabled", "iam_password_policy_reuse_24", "iam_rotate_access_key_90_days", "iam_user_accesskey_unused", "iam_user_console_access_unused", "securityhub_enabled"},
 }
-var nist_4_ac_2_3 = &NistComp{
+var Nist_4_ac_2_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -37,7 +37,7 @@ var nist_4_ac_2_3 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"iam_user_accesskey_unused", "iam_user_console_access_unused"},
 }
-var nist_4_ac_2_4 = &NistComp{
+var Nist_4_ac_2_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -48,7 +48,7 @@ var nist_4_ac_2_4 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "securityhub_enabled"},
 }
-var nist_4_ac_2_12 = &NistComp{
+var Nist_4_ac_2_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -59,7 +59,7 @@ var nist_4_ac_2_12 = &NistComp{
 	SubSection:    "Account Management (AC-2)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_ac_2 = &NistComp{
+var Nist_4_ac_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -69,7 +69,7 @@ var nist_4_ac_2 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "guardduty_is_enabled", "iam_password_policy_reuse_24", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_root_mfa_enabled", "iam_no_root_access_key", "iam_rotate_access_key_90_days", "iam_user_accesskey_unused", "iam_user_console_access_unused", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "securityhub_enabled"},
 }
-var nist_4_ac_3 = &NistComp{
+var Nist_4_ac_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -79,7 +79,7 @@ var nist_4_ac_3 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_url_public", "rds_snapshots_public_access", "redshift_cluster_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_public_access"},
 }
-var nist_4_ac_4 = &NistComp{
+var Nist_4_ac_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -89,7 +89,7 @@ var nist_4_ac_4 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"acm_certificates_expiration_check", "ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_4_ac_5 = &NistComp{
+var Nist_4_ac_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -99,7 +99,7 @@ var nist_4_ac_5 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var nist_4_ac_6_10 = &NistComp{
+var Nist_4_ac_6_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -110,7 +110,7 @@ var nist_4_ac_6_10 = &NistComp{
 	SubSection:    "Least Privilege (AC-6)",
 	Checks:        []string{"iam_no_root_access_key"},
 }
-var nist_4_ac_6 = &NistComp{
+var Nist_4_ac_6 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -120,7 +120,7 @@ var nist_4_ac_6 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "ec2_instance_imdsv2_enabled", "iam_policy_attached_only_to_group_or_roles", "iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges", "iam_no_root_access_key", "iam_user_accesskey_unused", "iam_user_console_access_unused", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_4_ac_17_1 = &NistComp{
+var Nist_4_ac_17_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -130,7 +130,7 @@ var nist_4_ac_17_1 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_ac_17_2 = &NistComp{
+var Nist_4_ac_17_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -140,7 +140,7 @@ var nist_4_ac_17_2 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"acm_certificates_expiration_check", "elb_ssl_listeners", "s3_bucket_secure_transport_policy"},
 }
-var nist_4_ac_17_3 = &NistComp{
+var Nist_4_ac_17_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -150,7 +150,7 @@ var nist_4_ac_17_3 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{},
 }
-var nist_4_ac_21 = &NistComp{
+var Nist_4_ac_21 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -160,7 +160,7 @@ var nist_4_ac_21 = &NistComp{
 	Section:       "Access Control (AC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_bucket_public_access", "sagemaker_notebook_instance_without_direct_internet_access_configured"},
 }
-var nist_4_au_2 = &NistComp{
+var Nist_4_au_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -170,7 +170,7 @@ var nist_4_au_2 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_4_au_3 = &NistComp{
+var Nist_4_au_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -180,7 +180,7 @@ var nist_4_au_3 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_4_au_6_1 = &NistComp{
+var Nist_4_au_6_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -191,7 +191,7 @@ var nist_4_au_6_1 = &NistComp{
 	SubSection:    "Audit Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_au_6_3 = &NistComp{
+var Nist_4_au_6_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -202,7 +202,7 @@ var nist_4_au_6_3 = &NistComp{
 	SubSection:    "Audit Review, Analysis And Reporting (AU-6)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_au_7_1 = &NistComp{
+var Nist_4_au_7_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -212,7 +212,7 @@ var nist_4_au_7_1 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "cloudtrail_cloudwatch_logging_enabled"},
 }
-var nist_4_au_9_2 = &NistComp{
+var Nist_4_au_9_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -223,7 +223,7 @@ var nist_4_au_9_2 = &NistComp{
 	SubSection:    "Protection of Audit Information (AU-9)",
 	Checks:        []string{},
 }
-var nist_4_au_9 = &NistComp{
+var Nist_4_au_9 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -233,7 +233,7 @@ var nist_4_au_9 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "cloudwatch_log_group_kms_encryption_enabled"},
 }
-var nist_4_au_11 = &NistComp{
+var Nist_4_au_11 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -243,7 +243,7 @@ var nist_4_au_11 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"cloudwatch_log_group_retention_policy_specific_days_enabled"},
 }
-var nist_4_au_12 = &NistComp{
+var Nist_4_au_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -253,7 +253,7 @@ var nist_4_au_12 = &NistComp{
 	Section:       "Audit and Accountability (AU)",
 	Checks:        []string{"apigateway_restapi_logging_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_s3_dataevents_read_enabled", "cloudtrail_s3_dataevents_write_enabled", "cloudtrail_multi_region_enabled", "cloudtrail_cloudwatch_logging_enabled", "elbv2_logging_enabled", "elb_logging_enabled", "rds_instance_integration_cloudwatch_logs", "redshift_cluster_audit_logging", "s3_bucket_server_access_logging_enabled", "vpc_flow_logs_enabled"},
 }
-var nist_4_ca_7 = &NistComp{
+var Nist_4_ca_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -263,7 +263,7 @@ var nist_4_ca_7 = &NistComp{
 	Section:       "Security Assessment And Authorization (CA)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "ec2_instance_imdsv2_enabled", "guardduty_is_enabled", "rds_instance_enhanced_monitoring_enabled", "securityhub_enabled"},
 }
-var nist_4_cm_2 = &NistComp{
+var Nist_4_cm_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -273,7 +273,7 @@ var nist_4_cm_2 = &NistComp{
 	Section:       "Configuration Management (CM)",
 	Checks:        []string{"cloudtrail_multi_region_enabled", "ec2_instance_managed_by_ssm", "ec2_instance_older_than_specific_days", "elbv2_deletion_protection", "ssm_managed_compliant_patching", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_4_cm_7 = &NistComp{
+var Nist_4_cm_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -283,7 +283,7 @@ var nist_4_cm_7 = &NistComp{
 	Section:       "Configuration Management (CM)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_4_cm_8_1 = &NistComp{
+var Nist_4_cm_8_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -294,7 +294,7 @@ var nist_4_cm_8_1 = &NistComp{
 	SubSection:    "Information System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm"},
 }
-var nist_4_cm_8_3 = &NistComp{
+var Nist_4_cm_8_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -305,7 +305,7 @@ var nist_4_cm_8_3 = &NistComp{
 	SubSection:    "Information System Component Inventory (CM-8)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var nist_4_cp_9 = &NistComp{
+var Nist_4_cp_9 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -315,7 +315,7 @@ var nist_4_cp_9 = &NistComp{
 	Section:       "Contingency Planning (CP)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "rds_instance_backup_enabled", "rds_instance_backup_enabled"},
 }
-var nist_4_cp_10 = &NistComp{
+var Nist_4_cp_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -325,7 +325,7 @@ var nist_4_cp_10 = &NistComp{
 	Section:       "Contingency Planning (CP)",
 	Checks:        []string{"dynamodb_tables_pitr_enabled", "efs_have_backup_enabled", "elbv2_deletion_protection", "rds_instance_backup_enabled", "rds_instance_backup_enabled", "rds_instance_multi_az", "s3_bucket_object_versioning"},
 }
-var nist_4_ia_2_1 = &NistComp{
+var Nist_4_ia_2_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -336,7 +336,7 @@ var nist_4_ia_2_1 = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_4_ia_2_2 = &NistComp{
+var Nist_4_ia_2_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -347,7 +347,7 @@ var nist_4_ia_2_2 = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_4_ia_2_11 = &NistComp{
+var Nist_4_ia_2_11 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -358,7 +358,7 @@ var nist_4_ia_2_11 = &NistComp{
 	SubSection:    "Identification and Authentication (Organizational users) (IA-2)",
 	Checks:        []string{"iam_root_hardware_mfa_enabled", "iam_root_mfa_enabled", "iam_user_mfa_enabled_console_access", "iam_user_mfa_enabled_console_access"},
 }
-var nist_4_ia_2 = &NistComp{
+var Nist_4_ia_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -368,7 +368,7 @@ var nist_4_ia_2 = &NistComp{
 	Section:       "Identification and Authentication (IA)",
 	Checks:        []string{"iam_password_policy_reuse_24"},
 }
-var nist_4_ia_5_1 = &NistComp{
+var Nist_4_ia_5_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -379,7 +379,7 @@ var nist_4_ia_5_1 = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_reuse_24"},
 }
-var nist_4_ia_5_4 = &NistComp{
+var Nist_4_ia_5_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -390,7 +390,7 @@ var nist_4_ia_5_4 = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{"iam_password_policy_reuse_24"},
 }
-var nist_4_ia_5_7 = &NistComp{
+var Nist_4_ia_5_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -401,7 +401,7 @@ var nist_4_ia_5_7 = &NistComp{
 	SubSection:    "Authenticator Management (IA-5)",
 	Checks:        []string{},
 }
-var nist_4_ir_4_1 = &NistComp{
+var Nist_4_ir_4_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -412,7 +412,7 @@ var nist_4_ir_4_1 = &NistComp{
 	SubSection:    "Incident Handling (IR-4)",
 	Checks:        []string{"cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_no_high_severity_findings"},
 }
-var nist_4_ir_6_1 = &NistComp{
+var Nist_4_ir_6_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -423,7 +423,7 @@ var nist_4_ir_6_1 = &NistComp{
 	SubSection:    "Incident Reporting (IR-6)",
 	Checks:        []string{"guardduty_no_high_severity_findings"},
 }
-var nist_4_ir_7_1 = &NistComp{
+var Nist_4_ir_7_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -434,7 +434,7 @@ var nist_4_ir_7_1 = &NistComp{
 	SubSection:    "Incident Response Assistance (IR-7)",
 	Checks:        []string{"guardduty_no_high_severity_findings"},
 }
-var nist_4_ra_5 = &NistComp{
+var Nist_4_ra_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -444,7 +444,7 @@ var nist_4_ra_5 = &NistComp{
 	Section:       "Risk Assessment (RA)",
 	Checks:        []string{"guardduty_is_enabled", "guardduty_no_high_severity_findings"},
 }
-var nist_4_sa_3 = &NistComp{
+var Nist_4_sa_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -454,7 +454,7 @@ var nist_4_sa_3 = &NistComp{
 	Section:       "System and Services Acquisition (SA)",
 	Checks:        []string{"ec2_instance_managed_by_ssm"},
 }
-var nist_4_sa_10 = &NistComp{
+var Nist_4_sa_10 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -464,7 +464,7 @@ var nist_4_sa_10 = &NistComp{
 	Section:       "System and Services Acquisition (SA)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "securityhub_enabled"},
 }
-var nist_4_sc_2 = &NistComp{
+var Nist_4_sc_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -474,7 +474,7 @@ var nist_4_sc_2 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"iam_aws_attached_policy_no_administrative_privileges", "iam_customer_attached_policy_no_administrative_privileges", "iam_inline_policy_no_administrative_privileges"},
 }
-var nist_4_sc_4 = &NistComp{
+var Nist_4_sc_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -484,7 +484,7 @@ var nist_4_sc_4 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{},
 }
-var nist_4_sc_5 = &NistComp{
+var Nist_4_sc_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -494,7 +494,7 @@ var nist_4_sc_5 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"rds_instance_deletion_protection", "rds_instance_multi_az"},
 }
-var nist_4_sc_7_3 = &NistComp{
+var Nist_4_sc_7_3 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -505,7 +505,7 @@ var nist_4_sc_7_3 = &NistComp{
 	SubSection:    "Boundary Protection (SC-7)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "emr_cluster_master_nodes_no_public_ip", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_4_sc_7 = &NistComp{
+var Nist_4_sc_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -515,7 +515,7 @@ var nist_4_sc_7 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"ec2_ebs_public_snapshot", "ec2_instance_public_ip", "elbv2_waf_acl_attached", "elb_ssl_listeners", "emr_cluster_master_nodes_no_public_ip", "opensearch_service_domains_node_to_node_encryption_enabled", "awslambda_function_not_publicly_accessible", "awslambda_function_url_public", "rds_instance_no_public_access", "rds_snapshots_public_access", "redshift_cluster_public_access", "s3_bucket_secure_transport_policy", "s3_bucket_public_access", "s3_bucket_policy_public_write_access", "s3_account_level_public_access_blocks", "sagemaker_notebook_instance_without_direct_internet_access_configured", "ec2_securitygroup_default_restrict_traffic", "ec2_networkacl_allow_ingress_any_port", "ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22", "ec2_networkacl_allow_ingress_any_port"},
 }
-var nist_4_sc_8_1 = &NistComp{
+var Nist_4_sc_8_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -526,7 +526,7 @@ var nist_4_sc_8_1 = &NistComp{
 	SubSection:    "Transmission Confidentiality And Integrity (SC-8)",
 	Checks:        []string{"elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_4_sc_8 = &NistComp{
+var Nist_4_sc_8 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -536,7 +536,7 @@ var nist_4_sc_8 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"elb_ssl_listeners", "opensearch_service_domains_node_to_node_encryption_enabled", "s3_bucket_secure_transport_policy"},
 }
-var nist_4_sc_12 = &NistComp{
+var Nist_4_sc_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -546,7 +546,7 @@ var nist_4_sc_12 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"acm_certificates_expiration_check", "kms_cmk_rotation_enabled"},
 }
-var nist_4_sc_13 = &NistComp{
+var Nist_4_sc_13 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -556,7 +556,7 @@ var nist_4_sc_13 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"dynamodb_tables_kms_cmk_encryption_enabled"},
 }
-var nist_4_sc_23 = &NistComp{
+var Nist_4_sc_23 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -566,7 +566,7 @@ var nist_4_sc_23 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{},
 }
-var nist_4_sc_28 = &NistComp{
+var Nist_4_sc_28 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -576,7 +576,7 @@ var nist_4_sc_28 = &NistComp{
 	Section:       "System and Communications Protection (SC)",
 	Checks:        []string{"cloudtrail_kms_encryption_enabled", "ec2_ebs_volume_encryption", "ec2_ebs_default_encryption", "efs_encryption_at_rest_enabled", "opensearch_service_domains_encryption_at_rest_enabled", "cloudwatch_log_group_kms_encryption_enabled", "rds_instance_storage_encrypted", "rds_instance_storage_encrypted", "redshift_cluster_audit_logging", "s3_bucket_default_encryption", "sagemaker_notebook_instance_encryption_enabled", "sns_topics_kms_encryption_at_rest_enabled"},
 }
-var nist_4_si_2_2 = &NistComp{
+var Nist_4_si_2_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -587,7 +587,7 @@ var nist_4_si_2_2 = &NistComp{
 	SubSection:    "Flaw Remediation (SI-2)",
 	Checks:        []string{"ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching", "ssm_managed_compliant_patching"},
 }
-var nist_4_si_4_1 = &NistComp{
+var Nist_4_si_4_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -598,7 +598,7 @@ var nist_4_si_4_1 = &NistComp{
 	SubSection:    "Information System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled"},
 }
-var nist_4_si_4_2 = &NistComp{
+var Nist_4_si_4_2 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -609,7 +609,7 @@ var nist_4_si_4_2 = &NistComp{
 	SubSection:    "Information System Monitoring (SI-4)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "ec2_instance_imdsv2_enabled", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_si_4_4 = &NistComp{
+var Nist_4_si_4_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -620,7 +620,7 @@ var nist_4_si_4_4 = &NistComp{
 	SubSection:    "Information System Monitoring (SI-4)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_si_4_5 = &NistComp{
+var Nist_4_si_4_5 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -631,7 +631,7 @@ var nist_4_si_4_5 = &NistComp{
 	SubSection:    "Information System Monitoring (SI-4)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_si_4_16 = &NistComp{
+var Nist_4_si_4_16 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -642,7 +642,7 @@ var nist_4_si_4_16 = &NistComp{
 	SubSection:    "Information System Monitoring (SI-4)",
 	Checks:        []string{"guardduty_is_enabled", "securityhub_enabled"},
 }
-var nist_4_si_4 = &NistComp{
+var Nist_4_si_4 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -652,7 +652,7 @@ var nist_4_si_4 = &NistComp{
 	Section:       "System and Information Integrity (SI)",
 	Checks:        []string{"cloudtrail_cloudwatch_logging_enabled", "cloudwatch_changes_to_network_acls_alarm_configured", "cloudwatch_changes_to_network_gateways_alarm_configured", "cloudwatch_changes_to_network_route_tables_alarm_configured", "cloudwatch_changes_to_vpcs_alarm_configured", "ec2_instance_imdsv2_enabled", "elbv2_waf_acl_attached", "guardduty_is_enabled", "guardduty_no_high_severity_findings", "securityhub_enabled"},
 }
-var nist_4_si_7_1 = &NistComp{
+var Nist_4_si_7_1 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -663,7 +663,7 @@ var nist_4_si_7_1 = &NistComp{
 	SubSection:    "Software, Firmware, and Information Integrity (SI-7)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled", "ec2_instance_managed_by_ssm", "ssm_managed_compliant_patching"},
 }
-var nist_4_si_7 = &NistComp{
+var Nist_4_si_7 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
@@ -673,7 +673,7 @@ var nist_4_si_7 = &NistComp{
 	Section:       "System and Information Integrity (SI)",
 	Checks:        []string{"cloudtrail_log_file_validation_enabled"},
 }
-var nist_4_si_12 = &NistComp{
+var Nist_4_si_12 = &NistComp{
 	Framework:     "NIST-800-53-Revision-4",
 	Provider:      "AWS",
 	Frameworkdesc: "NIST 800-53 is a regulatory standard that defines the minimum baseline of security controls for all U.S. federal information systems except those related to national security. The controls defined in this standard are customizable and address a diverse set of security and privacy requirements.",
